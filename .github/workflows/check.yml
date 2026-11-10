@@ -1,0 +1,78 @@
+name: Check routes
+
+# Pull requests: check the route files. After a merge to main: check them again and write index.json.
+# The checks are the code of the app's repository (scripts/build-store.mjs), so a route that passes is one the app can read.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          path: store
+          fetch-depth: 0
+      - uses: actions/checkout@v7
+        with:
+          repository: walkflow-app/walkflow
+          ref: main
+          path: app
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+        working-directory: app
+      - name: The index is written by CI, not by pull requests
+        if: github.event_name == 'pull_request'
+        working-directory: store
+        run: |
+          if git diff --name-only "origin/${{ github.base_ref }}...HEAD" | grep -qx 'index.json'; then
+            echo "::error::index.json is written by CI after the merge; please remove it from this pull request"
+            exit 1
+          fi
+      - name: Check the route files
+        run: node app/scripts/build-store.mjs --root store --check --files-only
+
+  index:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          path: store
+      - uses: actions/checkout@v7
+        with:
+          repository: walkflow-app/walkflow
+          ref: main
+          path: app
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+        working-directory: app
+      - name: Write index.json
+        run: node app/scripts/build-store.mjs --root store
+      - name: Commit it if it changed
+        working-directory: store
+        run: |
+          git diff --quiet -- index.json && { echo "index.json is up to date"; exit 0; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.json
+          git commit -m "chore: update the index"
+          git push

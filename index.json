@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "routes": [
+    {
+      "file": "central-park-reservoir.walkflow",
+      "revision": 1,
+      "sha256": "de8dafdb056dfde768ad77210c7f90bd9c27f043bab44466f1ea03d1921b876f",
+      "chars": 4276,
+      "length": 2538,
+      "name": {
+        "en": "Central Park Reservoir Loop",
+        "de": "Central-Park-Reservoir-Runde",
+        "fr": "Tour du réservoir de Central Park",
+        "uk": "Коло водосховища Центрального парку"
+      },
+      "place": {
+        "en": "New York, USA",
+        "de": "New York, USA",
+        "fr": "New York, États-Unis",
+        "uk": "Нью-Йорк, США"
+      },
+      "country": "US",
+      "tags": [
+        "park",
+        "loop",
+        "city"
+      ]
+    },
+    {
+      "file": "hamburg-aussenalster.walkflow",
+      "revision": 1,
+      "sha256": "b9c536da6922238924464bde9e9aeb014dafb1a53e6266be04417e0e4d429426",
+      "chars": 6221,
+      "length": 7536,
+      "name": {
+        "en": "Außenalster Loop",
+        "de": "Außenalster-Runde",
+        "fr": "Tour de l’Außenalster",
+        "uk": "Коло Ауссеральстера"
+      },
+      "place": {
+        "en": "Hamburg, Germany",
+        "de": "Hamburg, Deutschland",
+        "fr": "Hambourg, Allemagne",
+        "uk": "Гамбург, Німеччина"
+      },
+      "country": "DE",
+      "tags": [
+        "lake",
+        "loop",
+        "city"
+      ]
+    },
+    {
+      "file": "tokyo-imperial-palace.walkflow",
+      "revision": 1,
+      "sha256": "5a21cdf7cd09ed2d7b83a7bae7fa77353d68ebbac73ae08754897bcb6dbb06a0",
+      "chars": 4286,
+      "length": 6259,
+      "name": {
+        "en": "Imperial Palace Loop",
+        "de": "Kaiserpalast-Runde Tokio",
+        "fr": "Tour du palais impérial de Tokyo",
+        "uk": "Коло Імператорського палацу"
+      },
+      "place": {
+        "en": "Tokyo, Japan",
+        "de": "Tokio, Japan",
+        "fr": "Tokyo, Japon",
+        "uk": "Токіо, Японія"
+      },
+      "country": "JP",
+      "tags": [
+        "city",
+        "loop"
+      ]
+    },
+    {
+      "file": "vienna-ringstrasse.walkflow",
+      "revision": 1,
+      "sha256": "ab2f55846bb1ec1d8f1dff27558f5c2321a24e72cadfa212a9416ea6e836997f",
+      "chars": 4750,
+      "length": 5464,
+      "name": {
+        "en": "Vienna Ringstraße Loop",
+        "de": "Wiener-Ringstraße-Runde",
+        "fr": "Tour du Ring de Vienne",
+        "uk": "Коло Рінгштрасе у Відні"
+      },
+      "place": {
+        "en": "Vienna, Austria",
+        "de": "Wien, Österreich",
+        "fr": "Vienne, Autriche",
+        "uk": "Відень, Австрія"
+      },
+      "country": "AT",
+      "tags": [
+        "city",
+        "loop"
+      ]
+    }
+  ]
+}
