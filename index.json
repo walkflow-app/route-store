@@ -74,6 +74,30 @@
         "city",
         "loop"
       ]
+    },
+    {
+      "file": "vienna-ringstrasse.walkflow",
+      "revision": 1,
+      "sha256": "ab2f55846bb1ec1d8f1dff27558f5c2321a24e72cadfa212a9416ea6e836997f",
+      "chars": 4750,
+      "length": 5464,
+      "name": {
+        "en": "Vienna Ringstraße Loop",
+        "de": "Wiener-Ringstraße-Runde",
+        "fr": "Tour du Ring de Vienne",
+        "uk": "Коло Рінгштрасе у Відні"
+      },
+      "place": {
+        "en": "Vienna, Austria",
+        "de": "Wien, Österreich",
+        "fr": "Vienne, Autriche",
+        "uk": "Відень, Австрія"
+      },
+      "country": "AT",
+      "tags": [
+        "city",
+        "loop"
+      ]
     }
   ]
 }
