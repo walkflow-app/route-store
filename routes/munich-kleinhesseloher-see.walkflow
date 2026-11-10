@@ -1,0 +1,128 @@
+{
+  "format": "walkflow-route",
+  "version": 1,
+  "revision": 1,
+  "name": {
+    "en": "Kleinhesseloher See Loop",
+    "de": "Kleinhesseloher-See-Runde",
+    "fr": "Tour du Kleinhesseloher See",
+    "uk": "Коло озера Кляйнгессельоер-Зее"
+  },
+  "place": {
+    "en": "Munich, Germany",
+    "de": "München, Deutschland",
+    "fr": "Munich, Allemagne",
+    "uk": "Мюнхен, Німеччина"
+  },
+  "country": "DE",
+  "defaultSpeed": 4,
+  "tags": [
+    "lake",
+    "park",
+    "loop"
+  ],
+  "author": "Walkflow",
+  "license": "ODbL-1.0",
+  "source": "© OpenStreetMap contributors (ODbL)",
+  "description": {
+    "en": "About 1.6 km (1.0 miles) around the Kleinhesseloher See, the lake in the north of the Englischer Garten in Munich. A short, flat loop on park paths, easy to repeat for a longer walk.",
+    "de": "Rund 1,6 km um den Kleinhesseloher See, den See im Norden des Englischen Gartens in München. Eine kurze, flache Runde auf Parkwegen, die sich leicht für einen längeren Spaziergang wiederholen lässt.",
+    "fr": "Environ 1,6 km autour du Kleinhesseloher See, le lac au nord de l’Englischer Garten à Munich. Une courte boucle plate sur des allées de parc, facile à répéter pour une promenade plus longue.",
+    "uk": "Близько 1,6 км навколо озера Кляйнгессельоер-Зее на півночі Англійського саду в Мюнхені. Коротке рівне коло парковими доріжками, яке легко повторити для довшої прогулянки."
+  },
+  "waypoints": [
+    {
+      "at": [48.16028, 11.59813],
+      "name": {
+        "en": "Seehaus",
+        "de": "Seehaus",
+        "fr": "Seehaus",
+        "uk": "Зеехаус"
+      },
+      "text": {
+        "en": "The Seehaus on the lake shore is a restaurant with a beer garden of about 2,500 seats. The first boathouse with a restaurant was built here in 1882–1883; the present building dates from 1985.",
+        "de": "Das Seehaus am Ufer ist ein Restaurant mit Biergarten und rund 2.500 Plätzen. Das erste Bootshaus mit Gaststätte wurde hier 1882–1883 gebaut, das heutige Gebäude stammt von 1985.",
+        "fr": "Le Seehaus, au bord du lac, est un restaurant avec un biergarten d’environ 2 500 places. Le premier hangar à bateaux avec restaurant y a été construit en 1882–1883 ; le bâtiment actuel date de 1985.",
+        "uk": "Зеехаус на березі озера — ресторан із пивним садом приблизно на 2500 місць. Перший елінг із рестораном тут збудували в 1882–1883 роках, нинішня будівля — 1985 року."
+      }
+    },
+    {
+      "at": [48.15985, 11.59781],
+      "name": {
+        "en": "Sckell column",
+        "de": "Sckell-Säule",
+        "fr": "Colonne de Sckell",
+        "uk": "Колона Скеля"
+      },
+      "text": {
+        "en": "A column on the shore remembers Friedrich Ludwig von Sckell, the garden architect of the Englischer Garten. He enlarged the lake between 1807 and 1812 to more than twice its size. The column was put up in 1824, a year after his death.",
+        "de": "Eine Säule am Ufer erinnert an Friedrich Ludwig von Sckell, den Gartenarchitekten des Englischen Gartens. Er vergrößerte den See zwischen 1807 und 1812 auf mehr als das Doppelte. Die Säule wurde 1824 errichtet, ein Jahr nach seinem Tod.",
+        "fr": "Une colonne au bord de l’eau honore Friedrich Ludwig von Sckell, l’architecte paysagiste de l’Englischer Garten. Entre 1807 et 1812, il a agrandi le lac pour plus que doubler sa taille. La colonne a été érigée en 1824, un an après sa mort.",
+        "uk": "Колона на березі пам’ятає Фрідріха Людвіга фон Скелля, садового архітектора Англійського саду. У 1807–1812 роках він збільшив озеро більш ніж удвічі. Колону встановили 1824 року, через рік після його смерті."
+      }
+    },
+    {
+      "at": [48.15989, 11.59636],
+      "name": {
+        "en": "Three islands",
+        "de": "Drei Inseln",
+        "fr": "Trois îles",
+        "uk": "Три острови"
+      },
+      "text": {
+        "en": "Three islands lie in the lake: the Königsinsel in the middle, the Kurfürsteninsel to the north-west and the Regenteninsel in the south. The lake was created in 1803 and is only about one metre deep.",
+        "de": "Im See liegen drei Inseln: die Königsinsel in der Mitte, die Kurfürsteninsel im Nordwesten und die Regenteninsel im Süden. Der See wurde 1803 angelegt und ist nur etwa einen Meter tief.",
+        "fr": "Trois îles se trouvent dans le lac : la Königsinsel au milieu, la Kurfürsteninsel au nord-ouest et la Regenteninsel au sud. Le lac a été créé en 1803 et ne fait qu’environ un mètre de profondeur.",
+        "uk": "На озері є три острови: Кеніґсінзель посередині, Курфюрстенінзель на північному заході та Регентенінзель на півдні. Озеро створили 1803 року, його глибина — лише близько метра."
+      }
+    }
+  ],
+  "points": [
+    [48.160326, 11.594039],
+    [48.16007, 11.594007],
+    [48.159871, 11.594078],
+    [48.159202, 11.594531],
+    [48.1587, 11.594661],
+    [48.158405, 11.594879],
+    [48.157934, 11.595364],
+    [48.1574, 11.595635],
+    [48.156664, 11.595875],
+    [48.156473, 11.596213],
+    [48.156563, 11.596368],
+    [48.156655, 11.59638],
+    [48.157138, 11.596243],
+    [48.157518, 11.596228],
+    [48.157968, 11.596256],
+    [48.158306, 11.596393],
+    [48.158511, 11.596614],
+    [48.158908, 11.5974],
+    [48.159358, 11.597901],
+    [48.159399, 11.598108],
+    [48.159597, 11.598396],
+    [48.159646, 11.598262],
+    [48.159818, 11.598055],
+    [48.15991, 11.597743],
+    [48.159966, 11.597707],
+    [48.160543, 11.597879],
+    [48.160723, 11.597864],
+    [48.160825, 11.598047],
+    [48.161222, 11.597977],
+    [48.16129, 11.598164],
+    [48.161492, 11.59797],
+    [48.161846, 11.597844],
+    [48.161932, 11.597721],
+    [48.162129, 11.597112],
+    [48.162061, 11.596727],
+    [48.161806, 11.596385],
+    [48.161603, 11.596257],
+    [48.161333, 11.596223],
+    [48.161202, 11.596131],
+    [48.161135, 11.595964],
+    [48.161121, 11.595713],
+    [48.161206, 11.595083],
+    [48.161182, 11.594813],
+    [48.161046, 11.59458],
+    [48.160846, 11.594363],
+    [48.160326, 11.594039]
+  ]
+}
