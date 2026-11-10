@@ -2,6 +2,56 @@
   "version": 1,
   "routes": [
     {
+      "file": "berlin-schlachtensee.walkflow",
+      "revision": 1,
+      "sha256": "e33275dc57bf0de89484c2a9fc79ee2452dfcdd1b51884a370ff17de821bb526",
+      "chars": 7881,
+      "length": 5313,
+      "name": {
+        "en": "Schlachtensee Loop",
+        "de": "Schlachtensee-Runde",
+        "fr": "Tour du Schlachtensee",
+        "uk": "Коло озера Шлахтензе"
+      },
+      "place": {
+        "en": "Berlin, Germany",
+        "de": "Berlin, Deutschland",
+        "fr": "Berlin, Allemagne",
+        "uk": "Берлін, Німеччина"
+      },
+      "country": "DE",
+      "tags": [
+        "lake",
+        "forest",
+        "loop"
+      ]
+    },
+    {
+      "file": "bled-lake-bled.walkflow",
+      "revision": 1,
+      "sha256": "b1552aedbafbf30a313cb7034f5333d89e31e72c963c52bef24cb5bbf8b383cd",
+      "chars": 9055,
+      "length": 5794,
+      "name": {
+        "en": "Lake Bled Loop",
+        "de": "Bleder-See-Runde",
+        "fr": "Tour du lac de Bled",
+        "uk": "Коло Блейського озера"
+      },
+      "place": {
+        "en": "Bled, Slovenia",
+        "de": "Bled, Slowenien",
+        "fr": "Bled, Slovénie",
+        "uk": "Блед, Словенія"
+      },
+      "country": "SI",
+      "tags": [
+        "lake",
+        "mountains",
+        "loop"
+      ]
+    },
+    {
       "file": "central-park-reservoir.walkflow",
       "revision": 1,
       "sha256": "de8dafdb056dfde768ad77210c7f90bd9c27f043bab44466f1ea03d1921b876f",
@@ -49,6 +99,81 @@
         "lake",
         "loop",
         "city"
+      ]
+    },
+    {
+      "file": "munich-kleinhesseloher-see.walkflow",
+      "revision": 1,
+      "sha256": "b83e9883c4d02f067dd7702262c3e2c2542eaf992e3f9b2b8c1862c3d9ea4269",
+      "chars": 5955,
+      "length": 1605,
+      "name": {
+        "en": "Kleinhesseloher See Loop",
+        "de": "Kleinhesseloher-See-Runde",
+        "fr": "Tour du Kleinhesseloher See",
+        "uk": "Коло озера Кляйнгессельоер-Зее"
+      },
+      "place": {
+        "en": "Munich, Germany",
+        "de": "München, Deutschland",
+        "fr": "Munich, Allemagne",
+        "uk": "Мюнхен, Німеччина"
+      },
+      "country": "DE",
+      "tags": [
+        "lake",
+        "park",
+        "loop"
+      ]
+    },
+    {
+      "file": "oakland-lake-merritt.walkflow",
+      "revision": 1,
+      "sha256": "f89ea97c45f7d89dd4b72111bb8e4366202d59667d9cea56c5a0756f9a4c19ff",
+      "chars": 10342,
+      "length": 5116,
+      "name": {
+        "en": "Lake Merritt Loop",
+        "de": "Lake-Merritt-Runde",
+        "fr": "Tour du lac Merritt",
+        "uk": "Коло озера Мерритт"
+      },
+      "place": {
+        "en": "Oakland, USA",
+        "de": "Oakland, USA",
+        "fr": "Oakland, États-Unis",
+        "uk": "Окленд, США"
+      },
+      "country": "US",
+      "tags": [
+        "lake",
+        "city",
+        "loop"
+      ]
+    },
+    {
+      "file": "seattle-green-lake.walkflow",
+      "revision": 1,
+      "sha256": "8bc65bf9d66d211116969effe414a60a664474537663b1f28e3532c321fa726e",
+      "chars": 7581,
+      "length": 4633,
+      "name": {
+        "en": "Green Lake Loop",
+        "de": "Green-Lake-Runde",
+        "fr": "Tour de Green Lake",
+        "uk": "Коло озера Грін-Лейк"
+      },
+      "place": {
+        "en": "Seattle, USA",
+        "de": "Seattle, USA",
+        "fr": "Seattle, États-Unis",
+        "uk": "Сіетл, США"
+      },
+      "country": "US",
+      "tags": [
+        "lake",
+        "park",
+        "loop"
       ]
     },
     {
