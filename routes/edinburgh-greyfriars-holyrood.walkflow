@@ -1,0 +1,169 @@
+{
+  "format": "walkflow-route",
+  "version": 1,
+  "revision": 1,
+  "name": {
+    "en": "Greyfriars Bobby to Holyrood Palace",
+    "de": "Von Greyfriars Bobby zum Holyrood Palace",
+    "fr": "De Greyfriars Bobby au palais de Holyrood",
+    "uk": "Від Грейфрайєрс Боббі до палацу Голіруд"
+  },
+  "place": {
+    "en": "Edinburgh, Scotland",
+    "de": "Edinburgh, Schottland",
+    "fr": "Édimbourg, Écosse",
+    "uk": "Единбург, Шотландія"
+  },
+  "country": "GB",
+  "defaultSpeed": 4,
+  "tags": [
+    "city",
+    "sights",
+    "old-town"
+  ],
+  "author": "Walkflow",
+  "license": "ODbL-1.0",
+  "source": "© OpenStreetMap contributors (ODbL)",
+  "description": {
+    "en": "About 3.2 km (2.0 miles) through Edinburgh’s Old Town: from the statue of Greyfriars Bobby up to the Castle and then all the way down the Royal Mile past St Giles’ to the Scottish Parliament and Holyrood Palace. Cobbles, a steep start and then downhill.",
+    "de": "Rund 3,2 km durch die Altstadt von Edinburgh: von der Statue des Greyfriars Bobby hinauf zur Burg und dann die ganze Royal Mile hinab, an St Giles’ vorbei zum schottischen Parlament und zum Holyrood Palace. Kopfsteinpflaster, ein steiler Anfang und dann bergab.",
+    "fr": "Environ 3,2 km à travers la Vieille Ville d’Édimbourg : de la statue de Greyfriars Bobby jusqu’au château, puis tout le long du Royal Mile, devant St Giles’, jusqu’au Parlement écossais et au palais de Holyrood. Des pavés, un début raide, puis la descente.",
+    "uk": "Близько 3,2 км Старим містом Единбурга: від статуї Грейфрайєрс Боббі вгору до замку, а потім усією Королівською милею повз собор Св. Джайлза до шотландського парламенту та палацу Голіруд. Бруківка, крутий початок, далі вниз."
+  },
+  "waypoints": [
+    {
+      "at": [55.94692, -3.1913],
+      "name": {
+        "en": "Greyfriars Bobby",
+        "de": "Greyfriars Bobby",
+        "fr": "Greyfriars Bobby",
+        "uk": "Грейфрайєрс Боббі"
+      },
+      "text": {
+        "en": "A terrier who reportedly guarded the grave of his master John Gray in Greyfriars Kirkyard for 14 years, until he died on 14 January 1872. The statue is by William Brodie, paid for by Baroness Burdett-Coutts. How true the story is, is disputed.",
+        "de": "Ein Terrier, der angeblich 14 Jahre lang das Grab seines Herrn John Gray auf dem Greyfriars Kirkyard bewachte, bis er am 14. Januar 1872 starb. Die Statue von William Brodie bezahlte Baroness Burdett-Coutts. Wie wahr die Geschichte ist, ist umstritten.",
+        "fr": "Un terrier qui aurait gardé pendant 14 ans la tombe de son maître John Gray dans le cimetière de Greyfriars, jusqu’à sa mort le 14 janvier 1872. La statue, de William Brodie, fut financée par la baronne Burdett-Coutts. La véracité de l’histoire est contestée.",
+        "uk": "Тер’єр, який, за переказами, 14 років охороняв могилу свого господаря Джона Грея на цвинтарі Грейфрайєрс, доки не помер 14 січня 1872 року. Статую створив Вільям Броді, її оплатила баронеса Бердетт-Куттс. Наскільки історія правдива — суперечливо."
+      }
+    },
+    {
+      "at": [55.94869, -3.20043],
+      "name": {
+        "en": "Edinburgh Castle",
+        "de": "Edinburgh Castle",
+        "fr": "Château d’Édimbourg",
+        "uk": "Единбурзький замок"
+      },
+      "text": {
+        "en": "The castle stands on a volcanic plug that rose about 350 million years ago. St Margaret’s Chapel, from the early 12th century, is regarded as the oldest building in Edinburgh. Sir Walter Scott rediscovered the Honours of Scotland here in 1818.",
+        "de": "Die Burg steht auf einem vulkanischen Schlotpfropfen, der vor etwa 350 Millionen Jahren aufstieg. Die Margaretenkapelle vom Anfang des 12. Jahrhunderts gilt als ältestes Gebäude Edinburghs. Sir Walter Scott fand hier 1818 die Honours of Scotland, die schottischen Kroninsignien, wieder.",
+        "fr": "Le château se dresse sur un neck volcanique apparu il y a environ 350 millions d’années. La chapelle Sainte-Marguerite, du début du XIIe siècle, passe pour le plus ancien bâtiment d’Édimbourg. Sir Walter Scott y redécouvrit en 1818 les Honneurs d’Écosse, les joyaux de la couronne.",
+        "uk": "Замок стоїть на вулканічній пробці, що піднялася близько 350 мільйонів років тому. Каплицю Св. Маргарити початку XII століття вважають найстарішою будівлею Единбурга. Сер Вальтер Скотт 1818 року знову знайшов тут «Реґалії Шотландії» — корональні клейноди."
+      }
+    },
+    {
+      "at": [55.94948, -3.19087],
+      "name": {
+        "en": "St Giles’ Cathedral",
+        "de": "St Giles’ Cathedral",
+        "fr": "Cathédrale St Giles",
+        "uk": "Собор Св. Джайлза"
+      },
+      "text": {
+        "en": "On the Royal Mile, a street of almost exactly one mile between castle and palace. St Giles’ was probably founded in the 12th century; the present building was begun in the 14th. John Knox first preached here on 29 June 1559. The crown steeple is from the 15th century.",
+        "de": "An der Royal Mile, einer Straße von fast genau einer Meile zwischen Burg und Palast. St Giles’ wurde wohl im 12. Jahrhundert gegründet; der heutige Bau begann im 14. Jahrhundert. John Knox predigte hier erstmals am 29. Juni 1559. Der Kronenturm stammt aus dem 15. Jahrhundert.",
+        "fr": "Sur le Royal Mile, une rue longue d’un mile presque exactement entre château et palais. St Giles’ fut probablement fondée au XIIe siècle ; l’édifice actuel fut commencé au XIVe. John Knox y prêcha pour la première fois le 29 juin 1559. Le clocher en couronne date du XVe siècle.",
+        "uk": "На Королівській милі — вулиці завдовжки майже рівно одну милю між замком і палацом. Собор Св. Джайлза, імовірно, заснували в XII столітті; нинішню будівлю розпочали в XIV. Джон Нокс уперше проповідував тут 29 червня 1559 року. Шпиль-корона — XV століття."
+      }
+    },
+    {
+      "at": [55.95247, -3.17566],
+      "name": {
+        "en": "Scottish Parliament",
+        "de": "Schottisches Parlament",
+        "fr": "Parlement écossais",
+        "uk": "Шотландський парламент"
+      },
+      "text": {
+        "en": "Designed by Enric Miralles, who died in July 2000 before it was finished. The Queen opened it on 9 October 2004, more than three years late; the final cost was estimated at £414 million. It won the Stirling Prize in 2005.",
+        "de": "Entworfen von Enric Miralles, der im Juli 2000 starb, bevor es fertig wurde. Die Queen eröffnete es am 9. Oktober 2004, mehr als drei Jahre zu spät; die Endkosten wurden auf 414 Millionen Pfund geschätzt. 2005 gewann es den Stirling Prize.",
+        "fr": "Conçu par Enric Miralles, mort en juillet 2000 avant son achèvement. La reine l’inaugura le 9 octobre 2004, avec plus de trois ans de retard ; le coût final fut estimé à 414 millions de livres. Il remporta le prix Stirling en 2005.",
+        "uk": "Спроєктований Енріком Міралесом, який помер у липні 2000 року, не дочекавшись завершення. Королева відкрила його 9 жовтня 2004 року, з понад трирічним запізненням; остаточну вартість оцінили в 414 мільйонів фунтів. 2005 року будівля отримала премію Стірлінга."
+      }
+    },
+    {
+      "at": [55.95269, -3.17161],
+      "name": {
+        "en": "Palace of Holyroodhouse",
+        "de": "Palace of Holyroodhouse",
+        "fr": "Palais de Holyroodhouse",
+        "uk": "Палац Голіруд"
+      },
+      "text": {
+        "en": "The monarch’s official residence in Scotland. Holyrood Abbey was founded in 1128; James IV built a palace beside it in 1501–1505. Mary, Queen of Scots’ secretary David Rizzio was murdered here on 9 March 1566. Sir William Bruce built the present palace in 1671–1678.",
+        "de": "Die offizielle Residenz des Monarchen in Schottland. Holyrood Abbey wurde 1128 gegründet; Jakob IV. baute 1501–1505 daneben einen Palast. Maria Stuarts Sekretär David Rizzio wurde hier am 9. März 1566 ermordet. Sir William Bruce errichtete 1671–1678 den heutigen Palast.",
+        "fr": "La résidence officielle du monarque en Écosse. L’abbaye de Holyrood fut fondée en 1128 ; Jacques IV construisit un palais à côté en 1501–1505. Le secrétaire de Marie Stuart, David Rizzio, y fut assassiné le 9 mars 1566. Sir William Bruce bâtit le palais actuel en 1671–1678.",
+        "uk": "Офіційна резиденція монарха в Шотландії. Абатство Голіруд заснували 1128 року; Яків IV звів поруч палац у 1501–1505 роках. Секретаря Марії Стюарт Давіда Ріццо вбили тут 9 березня 1566 року. Нинішній палац збудував сер Вільям Брюс у 1671–1678 роках."
+      }
+    }
+  ],
+  "points": [
+    [55.946871, -3.191342],
+    [55.946834, -3.191258],
+    [55.946861, -3.191134],
+    [55.949427, -3.192678],
+    [55.949283, -3.19362],
+    [55.949164, -3.194159],
+    [55.949052, -3.19443],
+    [55.949046, -3.194677],
+    [55.948897, -3.195424],
+    [55.948828, -3.196423],
+    [55.948575, -3.198379],
+    [55.948543, -3.198801],
+    [55.948671, -3.19906],
+    [55.948759, -3.199514],
+    [55.94883, -3.199697],
+    [55.948759, -3.199514],
+    [55.948671, -3.19906],
+    [55.948543, -3.198801],
+    [55.948828, -3.196423],
+    [55.948897, -3.195424],
+    [55.949046, -3.194677],
+    [55.949052, -3.19443],
+    [55.949164, -3.194159],
+    [55.949283, -3.19362],
+    [55.949491, -3.192245],
+    [55.949731, -3.190985],
+    [55.950808, -3.182856],
+    [55.951131, -3.180981],
+    [55.951722, -3.178308],
+    [55.952318, -3.176024],
+    [55.95237, -3.176067],
+    [55.952421, -3.175945],
+    [55.952497, -3.17563],
+    [55.952523, -3.175404],
+    [55.952484, -3.175353],
+    [55.952543, -3.17513],
+    [55.952687, -3.174687],
+    [55.952756, -3.174691],
+    [55.9528, -3.174588],
+    [55.952776, -3.174465],
+    [55.952692, -3.17444],
+    [55.952695, -3.174203],
+    [55.952652, -3.174131],
+    [55.951894, -3.173484],
+    [55.951881, -3.173362],
+    [55.951957, -3.172698],
+    [55.950976, -3.172056],
+    [55.950758, -3.171807],
+    [55.950728, -3.171656],
+    [55.950738, -3.171362],
+    [55.950855, -3.170676],
+    [55.950756, -3.170584],
+    [55.950825, -3.170273],
+    [55.95087, -3.170323],
+    [55.951028, -3.169387],
+    [55.9514, -3.16951],
+    [55.952966, -3.170373]
+  ]
+}
