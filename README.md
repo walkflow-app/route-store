@@ -32,7 +32,7 @@ tests/              tests of those scripts: node --test
    merge, from the files. CI checks the file and fails if the pull request changes more than one file in `routes/`, or if the file is
    not a valid package, has no `license`, has a waypoint far from the route, or is a copy of another file. CI also writes a
    **map of the route** as a comment into the pull request, and changes it on every push, so you and the reviewer can see where the
-   route goes without opening the file (see [Reviewing a route](https://github.com/walkflow-app/walkflow/blob/main/docs/ROUTE-STORE.md#reviewing-a-route)).
+   route goes without opening the file (see [Reviewing a route](#reviewing-a-route)).
 
 ## Changing a route
 
