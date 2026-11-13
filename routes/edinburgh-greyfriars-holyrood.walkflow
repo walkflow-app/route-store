@@ -25,10 +25,10 @@
   "license": "ODbL-1.0",
   "source": "© OpenStreetMap contributors (ODbL)",
   "description": {
-    "en": "About 3.1 km (1.9 miles) through Edinburgh’s Old Town: from the statue of Greyfriars Bobby up to the Castle and then all the way down the Royal Mile past St Giles’ to the Scottish Parliament and Holyrood Palace. Cobbles, a steep start and then downhill.",
-    "de": "Rund 3,1 km durch die Altstadt von Edinburgh: von der Statue des Greyfriars Bobby hinauf zur Burg und dann die ganze Royal Mile hinab, an St Giles’ vorbei zum schottischen Parlament und zum Holyrood Palace. Kopfsteinpflaster, ein steiler Anfang und dann bergab.",
-    "fr": "Environ 3,1 km à travers la Vieille Ville d’Édimbourg : de la statue de Greyfriars Bobby jusqu’au château, puis tout le long du Royal Mile, devant St Giles’, jusqu’au Parlement écossais et au palais de Holyrood. Des pavés, un début raide, puis la descente.",
-    "uk": "Близько 3,1 км Старим містом Единбурга: від статуї Грейфрайєрс Боббі вгору до замку, а потім усією Королівською милею повз собор Св. Джайлза до шотландського парламенту та палацу Голіруд. Бруківка, крутий початок, далі вниз."
+    "en": "About 3.2 km (2.0 miles) through Edinburgh’s Old Town: from the statue of Greyfriars Bobby up to the Castle and then all the way down the Royal Mile past St Giles’ to the Scottish Parliament and Holyrood Palace. Cobbles, a steep start and then downhill.",
+    "de": "Rund 3,2 km durch die Altstadt von Edinburgh: von der Statue des Greyfriars Bobby hinauf zur Burg und dann die ganze Royal Mile hinab, an St Giles’ vorbei zum schottischen Parlament und zum Holyrood Palace. Kopfsteinpflaster, ein steiler Anfang und dann bergab.",
+    "fr": "Environ 3,2 km à travers la Vieille Ville d’Édimbourg : de la statue de Greyfriars Bobby jusqu’au château, puis tout le long du Royal Mile, devant St Giles’, jusqu’au Parlement écossais et au palais de Holyrood. Des pavés, un début raide, puis la descente.",
+    "uk": "Близько 3,2 км Старим містом Единбурга: від статуї Грейфрайєрс Боббі вгору до замку, а потім усією Королівською милею повз собор Св. Джайлза до шотландського парламенту та палацу Голіруд. Бруківка, крутий початок, далі вниз."
   },
   "waypoints": [
     {
@@ -111,16 +111,14 @@
     [55.946871, -3.191342],
     [55.946834, -3.191258],
     [55.946861, -3.191134],
-    [55.948785, -3.192295],
-    [55.948728, -3.192611],
-    [55.948797, -3.19299],
-    [55.948805, -3.1933],
-    [55.948725, -3.193824],
-    [55.948812, -3.193857],
-    [55.949006, -3.194183],
-    [55.949049, -3.194632],
+    [55.949427, -3.192678],
+    [55.949283, -3.19362],
+    [55.949164, -3.194159],
+    [55.949052, -3.19443],
+    [55.949046, -3.194677],
     [55.948897, -3.195424],
     [55.948828, -3.196423],
+    [55.948575, -3.198379],
     [55.948543, -3.198801],
     [55.948671, -3.19906],
     [55.948759, -3.199514],
