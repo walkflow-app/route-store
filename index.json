@@ -200,6 +200,31 @@
       ]
     },
     {
+      "file": "lviv-opera-high-castle.walkflow",
+      "revision": 1,
+      "sha256": "23687a117bc1187b319c61e3481d9590db5eb6b331d37e929cb9e1a66b051103",
+      "chars": 8365,
+      "length": 1991,
+      "name": {
+        "en": "Opera House to the High Castle",
+        "de": "Vom Opernhaus zum Hohen Schloss",
+        "fr": "De l’Opéra au Haut Château",
+        "uk": "Від Оперного театру до Високого замку"
+      },
+      "place": {
+        "en": "Lviv, Ukraine",
+        "de": "Lwiw, Ukraine",
+        "fr": "Lviv, Ukraine",
+        "uk": "Львів, Україна"
+      },
+      "country": "UA",
+      "tags": [
+        "city",
+        "sights",
+        "old-town"
+      ]
+    },
+    {
       "file": "munich-kleinhesseloher-see.walkflow",
       "revision": 1,
       "sha256": "b83e9883c4d02f067dd7702262c3e2c2542eaf992e3f9b2b8c1862c3d9ea4269",
