@@ -2,6 +2,55 @@
   "version": 1,
   "routes": [
     {
+      "file": "amsterdam-centraal-rijksmuseum.walkflow",
+      "revision": 1,
+      "sha256": "5e975c08e1b5e35cf9ca1cd4fcd834f2ec6e15f9ee86443f5fb2a68dca9a2515",
+      "chars": 7771,
+      "length": 2787,
+      "name": {
+        "en": "Centraal Station to the Rijksmuseum",
+        "de": "Vom Hauptbahnhof zum Rijksmuseum",
+        "fr": "De la gare centrale au Rijksmuseum",
+        "uk": "Від Центрального вокзалу до Рейксмузею"
+      },
+      "place": {
+        "en": "Amsterdam, Netherlands",
+        "de": "Amsterdam, Niederlande",
+        "fr": "Amsterdam, Pays-Bas",
+        "uk": "Амстердам, Нідерланди"
+      },
+      "country": "NL",
+      "tags": [
+        "city",
+        "sights",
+        "canals"
+      ]
+    },
+    {
+      "file": "berlin-brandenburger-tor-alexanderplatz.walkflow",
+      "revision": 1,
+      "sha256": "3b2712350bbdf8b61756331c1616706d4c372735b8464884457a53653053f300",
+      "chars": 9775,
+      "length": 2979,
+      "name": {
+        "en": "Brandenburg Gate to Alexanderplatz",
+        "de": "Vom Brandenburger Tor zum Alexanderplatz",
+        "fr": "De la porte de Brandebourg à l’Alexanderplatz",
+        "uk": "Від Бранденбурзьких воріт до Александерплац"
+      },
+      "place": {
+        "en": "Berlin, Germany",
+        "de": "Berlin, Deutschland",
+        "fr": "Berlin, Allemagne",
+        "uk": "Берлін, Німеччина"
+      },
+      "country": "DE",
+      "tags": [
+        "city",
+        "sights"
+      ]
+    },
+    {
       "file": "berlin-schlachtensee.walkflow",
       "revision": 1,
       "sha256": "e33275dc57bf0de89484c2a9fc79ee2452dfcdd1b51884a370ff17de821bb526",
