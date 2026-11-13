@@ -101,6 +101,31 @@
       ]
     },
     {
+      "file": "budapest-vigado-margaret-bridge.walkflow",
+      "revision": 1,
+      "sha256": "07665a7c404e3fef623fec2daf6f8e5fe680ee34441ab86fbc3230c7c89adea6",
+      "chars": 9914,
+      "length": 3269,
+      "name": {
+        "en": "Vigadó to Margaret Bridge",
+        "de": "Vom Vigadó zur Margaretenbrücke",
+        "fr": "Du Vigadó au pont Marguerite",
+        "uk": "Від Віґадо до мосту Маргарити"
+      },
+      "place": {
+        "en": "Budapest, Hungary",
+        "de": "Budapest, Ungarn",
+        "fr": "Budapest, Hongrie",
+        "uk": "Будапешт, Угорщина"
+      },
+      "country": "HU",
+      "tags": [
+        "city",
+        "sights",
+        "river"
+      ]
+    },
+    {
       "file": "central-park-reservoir.walkflow",
       "revision": 1,
       "sha256": "de8dafdb056dfde768ad77210c7f90bd9c27f043bab44466f1ea03d1921b876f",
