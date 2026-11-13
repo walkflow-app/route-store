@@ -50,7 +50,8 @@ app out (`main`) and runs `scripts/build-store.mjs --app <app checkout> --check 
 `main` it runs the same script without `--check`, which writes `index.json`, and commits the result if it changed. A second workflow,
 `Route preview`, writes the map into the pull request; it never runs code of the pull request, only reads the route file as text.
 A change to `scripts/build-store.mjs`, to the workflows, or to the app's route code is a change to the checks of the store.
-`main` takes changes only through pull requests with both checks green; only the index commit of CI goes there directly. Rules for AI
+Changes go to `main` through pull requests with both checks green; only the index commit of CI is pushed there directly (which is
+why the ruleset cannot require pull requests yet). Rules for AI
 agents are in `CLAUDE.md`, the commands they may run in `.claude/settings.json`.
 
 On your computer: clone the app next to this repository (`git clone https://github.com/walkflow-app/walkflow`), run `npm ci` in it, then

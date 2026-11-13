@@ -32,4 +32,5 @@ node --test                                         # the tests of the scripts
 ## Never without being asked
 
 Force-push, merge with `--admin`, change repository settings, rulesets or secrets, or delete branches other than your own.
-`main` takes changes only through pull requests with `check` and `tests` green (the index commit of CI is the exception).
+Push to `main`: changes go there only through pull requests with `check` and `tests` green. The ruleset cannot enforce
+this yet (CI pushes the index commit directly), so it is on you.
