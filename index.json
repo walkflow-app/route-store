@@ -126,6 +126,30 @@
       ]
     },
     {
+      "file": "copenhagen-nyhavn-little-mermaid.walkflow",
+      "revision": 1,
+      "sha256": "86c6df929acd21d9cfee9fc73ba65388e16b8aa6d4dea7754ad34195ada5e0b5",
+      "chars": 9443,
+      "length": 3124,
+      "name": {
+        "en": "Nyhavn to the Little Mermaid",
+        "de": "Von Nyhavn zur Kleinen Meerjungfrau",
+        "fr": "De Nyhavn à la Petite Sirène",
+        "uk": "Від Ньюгавна до Русалоньки"
+      },
+      "place": {
+        "en": "Copenhagen, Denmark",
+        "de": "Kopenhagen, Dänemark",
+        "fr": "Copenhague, Danemark",
+        "uk": "Копенгаген, Данія"
+      },
+      "country": "DK",
+      "tags": [
+        "city",
+        "sights"
+      ]
+    },
+    {
       "file": "hamburg-aussenalster.walkflow",
       "revision": 1,
       "sha256": "b9c536da6922238924464bde9e9aeb014dafb1a53e6266be04417e0e4d429426",
