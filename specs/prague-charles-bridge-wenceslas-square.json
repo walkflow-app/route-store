@@ -1,0 +1,106 @@
+{
+  "file": "prague-charles-bridge-wenceslas-square",
+  "country": "CZ",
+  "tags": ["city", "sights"],
+  "name": {
+    "en": "Charles Bridge to Wenceslas Square",
+    "de": "Von der Karlsbrücke zum Wenzelsplatz",
+    "fr": "Du pont Charles à la place Venceslas",
+    "uk": "Від Карлового мосту до Вацлавської площі"
+  },
+  "place": {
+    "en": "Prague, Czechia",
+    "de": "Prag, Tschechien",
+    "fr": "Prague, Tchéquie",
+    "uk": "Прага, Чехія"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) from the Lesser Town end of Charles Bridge across the river and through the Old Town: the Old Town Square with the astronomical clock, the Powder Gate and on to Wenceslas Square and the National Museum.",
+    "de": "Rund {km} km vom Kleinseitner Ende der Karlsbrücke über den Fluss und durch die Altstadt: der Altstädter Ring mit der astronomischen Uhr, der Pulverturm und weiter zum Wenzelsplatz mit dem Nationalmuseum.",
+    "fr": "Environ {km} km depuis l’extrémité de Malá Strana du pont Charles, à travers la rivière puis la Vieille Ville : la place de la Vieille-Ville avec l’horloge astronomique, la tour Poudrière, puis la place Venceslas et le Musée national.",
+    "uk": "Близько {km} км від малостранського кінця Карлового мосту через річку та Старе Місто: Староміська площа з астрономічним годинником, Порохова вежа й далі до Вацлавської площі з Національним музеєм."
+  },
+  "waypoints": [
+    {
+      "at": [50.08731, 14.40686],
+      "name": {
+        "en": "Lesser Town Bridge Tower",
+        "de": "Kleinseitner Brückenturm",
+        "fr": "Tour du pont de Malá Strana",
+        "uk": "Малостранська мостова вежа"
+      },
+      "text": {
+        "en": "Two towers guard the Lesser Town end of Charles Bridge; a third, the Old Town Bridge Tower, stands at the other end. The bridge was begun in 1357 under Charles IV, designed by Peter Parler and finished in 1402.",
+        "de": "Zwei Türme schützen das Kleinseitner Ende der Karlsbrücke, ein dritter, der Altstädter Brückenturm, steht am anderen Ende. Die Brücke wurde 1357 unter Karl IV. begonnen, von Peter Parler entworfen und 1402 fertiggestellt.",
+        "fr": "Deux tours protègent l’extrémité de Malá Strana du pont Charles, une troisième, la tour du pont de la Vieille-Ville, se dresse à l’autre bout. Le pont fut commencé en 1357 sous Charles IV, conçu par Peter Parler et achevé en 1402.",
+        "uk": "Дві вежі охороняють малостранський кінець Карлового мосту, третя — Староміська мостова вежа — стоїть на іншому кінці. Міст розпочали 1357 року за Карла IV, його спроєктував Петер Парлер, а завершили 1402 року."
+      }
+    },
+    {
+      "at": [50.08637, 14.41237],
+      "name": {
+        "en": "Charles Bridge",
+        "de": "Karlsbrücke",
+        "fr": "Pont Charles",
+        "uk": "Карлів міст"
+      },
+      "text": {
+        "en": "The bridge is about 516 m long and nearly 10 m wide. An avenue of 30 mostly Baroque statues lines it, most of them put up between 1683 and 1714; today they are all replicas. There has been no vehicle traffic since the repairs of 1965–1978.",
+        "de": "Die Brücke ist rund 516 m lang und fast 10 m breit. Eine Allee aus 30 meist barocken Statuen säumt sie, die meisten zwischen 1683 und 1714 aufgestellt; heute sind es alles Kopien. Seit der Instandsetzung 1965–1978 fährt hier kein Fahrzeug mehr.",
+        "fr": "Le pont mesure environ 516 m de long et près de 10 m de large. Une allée de 30 statues, pour la plupart baroques, le borde ; la plupart furent installées entre 1683 et 1714, et ce sont aujourd’hui toutes des copies. Plus aucun véhicule n’y passe depuis les travaux de 1965–1978.",
+        "uk": "Довжина мосту — близько 516 м, ширина — майже 10 м. Його обрамляє алея з 30 переважно барокових статуй, більшість із яких встановили між 1683 і 1714 роками; нині всі вони — копії. Транспорт тут не їздить після ремонту 1965–1978 років."
+      }
+    },
+    {
+      "at": [50.08698, 14.42071],
+      "name": {
+        "en": "Astronomical Clock",
+        "de": "Astronomische Uhr",
+        "fr": "Horloge astronomique",
+        "uk": "Астрономічний годинник"
+      },
+      "text": {
+        "en": "The Prague Orloj on the Old Town Hall dates from 1410, made by the clockmaker Mikuláš of Kadaň and the professor Jan Šindel. It has an astronomical dial and, every hour, the Walk of the Apostles, with Death striking the time.",
+        "de": "Der Prager Orloj am Altstädter Rathaus stammt von 1410, gebaut vom Uhrmacher Mikuláš von Kaaden und dem Professor Jan Šindel. Er hat ein astronomisches Zifferblatt und lässt jede volle Stunde den Apostelgang ablaufen, bei dem der Tod die Zeit schlägt.",
+        "fr": "L’Orloj de Prague, sur l’hôtel de ville de la Vieille Ville, date de 1410 ; il fut réalisé par l’horloger Mikuláš de Kadaň et le professeur Jan Šindel. Il a un cadran astronomique et, à chaque heure, la procession des apôtres, avec la Mort qui frappe l’heure.",
+        "uk": "Празький Орлой на Староміській ратуші походить із 1410 року, його створили годинникар Миколай з Кадані та професор Ян Шиндел. Він має астрономічний циферблат і щогодини показує ходу апостолів, а Смерть відбиває час."
+      }
+    },
+    {
+      "at": [50.08724, 14.42776],
+      "name": {
+        "en": "Powder Gate",
+        "de": "Pulverturm",
+        "fr": "Tour Poudrière",
+        "uk": "Порохова вежа"
+      },
+      "text": {
+        "en": "The foundation stone was laid in 1475 by Vladislav II, and the city council gave him the tower as a coronation gift. It is 65 m high. Despite its name it was never used to store gunpowder. Josef Mocker rebuilt it from 1876.",
+        "de": "Den Grundstein legte 1475 Vladislav II.; der Stadtrat schenkte ihm den Turm zur Krönung. Er ist 65 m hoch. Trotz seines Namens diente er nie als Pulverlager. Ab 1876 baute ihn Josef Mocker um.",
+        "fr": "La première pierre fut posée en 1475 par Vladislav II ; le conseil de la ville lui offrit la tour pour son couronnement. Elle mesure 65 m de haut. Malgré son nom, elle ne servit jamais à stocker de la poudre. Josef Mocker la reconstruisit à partir de 1876.",
+        "uk": "Перший камінь заклав 1475 року Владислав II, а міська рада подарувала йому вежу на коронацію. Висота — 65 м. Попри назву, вона ніколи не слугувала сховищем пороху. З 1876 року її перебудовував Йозеф Мокер."
+      }
+    },
+    {
+      "at": [50.07978, 14.42973],
+      "name": {
+        "en": "Wenceslas Square",
+        "de": "Wenzelsplatz",
+        "fr": "Place Venceslas",
+        "uk": "Вацлавська площа"
+      },
+      "text": {
+        "en": "Once the Horse Market, renamed after Saint Wenceslas in 1848; it is 750 m long. The National Museum at its top was built in 1885–1891 to plans by Josef Schulz. Hundreds of thousands gathered here during the Velvet Revolution of 1989.",
+        "de": "Früher der Rossmarkt, 1848 nach dem heiligen Wenzel benannt; der Platz ist 750 m lang. Das Nationalmuseum an seinem oberen Ende entstand 1885–1891 nach Plänen von Josef Schulz. Bei der Samtenen Revolution 1989 versammelten sich hier Hunderttausende.",
+        "fr": "Autrefois le marché aux chevaux, rebaptisée en 1848 d’après saint Venceslas ; elle mesure 750 m de long. Le Musée national à son sommet fut construit en 1885–1891 d’après les plans de Josef Schulz. Des centaines de milliers de personnes s’y rassemblèrent pendant la Révolution de velours de 1989.",
+        "uk": "Колись Кінний ринок, 1848 року названа на честь святого Вацлава; довжина площі — 750 м. Національний музей на її верхньому кінці збудували в 1885–1891 роках за проєктом Йозефа Шульца. Під час Оксамитової революції 1989 року тут збиралися сотні тисяч людей."
+      }
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Charles_Bridge",
+    "https://en.wikipedia.org/wiki/Prague_astronomical_clock",
+    "https://en.wikipedia.org/wiki/Powder_Gate",
+    "https://en.wikipedia.org/wiki/Wenceslas_Square"
+  ]
+}

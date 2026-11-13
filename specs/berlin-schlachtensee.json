@@ -1,0 +1,81 @@
+{
+  "file": "berlin-schlachtensee",
+  "osm": "way/4317997",
+  "step": 200,
+  "snapDist": 60,
+  "corr": 60,
+  "country": "DE",
+  "tags": [
+    "lake",
+    "forest",
+    "loop"
+  ],
+  "name": {
+    "en": "Schlachtensee Loop",
+    "de": "Schlachtensee-Runde",
+    "fr": "Tour du Schlachtensee",
+    "uk": "Коло озера Шлахтензе"
+  },
+  "place": {
+    "en": "Berlin, Germany",
+    "de": "Berlin, Deutschland",
+    "fr": "Berlin, Allemagne",
+    "uk": "Берлін, Німеччина"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) on the path around the Schlachtensee, a long lake at the edge of the Grunewald forest in the south-west of Berlin. The path stays close to the shore and is a favourite of walkers and runners.",
+    "de": "Rund {km} km auf dem Weg um den Schlachtensee, einen langgestreckten See am Rand des Grunewalds im Südwesten Berlins. Der Weg bleibt nah am Ufer und ist bei Spaziergängern und Läufern beliebt.",
+    "fr": "Environ {km} km sur le chemin autour du Schlachtensee, un lac allongé en lisière de la forêt de Grunewald, au sud-ouest de Berlin. Le sentier longe la rive et plaît aux promeneurs comme aux coureurs.",
+    "uk": "Близько {km} км стежкою навколо озера Шлахтензе, видовженого озера на краю лісу Груневальд на південному заході Берліна. Стежка йде поруч із берегом і подобається і пішоходам, і бігунам."
+  },
+  "waypoints": [
+    {
+      "at": [52.44126, 13.21375],
+      "name": {
+        "en": "A glacial lake",
+        "de": "Ein Eiszeitsee",
+        "fr": "Un lac glaciaire",
+        "uk": "Льодовикове озеро"
+      },
+      "text": {
+        "en": "The Schlachtensee formed about 15,000 years ago as a glacial channel and is about 8.5 m deep. Its shore is roughly 5.5 km long. Thanks to its water quality and wooded surroundings it is a popular lake for swimming.",
+        "de": "Der Schlachtensee entstand vor rund 15.000 Jahren als Gletscherrinne und ist etwa 8,5 m tief. Sein Ufer ist rund 5,5 km lang. Dank der Wasserqualität und der Lage im Wald ist er ein beliebter Badesee.",
+        "fr": "Le Schlachtensee s’est formé il y a environ 15 000 ans dans un chenal glaciaire et atteint environ 8,5 m de profondeur. Sa rive mesure environ 5,5 km. Grâce à la qualité de l’eau et au cadre boisé, c’est un lac de baignade apprécié.",
+        "uk": "Шлахтензе утворилося приблизно 15 000 років тому в льодовиковому жолобі, його глибина — близько 8,5 м. Берег озера має довжину приблизно 5,5 км. Завдяки якості води та лісовому оточенню це популярне озеро для купання."
+      }
+    },
+    {
+      "at": [52.44105, 13.21792],
+      "name": {
+        "en": "Paul-Ernst-Park",
+        "de": "Paul-Ernst-Park",
+        "fr": "Paul-Ernst-Park",
+        "uk": "Парк Пауля Ернста"
+      },
+      "text": {
+        "en": "A small park by Schlachtensee station, with lawns down to the shore that are busy in summer. A memorial stone remembers the writer Paul Ernst (1866–1933). The station opened in 1874, when this was still forest.",
+        "de": "Ein kleiner Park am S-Bahnhof Schlachtensee, dessen Wiesen bis ans Ufer reichen und im Sommer gut besucht sind. Ein Gedenkstein erinnert an den Schriftsteller Paul Ernst (1866–1933). Der Bahnhof wurde 1874 eröffnet, damals noch mitten im Wald.",
+        "fr": "Un petit parc près de la gare de Schlachtensee, dont les pelouses descendent jusqu’à la rive et sont très fréquentées l’été. Une pierre commémorative rappelle l’écrivain Paul Ernst (1866–1933). La gare a ouvert en 1874, alors encore en pleine forêt.",
+        "uk": "Невеликий парк біля станції Шлахтензе, галявини якого спускаються до берега й улітку людні. Меморіальний камінь пам’ятає письменника Пауля Ернста (1866–1933). Станцію відкрили 1874 року, коли довкола ще був ліс."
+      }
+    },
+    {
+      "at": [52.44513, 13.22746],
+      "name": {
+        "en": "Alte Fischerhütte",
+        "de": "Alte Fischerhütte",
+        "fr": "Alte Fischerhütte",
+        "uk": "Альте Фішергютте"
+      },
+      "text": {
+        "en": "A fisherman’s hut stood on this shore around 1750 and gave the Alte Fischerhütte, today a restaurant with a beer garden, its name. It is mentioned in writing in 1759 and 1767. The building was restored and extended in 2005.",
+        "de": "Um 1750 entstand an diesem Ufer eine Fischerhütte, die der heutigen Gaststätte mit Biergarten, der Alten Fischerhütte, ihren Namen gab. Erwähnt wird sie 1759 und 1767. Das Gebäude wurde 2005 saniert und erweitert.",
+        "fr": "Vers 1750, une cabane de pêcheur a été construite sur cette rive ; elle a donné son nom à l’Alte Fischerhütte, aujourd’hui un restaurant avec biergarten. Elle est mentionnée par écrit en 1759 et 1767. Le bâtiment a été restauré et agrandi en 2005.",
+        "uk": "Близько 1750 року на цьому березі стояла рибальська хатина, яка дала назву нинішньому ресторану з пивним садом — Alte Fischerhütte. Письмово її згадують 1759 і 1767 років. Будівлю відреставрували й розширили 2005 року."
+      }
+    }
+  ],
+  "sources": [
+    "https://de.wikipedia.org/wiki/Schlachtensee"
+  ]
+}
