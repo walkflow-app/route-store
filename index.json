@@ -200,6 +200,30 @@
       ]
     },
     {
+      "file": "lisbon-praca-do-comercio-marques-de-pombal.walkflow",
+      "revision": 1,
+      "sha256": "5ce1e2df088af8a379d274d5de546f2b3d9b6102fd52bc9e9f70f67bb99121bf",
+      "chars": 9866,
+      "length": 2680,
+      "name": {
+        "en": "Praça do Comércio to Marquês de Pombal",
+        "de": "Von der Praça do Comércio zur Praça Marquês de Pombal",
+        "fr": "De la Praça do Comércio à la Praça Marquês de Pombal",
+        "uk": "Від Праса-ду-Комерсіу до площі Маркіза де Помбала"
+      },
+      "place": {
+        "en": "Lisbon, Portugal",
+        "de": "Lissabon, Portugal",
+        "fr": "Lisbonne, Portugal",
+        "uk": "Лісабон, Португалія"
+      },
+      "country": "PT",
+      "tags": [
+        "city",
+        "sights"
+      ]
+    },
+    {
       "file": "lviv-opera-high-castle.walkflow",
       "revision": 1,
       "sha256": "23687a117bc1187b319c61e3481d9590db5eb6b331d37e929cb9e1a66b051103",
