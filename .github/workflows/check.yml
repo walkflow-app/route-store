@@ -40,6 +40,17 @@ jobs:
             echo "::error::index.json is written by CI after the merge; please remove it from this pull request"
             exit 1
           fi
+      - name: One route per pull request
+        if: github.event_name == 'pull_request'
+        working-directory: store
+        run: |
+          changed=$(git diff --name-only --no-renames "origin/${{ github.base_ref }}...HEAD" -- routes/)
+          n=$(printf '%s' "$changed" | grep -c . || true)
+          if [ "$n" -gt 1 ]; then
+            echo "::error::this pull request changes $n files in routes/; please open one pull request per route"
+            printf '%s\n' "$changed"
+            exit 1
+          fi
       - name: Check the route files
         run: node app/scripts/build-store.mjs --root store --check --files-only
 

@@ -25,9 +25,11 @@ routes/*.walkflow   one route package per file
    the way go into `waypoints`: the check fails if one is more than 150 m from the route.
 3. Put the file in `routes/`. The name uses lower-case letters, digits, `.`, `_`, `-` and ends in `.walkflow`,
    e.g. `alster-rundweg.walkflow`. Do not change the line endings (the file is hashed as it is).
-4. Open a pull request with the file. **Do not touch `index.json`**: it is written by CI after the merge, from the files.
-   CI checks the file and fails if it is not a valid package, has no `license`, has a waypoint far from the route, or is a copy
-   of another file.
+4. Open a pull request with the file: **one route per pull request**. **Do not touch `index.json`**: it is written by CI after the
+   merge, from the files. CI checks the file and fails if the pull request changes more than one file in `routes/`, or if the file is
+   not a valid package, has no `license`, has a waypoint far from the route, or is a copy of another file. CI also writes a
+   **map of the route** as a comment into the pull request, and changes it on every push, so you and the reviewer can see where the
+   route goes without opening the file (see [Reviewing a route](https://github.com/walkflow-app/walkflow/blob/main/docs/ROUTE-STORE.md#reviewing-a-route)).
 
 ## Changing a route
 
@@ -41,7 +43,8 @@ A route in the store is shown to everyone, so a maintainer looks at each pull re
 The checks are the app's own code, so a route that passes is one the app can read. The workflow checks out
 [walkflow-app/walkflow](https://github.com/walkflow-app/walkflow) and runs `scripts/build-store.mjs --root <this checkout> --check
 --files-only` on a pull request. After a merge to `main` it runs the same script without `--check`, which writes `index.json`, and
-commits the result if it changed. To try it on your computer, clone both repositories, run `npm ci` in the app's and then
+commits the result if it changed. A second workflow, `Route preview`, writes the map into the pull request; it never runs code of the
+pull request, only reads the route file as text. To try it on your computer, clone both repositories, run `npm ci` in the app's and then
 `node scripts/build-store.mjs --root ../route-store --check --files-only` there.
 
 ## Licence
