@@ -1,2 +1,3 @@
 routes/*.walkflow -text
 index.json -text
+tests/fixtures/route-store/routes/*.walkflow -text
