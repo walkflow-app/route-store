@@ -1,11 +1,11 @@
 name: Route preview
 
-# A map of the route in a pull request, as one comment that is changed on every push. See "Reviewing a route" in
-# https://github.com/walkflow-app/walkflow/blob/main/docs/ROUTE-STORE.md
+# A map of the route in a pull request, as one comment that is changed on every push. See README.md, "Reviewing a route".
 #
 # pull_request_target is what may write a comment on a pull request from a fork, and it runs with the rights of this repository. So this
-# workflow must never run code of the pull request: it checks out only the scripts of walkflow-app/walkflow (main), and the route file is
-# read through the API as text and parsed as JSON by them. Do not add a step that checks out or runs the pull request.
+# workflow must never run code of the pull request: the checkout below is the base branch (that is what it gives on this event), and the
+# route file is read through the API as text and parsed as JSON by scripts/route-preview-pr.mjs. Do not add a `ref:` to the checkout or
+# any other step that checks out or runs the pull request.
 
 on:
   pull_request_target:
@@ -26,9 +26,6 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          repository: walkflow-app/walkflow
-          ref: main
-          path: app
           sparse-checkout: scripts
       - uses: actions/setup-node@v7
         with:
@@ -40,4 +37,4 @@ jobs:
           PR: ${{ github.event.pull_request.number }}
           HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-        run: node app/scripts/route-preview-pr.mjs --repo "$REPO" --pr "$PR" --head-repo "$HEAD_REPO" --head-sha "$HEAD_SHA"
+        run: node scripts/route-preview-pr.mjs --repo "$REPO" --pr "$PR" --head-repo "$HEAD_REPO" --head-sha "$HEAD_SHA"

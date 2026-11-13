@@ -54,9 +54,19 @@ jobs:
       - name: Check the route files
         run: node app/scripts/build-store.mjs --root store --check --files-only
 
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Test the scripts of this repository
+        run: node --test
+
   index:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: check
+    needs: [check, tests]
     runs-on: ubuntu-latest
     permissions:
       contents: write

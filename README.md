@@ -7,6 +7,8 @@ described in [`docs/ROUTE-STORE.md`](https://github.com/walkflow-app/walkflow/bl
 ```
 index.json          the list the app reads; written by CI after a merge, never by hand
 routes/*.walkflow   one route package per file
+scripts/            the map of a route for pull requests (see "Reviewing a route")
+tests/              tests of those scripts: node --test
 ```
 
 ## Adding a route
@@ -46,6 +48,31 @@ The checks are the app's own code, so a route that passes is one the app can rea
 commits the result if it changed. A second workflow, `Route preview`, writes the map into the pull request; it never runs code of the
 pull request, only reads the route file as text. To try it on your computer, clone both repositories, run `npm ci` in the app's and then
 `node scripts/build-store.mjs --root ../route-store --check --files-only` there.
+
+## Reviewing a route
+
+**One route per pull request.** A review looks at one map and one set of texts, and a route that is not right can be sent back without
+holding up the others. The check fails a pull request that adds, changes, deletes or renames more than one file in `routes/`. A failed
+check only blocks the merge if the repository requires it (Settings → Branches → require the status check `check`); a maintainer can
+always merge anyway.
+
+**The map.** GitHub shows a `geojson` code block in Markdown as a map on OpenStreetMap, in a pull request as well. For every pull
+request that changes a route, the workflow `Route preview` (`.github/workflows/preview.yml`) writes one comment with a map of the route
+file: the route is the line, the start green, the goal red, the waypoints blue (a click shows their text).
+
+- The comment is **changed on every push**, not added to, and names the commit it was made from. The map is made from the file in the
+  pull request, so it cannot differ from what would be merged. If the route is changed in the pull request, nothing has to be done.
+- The workflow runs on `pull_request_target`, because only that may write a comment on a pull request from a fork. That is safe as long
+  as it never runs code of the pull request, and it does not: it checks out the base branch, reads the route file through the GitHub
+  API as text and only parses it as JSON (`scripts/route-preview-pr.mjs`, which uses `scripts/route-preview.mjs`). The texts of the
+  file are written into the map so that no text can end the code block, outside the map the comment has only numbers and the file
+  name, and only a comment of `github-actions[bot]` that starts with the marker is ever changed. A change to these files or to
+  `preview.yml` is a change to what a stranger's pull request can make the bot write, so it is reviewed with care. Do not add a `ref:`
+  to the checkout of that workflow, or any step that runs the pull request.
+- A route bigger than a comment takes (65,536 characters) is thinned out for the map, up to a few metres from its line; the comment says
+  so. The texts of the route are read in the diff of the file.
+- On your own computer: `node scripts/route-preview.mjs routes/x.walkflow > map.md` writes the same Markdown to paste into a comment.
+  `node --test` runs the tests of the scripts (no dependencies; Node 22 or newer).
 
 ## Licence
 
