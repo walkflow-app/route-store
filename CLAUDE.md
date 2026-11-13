@@ -22,6 +22,11 @@ this file only adds what an agent tends to miss.
   in the pull request.
 - **English** in the repository, except the translated route texts.
 
+## How work is done here
+
+- **New routes**: skill `make-route` (the order of work and the pitfalls).
+- **Before a route pull request is merged**: agent `route-reviewer` (facts against sources, texts, privacy, the map).
+
 ## Commands
 
 ```bash
