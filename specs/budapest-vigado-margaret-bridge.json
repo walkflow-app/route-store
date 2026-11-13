@@ -1,0 +1,149 @@
+{
+  "file": "budapest-vigado-margaret-bridge",
+  "country": "HU",
+  "spur": 400,
+  "tags": [
+    "city",
+    "sights",
+    "river"
+  ],
+  "name": {
+    "en": "Vigadó to Margaret Bridge",
+    "de": "Vom Vigadó zur Margaretenbrücke",
+    "fr": "Du Vigadó au pont Marguerite",
+    "uk": "Від Віґадо до мосту Маргарити"
+  },
+  "place": {
+    "en": "Budapest, Hungary",
+    "de": "Budapest, Ungarn",
+    "fr": "Budapest, Hongrie",
+    "uk": "Будапешт, Угорщина"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) along the Pest bank of the Danube: from the Vigadó concert hall over the Chain Bridge, past the memorial of the shoes and the Parliament to the Margaret Bridge, with the castle hill on the other bank across the water.",
+    "de": "Rund {km} km am Pester Donauufer: vom Konzertsaal Vigadó an der Kettenbrücke und am Schuhe-Denkmal und am Parlament vorbei zur Margaretenbrücke, mit dem Burgberg auf dem anderen Ufer gegenüber.",
+    "fr": "Environ {km} km sur la rive de Pest du Danube : de la salle de concert Vigadó, devant le pont des Chaînes, le mémorial des chaussures et le Parlement, jusqu’au pont Marguerite, avec la colline du Château sur l’autre rive.",
+    "uk": "Близько {km} км берегом Дунаю з боку Пешта: від концертної зали Віґадо повз Ланцюговий міст, меморіал із черевиками та Парламент до мосту Маргарити, а навпроти, на іншому березі, — Замкова гора."
+  },
+  "waypoints": [
+    {
+      "at": [
+        47.49597,
+        19.04957
+      ],
+      "name": {
+        "en": "Pesti Vigadó",
+        "de": "Pesti Vigadó",
+        "fr": "Pesti Vigadó",
+        "uk": "Пештський Віґадо"
+      },
+      "text": {
+        "en": "The concert hall on the Danube was designed by Frigyes Feszl in 1859. It was badly damaged in the Second World War; the reconstruction took about 36 years and stayed true to Feszl’s design.",
+        "de": "Der Konzertsaal an der Donau wurde 1859 von Frigyes Feszl entworfen. Im Zweiten Weltkrieg wurde er schwer beschädigt; der Wiederaufbau dauerte rund 36 Jahre und blieb Feszls Entwurf treu.",
+        "fr": "La salle de concert au bord du Danube fut conçue par Frigyes Feszl en 1859. Gravement endommagée pendant la Seconde Guerre mondiale, elle fut reconstruite en une trentaine d’années, fidèlement au projet de Feszl.",
+        "uk": "Концертну залу на березі Дунаю спроєктував Фрігієш Фесл 1859 року. Під час Другої світової війни її сильно пошкодили; відбудова тривала близько 36 років і лишилася вірною задуму Фесла."
+      }
+    },
+    {
+      "at": [
+        47.49924,
+        19.04504
+      ],
+      "name": {
+        "en": "Széchenyi Chain Bridge",
+        "de": "Széchenyi-Kettenbrücke",
+        "fr": "Pont des Chaînes Széchenyi",
+        "uk": "Ланцюговий міст Сечені"
+      },
+      "text": {
+        "en": "Opened on 20 November 1849 as the first permanent bridge across the Danube in Hungary; the English engineer William Tierney Clark designed it, Adam Clark built it. The main span is 202 m. Retreating Germans blew it up in January 1945, and it reopened in 1949.",
+        "de": "Am 20. November 1849 als erste feste Brücke über die Donau in Ungarn eröffnet; der englische Ingenieur William Tierney Clark entwarf sie, Adam Clark baute sie. Die Hauptöffnung misst 202 m. Im Januar 1945 sprengten sie die abziehenden Deutschen, 1949 wurde sie wiedereröffnet.",
+        "fr": "Inauguré le 20 novembre 1849, c’est le premier pont permanent sur le Danube en Hongrie ; l’ingénieur anglais William Tierney Clark le conçut, Adam Clark le construisit. La travée principale mesure 202 m. Les Allemands en retraite le firent sauter en janvier 1945 ; il rouvrit en 1949.",
+        "uk": "Відкритий 20 листопада 1849 року як перший постійний міст через Дунай в Угорщині; спроєктував його англійський інженер Вільям Тірні Кларк, будував Адам Кларк. Головний проліт — 202 м. У січні 1945 року німці, що відступали, підірвали його; 1949 року міст знову відкрили."
+      }
+    },
+    {
+      "at": [
+        47.50397,
+        19.04479
+      ],
+      "name": {
+        "en": "Shoes on the Danube Bank",
+        "de": "Schuhe am Donauufer",
+        "fr": "Chaussures sur les rives du Danube",
+        "uk": "Черевики на березі Дунаю"
+      },
+      "text": {
+        "en": "Sixty pairs of iron shoes along the embankment, made by Can Togay and Gyula Pauer and put up on 16 April 2005. They remember about 23,500 people, 20,000 of them Jews, who were shot into the Danube by the Arrow Cross in the winter of 1944–45.",
+        "de": "Sechzig Paar Schuhe aus Eisen am Ufer, geschaffen von Can Togay und Gyula Pauer und am 16. April 2005 aufgestellt. Sie erinnern an rund 23.500 Menschen, 20.000 davon Juden, die im Winter 1944/45 von den Pfeilkreuzlern in die Donau geschossen wurden.",
+        "fr": "Soixante paires de chaussures en fer le long du quai, créées par Can Togay et Gyula Pauer et érigées le 16 avril 2005. Elles rappellent quelque 23 500 personnes, dont 20 000 juifs, abattues et jetées dans le Danube par les Croix fléchées pendant l’hiver 1944–1945.",
+        "uk": "Шістдесят пар залізних черевиків уздовж набережної, створені Каном Тогаєм і Дьюлою Паурем та встановлені 16 квітня 2005 року. Вони нагадують про близько 23 500 людей, із них 20 000 євреїв, яких «схрещені стріли» розстріляли в Дунай узимку 1944–1945 років."
+      }
+    },
+    {
+      "at": [
+        47.50705,
+        19.04592
+      ],
+      "name": {
+        "en": "Hungarian Parliament",
+        "de": "Parlamentsgebäude",
+        "fr": "Parlement hongrois",
+        "uk": "Угорський парламент"
+      },
+      "text": {
+        "en": "Designed by Imre Steindl in Gothic Revival style, begun in 1885 and finished in 1904. It is 268 m long, 96 m high and has 691 rooms; it has been the largest building in Hungary since its completion. The Holy Crown of Hungary has been displayed in its central hall since 2000.",
+        "de": "Von Imre Steindl im neugotischen Stil entworfen, 1885 begonnen und 1904 vollendet. Es ist 268 m lang, 96 m hoch und hat 691 Räume; seit der Fertigstellung ist es das größte Gebäude Ungarns. Die Stephanskrone wird seit 2000 in der Kuppelhalle gezeigt.",
+        "fr": "Conçu par Imre Steindl dans le style néogothique, commencé en 1885 et achevé en 1904. Il mesure 268 m de long, 96 m de haut et compte 691 salles ; c’est le plus grand édifice de Hongrie depuis son achèvement. La Sainte Couronne de Hongrie est exposée dans son hall central depuis 2000.",
+        "uk": "Спроєктований Імре Штайнлем у неоготичному стилі, розпочатий 1885 року й завершений 1904-го. Довжина — 268 м, висота — 96 м, 691 кімната; відтоді як його добудували, це найбільша споруда Угорщини. Священна корона Угорщини експонується в центральній залі з 2000 року."
+      }
+    },
+    {
+      "at": [
+        47.51318,
+        19.04771
+      ],
+      "name": {
+        "en": "Margaret Bridge",
+        "de": "Margaretenbrücke",
+        "fr": "Pont Marguerite",
+        "uk": "Міст Маргарити"
+      },
+      "text": {
+        "en": "Designed by the French engineer Ernest Goüin and opened on 30 April 1876; it is about 607 m long. The two halves meet at an angle of 165 degrees, where a branch leads down to Margaret Island, a park in the middle of the river.",
+        "de": "Vom französischen Ingenieur Ernest Goüin entworfen und am 30. April 1876 eröffnet; sie ist rund 607 m lang. Die beiden Hälften treffen sich in einem Winkel von 165 Grad, wo ein Zweig zur Margareteninsel abgeht, einem Park mitten im Fluss.",
+        "fr": "Conçu par l’ingénieur français Ernest Goüin et inauguré le 30 avril 1876 ; il mesure environ 607 m de long. Les deux moitiés forment un angle de 165 degrés, à l’endroit où une branche descend vers l’île Marguerite, un parc au milieu du fleuve.",
+        "uk": "Спроєктований французьким інженером Ернестом Гуеном і відкритий 30 квітня 1876 року; довжина — близько 607 м. Дві половини сходяться під кутом 165 градусів, де відгалуження веде до острова Маргарити — парку посеред річки."
+      }
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vigad%C3%B3_of_Pest",
+    "https://en.wikipedia.org/wiki/Sz%C3%A9chenyi_Chain_Bridge",
+    "https://en.wikipedia.org/wiki/Shoes_on_the_Danube_Bank",
+    "https://en.wikipedia.org/wiki/Hungarian_Parliament_Building",
+    "https://en.wikipedia.org/wiki/Margaret_Bridge"
+  ],
+  "path": [
+    [
+      47.49597,
+      19.04957
+    ],
+    [
+      47.49924,
+      19.04504
+    ],
+    [
+      47.50397,
+      19.04479
+    ],
+    [
+      47.5074,
+      19.04491
+    ],
+    [
+      47.51318,
+      19.04771
+    ]
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "file": "florence-station-palazzo-pitti",
+  "country": "IT",
+  "tags": [
+    "city",
+    "sights",
+    "art"
+  ],
+  "name": {
+    "en": "Santa Maria Novella Station to Palazzo Pitti",
+    "de": "Vom Bahnhof Santa Maria Novella zum Palazzo Pitti",
+    "fr": "De la gare Santa Maria Novella au palais Pitti",
+    "uk": "Від вокзалу Санта-Марія-Новелла до палацу Пітті"
+  },
+  "place": {
+    "en": "Florence, Italy",
+    "de": "Florenz, Italien",
+    "fr": "Florence, Italie",
+    "uk": "Флоренція, Італія"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) from the railway station through the old centre of Florence: past the Duomo and its dome, over the Piazza della Signoria and the Ponte Vecchio across the Arno to the Palazzo Pitti. Flat, on busy pedestrian streets.",
+    "de": "Rund {km} km vom Bahnhof durch das historische Zentrum von Florenz: am Dom mit seiner Kuppel vorbei, über die Piazza della Signoria und die Ponte Vecchio über den Arno zum Palazzo Pitti. Eben, auf belebten Fußgängerstraßen.",
+    "fr": "Environ {km} km depuis la gare à travers le centre historique de Florence : devant le Duomo et sa coupole, par la piazza della Signoria et le Ponte Vecchio au-dessus de l’Arno, jusqu’au palais Pitti. Plat, sur des rues piétonnes animées.",
+    "uk": "Близько {km} км від вокзалу історичним центром Флоренції: повз Дуомо з його куполом, через П’яцца-делла-Синьйорія та Понте-Веккіо над Арно до палацу Пітті. Рівно, жвавими пішохідними вулицями."
+  },
+  "waypoints": [
+    {
+      "at": [
+        43.77757,
+        11.24742
+      ],
+      "name": {
+        "en": "Santa Maria Novella Station",
+        "de": "Bahnhof Santa Maria Novella",
+        "fr": "Gare de Santa Maria Novella",
+        "uk": "Вокзал Санта-Марія-Новелла"
+      },
+      "text": {
+        "en": "The line was opened on 3 February 1848, at first as Maria Antonia; the station was renamed after the church once Italy was unified. The present building was designed by the Gruppo Toscano in 1932 and built until 1934, a prime example of Italian modernism.",
+        "de": "Die Strecke wurde am 3. Februar 1848 eröffnet, zunächst als Maria Antonia; nach der Einigung Italiens erhielt der Bahnhof den Namen der Kirche. Das heutige Gebäude entwarf 1932 die Gruppo Toscano, gebaut wurde es bis 1934, ein Paradebeispiel italienischer Moderne.",
+        "fr": "Le chemin de fer ouvrit le 3 février 1848, d’abord sous le nom de Maria Antonia ; la gare reçut celui de l’église après l’unification de l’Italie. Le bâtiment actuel fut conçu en 1932 par le Gruppo Toscano et construit jusqu’en 1934, un exemple majeur du modernisme italien.",
+        "uk": "Станцію відкрили 3 лютого 1848 року, спершу як Марія Антонія; після об’єднання Італії її перейменували на честь церкви. Нинішню будівлю 1932 року спроєктувала Gruppo Toscano, звели її до 1934-го — яскравий приклад італійського модернізму."
+      }
+    },
+    {
+      "at": [
+        43.7731,
+        11.25657
+      ],
+      "name": {
+        "en": "Florence Cathedral",
+        "de": "Dom von Florenz",
+        "fr": "Cathédrale de Florence",
+        "uk": "Флорентійський собор"
+      },
+      "text": {
+        "en": "Begun in 1296 to a design by Arnolfo di Cambio and consecrated on 25 March 1436. Brunelleschi’s dome was built in 1420–1436 and reaches 114.5 m with its lantern. Giotto began the campanile in 1334; the neo-Gothic façade by De Fabris was finished in 1887.",
+        "de": "1296 nach einem Entwurf von Arnolfo di Cambio begonnen und am 25. März 1436 geweiht. Brunelleschis Kuppel entstand 1420–1436 und ist mit der Laterne 114,5 m hoch. Giotto begann 1334 den Campanile; die neugotische Fassade von De Fabris wurde 1887 vollendet.",
+        "fr": "Commencée en 1296 sur un projet d’Arnolfo di Cambio et consacrée le 25 mars 1436. La coupole de Brunelleschi fut édifiée en 1420–1436 et atteint 114,5 m avec sa lanterne. Giotto commença le campanile en 1334 ; la façade néogothique de De Fabris fut achevée en 1887.",
+        "uk": "Розпочатий 1296 року за проєктом Арнольфо ді Камбіо й освячений 25 березня 1436-го. Купол Брунеллескі звели в 1420–1436 роках, разом із ліхтарем він сягає 114,5 м. Джотто розпочав кампаніле 1334 року; неоготичний фасад Де Фабріса завершили 1887-го."
+      }
+    },
+    {
+      "at": [
+        43.76957,
+        11.25586
+      ],
+      "name": {
+        "en": "Piazza della Signoria",
+        "de": "Piazza della Signoria",
+        "fr": "Piazza della Signoria",
+        "uk": "П’яцца-делла-Синьйорія"
+      },
+      "text": {
+        "en": "A W-shaped square beneath the 14th-century Palazzo Vecchio, with the Loggia dei Lanzi as an open-air sculpture gallery and Ammannati’s Neptune Fountain (1575). A copy of the David stands at the palace entrance; the original is in the Accademia.",
+        "de": "Ein W-förmiger Platz unter dem Palazzo Vecchio aus dem 14. Jahrhundert, mit der Loggia dei Lanzi als Freilicht-Skulpturengalerie und Ammannatis Neptunbrunnen (1575). Am Palasteingang steht eine Kopie des David; das Original ist in der Accademia.",
+        "fr": "Une place en W au pied du Palazzo Vecchio du XIVe siècle, avec la Loggia dei Lanzi, galerie de sculptures en plein air, et la fontaine de Neptune d’Ammannati (1575). Une copie du David garde l’entrée du palais ; l’original est à l’Accademia.",
+        "uk": "Площа у формі літери W під Палаццо-Веккіо XIV століття, з Лоджією деї Ланці — просто неба галереєю скульптур — і фонтаном Нептуна Амманнаті (1575). Біля входу до палацу стоїть копія «Давида»; оригінал — в Академії."
+      }
+    },
+    {
+      "at": [
+        43.76803,
+        11.25316
+      ],
+      "name": {
+        "en": "Ponte Vecchio",
+        "de": "Ponte Vecchio",
+        "fr": "Ponte Vecchio",
+        "uk": "Понте-Веккіо"
+      },
+      "text": {
+        "en": "A medieval stone arch bridge over the Arno, main span 30 m. A flood swept it away in 1333; it was rebuilt in 1345. In 1565 Vasari built the corridor above it, and a decree left only goldsmiths and jewellers in the shops. The only Florentine bridge spared in the Second World War.",
+        "de": "Eine mittelalterliche Steinbogenbrücke über den Arno, 30 m Hauptspannweite. 1333 riss eine Flut sie weg, 1345 war sie neu gebaut. 1565 baute Vasari den Korridor darüber, ein Erlass ließ nur Goldschmiede und Juweliere in den Läden zu. Als einzige Brücke von Florenz im Zweiten Weltkrieg verschont.",
+        "fr": "Un pont médiéval en pierre sur l’Arno, travée principale de 30 m. Une crue l’emporta en 1333 ; reconstruit en 1345. En 1565, Vasari bâtit le corridor au-dessus et un décret ne laissa que des orfèvres et bijoutiers. Seul pont de Florence épargné pendant la Seconde Guerre mondiale.",
+        "uk": "Середньовічний кам’яний арковий міст через Арно, головний проліт 30 м. 1333 року повінь його змила; 1345-го міст відбудували. 1565 року Вазарі збудував над ним коридор, а указ залишив у крамницях лише золотарів і ювелірів. Єдиний міст Флоренції, що вцілів у Другій світовій війні."
+      }
+    },
+    {
+      "at": [
+        43.76528,
+        11.25026
+      ],
+      "name": {
+        "en": "Palazzo Pitti",
+        "de": "Palazzo Pitti",
+        "fr": "Palais Pitti",
+        "uk": "Палаццо Пітті"
+      },
+      "text": {
+        "en": "Begun in 1458 for the banker Luca Pitti, who died in 1472 with it unfinished. Eleonora di Toledo bought it for the Medici in 1549, and Cosimo I had Vasari enlarge it. Behind it lie the Boboli Gardens; the Palatine Gallery shows over 500 mostly Renaissance paintings.",
+        "de": "1458 für den Bankier Luca Pitti begonnen, der 1472 starb, ohne dass es fertig war. Eleonora di Toledo kaufte es 1549 für die Medici, und Cosimo I. ließ es von Vasari erweitern. Dahinter liegen die Boboli-Gärten; die Galleria Palatina zeigt über 500 meist Renaissancegemälde.",
+        "fr": "Commencé en 1458 pour le banquier Luca Pitti, mort en 1472 sans l’avoir terminé. Éléonore de Tolède l’acheta en 1549 pour les Médicis, et Cosme Ier le fit agrandir par Vasari. Derrière s’étendent les jardins de Boboli ; la galerie Palatine montre plus de 500 tableaux, surtout de la Renaissance.",
+        "uk": "Розпочатий 1458 року для банкіра Луки Пітті, який помер 1472-го, не завершивши його. Елеонора Толедська придбала палац 1549 року для Медічі, а Козімо I доручив Вазарі розширити його. Позаду лежить сад Боболі; Палатинська галерея показує понад 500 картин, переважно доби Відродження."
+      }
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Florence_Santa_Maria_Novella_railway_station",
+    "https://en.wikipedia.org/wiki/Florence_Cathedral",
+    "https://en.wikipedia.org/wiki/Piazza_della_Signoria",
+    "https://en.wikipedia.org/wiki/Ponte_Vecchio",
+    "https://en.wikipedia.org/wiki/Pitti_Palace"
+  ]
+}
