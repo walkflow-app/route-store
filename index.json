@@ -299,6 +299,30 @@
       ]
     },
     {
+      "file": "rome-colosseum-piazza-navona.walkflow",
+      "revision": 1,
+      "sha256": "9c78a1cea2c307860e7f5c05e0f24e9869b09db63e4a319adf3263c0bb3de1f4",
+      "chars": 10163,
+      "length": 2792,
+      "name": {
+        "en": "Colosseum to Piazza Navona",
+        "de": "Vom Kolosseum zur Piazza Navona",
+        "fr": "Du Colisée à la place Navone",
+        "uk": "Від Колізею до П’яцца Навона"
+      },
+      "place": {
+        "en": "Rome, Italy",
+        "de": "Rom, Italien",
+        "fr": "Rome, Italie",
+        "uk": "Рим, Італія"
+      },
+      "country": "IT",
+      "tags": [
+        "city",
+        "sights"
+      ]
+    },
+    {
       "file": "seattle-green-lake.walkflow",
       "revision": 1,
       "sha256": "8bc65bf9d66d211116969effe414a60a664474537663b1f28e3532c321fa726e",
