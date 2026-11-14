@@ -249,6 +249,31 @@
       ]
     },
     {
+      "file": "munich-frauenkirche-chinesischer-turm.walkflow",
+      "revision": 1,
+      "sha256": "4b6820eb6cedfbedc639440dbb806fefc53facf7194dcb5dfb30ac655fa15f07",
+      "chars": 9497,
+      "length": 2915,
+      "name": {
+        "en": "Frauenkirche to the Chinese Tower",
+        "de": "Von der Frauenkirche zum Chinesischen Turm",
+        "fr": "De la Frauenkirche à la Tour chinoise",
+        "uk": "Від Фраенкірхе до Китайської вежі"
+      },
+      "place": {
+        "en": "Munich, Germany",
+        "de": "München, Deutschland",
+        "fr": "Munich, Allemagne",
+        "uk": "Мюнхен, Німеччина"
+      },
+      "country": "DE",
+      "tags": [
+        "city",
+        "sights",
+        "park"
+      ]
+    },
+    {
       "file": "munich-kleinhesseloher-see.walkflow",
       "revision": 1,
       "sha256": "b83e9883c4d02f067dd7702262c3e2c2542eaf992e3f9b2b8c1862c3d9ea4269",
