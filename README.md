@@ -50,8 +50,8 @@ app out (`main`) and runs `scripts/build-store.mjs --app <app checkout> --check 
 `main` it runs the same script without `--check`, which writes `index.json`, and commits the result if it changed. A second workflow,
 `Route preview`, writes the map into the pull request; it never runs code of the pull request, only reads the route file as text.
 A change to `scripts/build-store.mjs`, to the workflows, or to the app's route code is a change to the checks of the store.
-Changes go to `main` through pull requests with both checks green; only the index commit of CI is pushed there directly (which is
-why the ruleset cannot require pull requests yet). Rules for AI
+Changes go to `main` through pull requests with both checks green. Only the index commit of CI is pushed there directly, with the
+deploy key `INDEX_DEPLOY_KEY`, which is the one thing the ruleset lets past. Rules for AI
 agents are in `CLAUDE.md`, the commands they may run in `.claude/settings.json`, the `make-route` skill and the
 `route-reviewer` agent in `.claude/`.
 
@@ -142,6 +142,13 @@ for nothing. Overpass is often busy and answers `502`: the script tries eight ti
 way to go on. OpenStreetMap changes, so a run months later can give a slightly different track from the file in the store; the file in the
 store is what counts. `tests/make-route.test.mjs` tests the pieces on a made-up lake, without the network, and
 `tests/app-package.test.mjs` checks that what the script writes is what the app itself would write.
+
+## Agents on GitHub
+
+Every new pull request gets a review by AI agents (`.github/workflows/agent-review.yml`): they check what this repository's
+`CLAUDE.md` asks for and post one comment with their verdict. Maintainers can ask for more with `@claude …` in a comment, or hand
+over an issue with the label `agent-ready` (`.github/workflows/claude.yml`); agents never take on issues labelled `safety` and
+never merge. Pull requests from forks are not reviewed by agents.
 
 ## Roadmap
 

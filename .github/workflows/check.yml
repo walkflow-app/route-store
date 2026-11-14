@@ -86,9 +86,12 @@ jobs:
     permissions:
       contents: write
     steps:
+      # Pushed with the deploy key INDEX_DEPLOY_KEY (its public half is a deploy key with write access in this repository),
+      # because the ruleset lets only that key push to main without a pull request. Without the secret the workflow token is used.
       - uses: actions/checkout@v7
         with:
           path: store
+          ssh-key: ${{ secrets.INDEX_DEPLOY_KEY }}
       - uses: actions/checkout@v7
         with:
           repository: walkflow-app/walkflow
