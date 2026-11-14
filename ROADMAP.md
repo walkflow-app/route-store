@@ -10,8 +10,6 @@ What is being done on the route store, what comes next, and what may come later.
 
 ## Next
 
-- **`main` only through pull requests:** CI now pushes `index.json` with a deploy key; once the key is set up, the ruleset can
-  require pull requests and let only that key past.
 - **More routes:** lake loops in countries the store does not have yet.
 
 ## Later, maybe
@@ -21,5 +19,7 @@ What is being done on the route store, what comes next, and what may come later.
 
 ## Done recently
 
+- 2026-11-14: `main` only through pull requests with `check` and `tests` green; CI pushes `index.json` with a deploy key,
+  the one thing the ruleset lets past.
 - 2026-11-13: tooling to make and check routes moved here from the app; one route per pull request, a map of the route on
   every pull request; city walks in Amsterdam, Berlin, Budapest, Copenhagen, Lisbon and Lviv.
