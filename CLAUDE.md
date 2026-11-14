@@ -4,9 +4,9 @@ Routes that the Walkflow app offers in its store, and the tooling to make and ch
 *Adding a route*, *How the checks work*, *Reviewing a route* and *Making a route from OpenStreetMap* are the instructions;
 this file only adds what an agent tends to miss.
 
-
 Planning for all walkflow-app repositories (roadmap, specs across repositories, decisions) is in
 [walkflow-app/meta](https://github.com/walkflow-app/meta), cloned next to this repository as `../meta`.
+
 ## Rules
 
 - **One route per pull request**, from its own branch (`feat/route-<file name>`), title `feat: <name> in <place>`. CI fails a
