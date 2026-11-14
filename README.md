@@ -150,6 +150,8 @@ Every new pull request gets a review by AI agents (`.github/workflows/agent-revi
 over an issue with the label `agent-ready` (`.github/workflows/claude.yml`); agents never take on issues labelled `safety` and
 never merge. Pull requests from forks are not reviewed by agents.
 
+Dependabot keeps the GitHub Actions of the workflows current once a month.
+
 ## Roadmap
 
 What is being done on the route store, what comes next and what may come later: [ROADMAP.md](ROADMAP.md).

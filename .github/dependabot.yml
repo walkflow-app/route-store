@@ -1,0 +1,9 @@
+# Keeps the GitHub Actions of the workflows up to date. The tooling has no npm dependencies of its own (it uses the app's).
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: ci
