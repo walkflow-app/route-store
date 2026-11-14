@@ -4,8 +4,10 @@ Routes that the Walkflow app offers in its store, and the tooling to make and ch
 *Adding a route*, *How the checks work*, *Reviewing a route* and *Making a route from OpenStreetMap* are the instructions;
 this file only adds what an agent tends to miss.
 
-Planning for all walkflow-app repositories (roadmap, specs across repositories, decisions) is in
-[walkflow-app/meta](https://github.com/walkflow-app/meta), cloned next to this repository as `../meta`.
+[ROADMAP.md](ROADMAP.md) is the public plan of this repository; only the maintainer moves something into *Now*, and a pull
+request that finishes or drops a roadmap item updates it. Internal planning (specs across repositories, decisions) is in the
+private repository `walkflow-app/meta`, cloned next to this one as `../meta`; never copy internal notes from there into this
+public repository.
 
 ## Rules
 

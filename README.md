@@ -143,6 +143,10 @@ way to go on. OpenStreetMap changes, so a run months later can give a slightly d
 store is what counts. `tests/make-route.test.mjs` tests the pieces on a made-up lake, without the network, and
 `tests/app-package.test.mjs` checks that what the script writes is what the app itself would write.
 
+## Roadmap
+
+What is being done on the route store, what comes next and what may come later: [ROADMAP.md](ROADMAP.md).
+
 ## Support
 
 If the routes are useful to you, you can support the project through [thanks.dev](https://thanks.dev/u/gh/walkflow-app) or
