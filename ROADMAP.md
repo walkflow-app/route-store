@@ -6,7 +6,7 @@ What is being done on the route store, what comes next, and what may come later.
 ## Now
 
 - **City walks waiting for review:** Edinburgh, Florence, Munich, Paris, Prague and Rome
-  ([open pull requests](https://github.com/walkflow-app/route-store/pulls)).
+  ([open pull requests](https://github.com/walkflow-app/route-store/pulls?q=is%3Apr+is%3Aopen+feat%3A+in%3Atitle)).
 
 ## Next
 
