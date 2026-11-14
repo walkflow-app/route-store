@@ -10,8 +10,8 @@ What is being done on the route store, what comes next, and what may come later.
 
 ## Next
 
-- **`main` only through pull requests:** CI pushes `index.json` to `main` directly, which is why the ruleset cannot require
-  pull requests yet. Pushing the index with a deploy key (like the app's site) would allow it.
+- **`main` only through pull requests:** CI now pushes `index.json` with a deploy key; once the key is set up, the ruleset can
+  require pull requests and let only that key past.
 - **More routes:** lake loops in countries the store does not have yet.
 
 ## Later, maybe

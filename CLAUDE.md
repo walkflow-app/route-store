@@ -31,6 +31,9 @@ public repository without the maintainer agreeing.
 
 - **New routes**: skill `make-route` (the order of work and the pitfalls).
 - **Before a route pull request is merged**: agent `route-reviewer` (facts against sources, texts, privacy, the map).
+- **On GitHub:** `agent-review.yml` runs the reviewers on every new pull request and posts their verdicts (comment
+  `@claude review` to run it again); `claude.yml` takes on `@claude …` requests and issues labelled `agent-ready`, never ones
+  labelled `safety`. Both only work on branches and pull requests; a maintainer merges.
 
 ## Commands
 
@@ -42,5 +45,5 @@ node --test                                         # the tests of the scripts
 ## Never without being asked
 
 Force-push, merge with `--admin`, change repository settings, rulesets or secrets, or delete branches other than your own.
-Push to `main`: changes go there only through pull requests with `check` and `tests` green. The ruleset cannot enforce
-this yet (CI pushes the index commit directly), so it is on you.
+`main` takes changes only through pull requests with `check` and `tests` green; the ruleset lets only CI's index commit
+(pushed with a deploy key) past.
