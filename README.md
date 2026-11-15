@@ -156,6 +156,11 @@ Dependabot keeps the GitHub Actions of the workflows current once a month.
 
 What is being done on the route store, what comes next and what may come later: [ROADMAP.md](ROADMAP.md).
 
+## Security
+
+A route that gives away where someone lives, or a problem with the checks or workflows: please report it privately,
+as [SECURITY.md](SECURITY.md) explains, not in a public issue.
+
 ## Support
 
 If the routes are useful to you, you can support the project through [thanks.dev](https://thanks.dev/u/gh/walkflow-app) or
