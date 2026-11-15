@@ -1,0 +1,82 @@
+{
+  "file": "lisbon-praca-do-comercio-marques-de-pombal",
+  "country": "PT",
+  "tags": ["city", "sights"],
+  "name": {
+    "en": "Praça do Comércio to Marquês de Pombal",
+    "de": "Von der Praça do Comércio zur Praça Marquês de Pombal",
+    "fr": "De la Praça do Comércio à la Praça Marquês de Pombal",
+    "uk": "Від Праса-ду-Комерсіу до площі Маркіза де Помбала"
+  },
+  "place": {
+    "en": "Lisbon, Portugal",
+    "de": "Lissabon, Portugal",
+    "fr": "Lisbonne, Portugal",
+    "uk": "Лісабон, Португалія"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) straight through the Lisbon that was rebuilt after the earthquake of 1755: from the square by the river through the Baixa and the Rossio and up the Avenida da Liberdade to the Marquês de Pombal roundabout. Mostly flat at first, then gently uphill.",
+    "de": "Rund {km} km quer durch das nach dem Erdbeben von 1755 wiederaufgebaute Lissabon: vom Platz am Fluss durch die Baixa und über den Rossio die Avenida da Liberdade hinauf zum Kreisverkehr Marquês de Pombal. Zuerst eben, dann leicht bergauf.",
+    "fr": "Environ {km} km à travers le Lisbonne reconstruit après le tremblement de terre de 1755 : de la place au bord du fleuve, par la Baixa et le Rossio, puis en remontant l’Avenida da Liberdade jusqu’au rond-point du Marquês de Pombal. D’abord plat, puis en légère montée.",
+    "uk": "Близько {km} км крізь Лісабон, відбудований після землетрусу 1755 року: від площі біля річки через Байшу та Россіу вгору проспектом Авеніда-да-Лібердаде до розв’язки Маркіза де Помбала. Спершу рівно, потім плавно вгору."
+  },
+  "waypoints": [
+    {
+      "at": [38.70772, -9.13652],
+      "name": { "en": "Praça do Comércio", "de": "Praça do Comércio", "fr": "Praça do Comércio", "uk": "Праса-ду-Комерсіу" },
+      "text": {
+        "en": "Also called Terreiro do Paço: the royal Ribeira Palace stood here until the earthquake of 1 November 1755. The Marquis of Pombal had the square rebuilt as a “U” open to the Tagus, 175 × 175 m. Machado de Castro’s statue of Joseph I was inaugurated in 1775.",
+        "de": "Auch Terreiro do Paço genannt: Hier stand der königliche Ribeira-Palast, bis ihn das Erdbeben vom 1. November 1755 zerstörte. Der Marquês de Pombal ließ den Platz als zum Tejo offenes „U“ neu bauen, 175 × 175 m. Machado de Castros Reiterstandbild Josephs I. wurde 1775 eingeweiht.",
+        "fr": "Aussi appelée Terreiro do Paço : le palais royal de Ribeira s’y dressait jusqu’au séisme du 1er novembre 1755. Le marquis de Pombal fit reconstruire la place en « U » ouvert sur le Tage, de 175 × 175 m. La statue de Joseph Ier par Machado de Castro fut inaugurée en 1775.",
+        "uk": "Також Террейру-ду-Пасу: тут стояв королівський палац Рібейра, доки його не зруйнував землетрус 1 листопада 1755 року. Маркіз де Помбал відбудував площу у формі літери «U», відкритої до Тежу, 175 × 175 м. Статую Жозе I роботи Машаду де Каштру відкрили 1775 року."
+      }
+    },
+    {
+      "at": [38.70844, -9.13682],
+      "name": { "en": "Rua Augusta Arch", "de": "Rua-Augusta-Bogen", "fr": "Arc de la Rue Augusta", "uk": "Арка Руа-Авгушта" },
+      "text": {
+        "en": "Begun in 1755 and completed in 1873 to commemorate the city’s reconstruction after the earthquake. The columns are about 11 m tall, the cornice over 30 m high. The group on top, “Glory rewarding Valor and Genius”, is by Célestin Anatole Calmels.",
+        "de": "1755 begonnen und 1873 vollendet, zur Erinnerung an den Wiederaufbau der Stadt nach dem Erdbeben. Die Säulen sind etwa 11 m hoch, das Gesims liegt über 30 m hoch. Die Gruppe oben, „Der Ruhm krönt Tapferkeit und Genie“, stammt von Célestin Anatole Calmels.",
+        "fr": "Commencé en 1755 et achevé en 1873 pour commémorer la reconstruction de la ville après le séisme. Les colonnes mesurent environ 11 m, la corniche dépasse 30 m. Le groupe au sommet, « La Gloire couronnant la Valeur et le Génie », est de Célestin Anatole Calmels.",
+        "uk": "Розпочата 1755 року і завершена 1873-го на згадку про відбудову міста після землетрусу. Колони мають близько 11 м, карниз — понад 30 м. Скульптурну групу нагорі «Слава нагороджує Доблесть і Геній» створив Селестен Анатоль Кальмельс."
+      }
+    },
+    {
+      "at": [38.71387, -9.13905],
+      "name": { "en": "Rossio", "de": "Rossio", "fr": "Rossio", "uk": "Россіу" },
+      "text": {
+        "en": "Officially Praça de D. Pedro IV, but people never took to the name. The Column of Pedro IV was put up in 1874. The Dona Maria II National Theatre of the 1840s stands where the Inquisition’s palace burned down in 1836. The square was once a horse market and a place of public executions.",
+        "de": "Offiziell Praça de D. Pedro IV, doch der Name setzte sich nie durch. Die Säule Pedros IV. wurde 1874 aufgestellt. Das Nationaltheater Dona Maria II aus den 1840er-Jahren steht dort, wo 1836 der Palast der Inquisition abbrannte. Der Platz war einst Pferdemarkt und Ort öffentlicher Hinrichtungen.",
+        "fr": "Officiellement Praça de D. Pedro IV, nom jamais adopté par les gens. La colonne de Pierre IV date de 1874. Le Théâtre national Dona Maria II (années 1840) s’élève où le palais de l’Inquisition brûla en 1836. Jadis marché aux chevaux et lieu d’exécutions publiques.",
+        "uk": "Офіційно Праса-де-Дон-Педру IV, але люди ніколи не прийняли цю назву. Колону Педру IV встановили 1874 року. Національний театр Дони Марії II 1840-х років стоїть там, де 1836 року згорів палац інквізиції. Колись площа була кінним ринком і місцем публічних страт."
+      }
+    },
+    {
+      "at": [38.71571, -9.14165],
+      "name": { "en": "Avenida da Liberdade", "de": "Avenida da Liberdade", "fr": "Avenida da Liberdade", "uk": "Авеніда-да-Лібердаде" },
+      "text": {
+        "en": "Built from 1879 to 1886 under the engineer Frederico Ressano Garcia, modelled on the Champs-Élysées: 1,100 m long and 90 m wide. It replaced the walled Passeio Público, a park for the nobility, which King João VI opened to everyone in 1821.",
+        "de": "1879 bis 1886 unter dem Ingenieur Frederico Ressano Garcia gebaut, nach dem Vorbild der Champs-Élysées: 1.100 m lang und 90 m breit. Sie ersetzte den ummauerten Passeio Público, einen Park für den Adel, den König João VI. 1821 für alle öffnete.",
+        "fr": "Construite de 1879 à 1886 sous l’ingénieur Frederico Ressano Garcia, sur le modèle des Champs-Élysées : 1 100 m de long et 90 m de large. Elle remplaça le Passeio Público, parc clos réservé à la noblesse, que le roi João VI ouvrit à tous en 1821.",
+        "uk": "Збудований у 1879–1886 роках під керівництвом інженера Фредеріку Рессану Гарсії за зразком Єлисейських Полів: довжина 1100 м, ширина 90 м. Він замінив обнесений муром парк Пасейу-Публіку для знаті, який король Жуан VI відкрив для всіх 1821 року."
+      }
+    },
+    {
+      "at": [38.72489, -9.14976],
+      "name": { "en": "Marquês de Pombal Square", "de": "Praça Marquês de Pombal", "fr": "Place du Marquês de Pombal", "uk": "Площа Маркіза де Помбала" },
+      "text": {
+        "en": "A large roundabout where the avenue ends, with Edward VII Park beyond. A column 40 m high, built between 1917 and 1934, carries a bronze statue of the Marquis, with a lion at its side as a symbol of power. Several avenues start from here.",
+        "de": "Ein großer Kreisverkehr am Ende der Avenida, dahinter der Eduard-VII.-Park. Eine 40 m hohe Säule, zwischen 1917 und 1934 gebaut, trägt die Bronzestatue des Marquês, an ihrer Seite ein Löwe als Zeichen der Macht. Von hier gehen mehrere Avenidas aus.",
+        "fr": "Un grand rond-point où s’achève l’avenue, avec le parc Édouard-VII derrière. Une colonne de 40 m de haut, construite entre 1917 et 1934, porte une statue en bronze du marquis, avec un lion à ses côtés, symbole de puissance. Plusieurs avenues en partent.",
+        "uk": "Велика розв’язка, де закінчується проспект, за нею — парк Едуарда VII. Колона заввишки 40 м, збудована між 1917 і 1934 роками, несе бронзову статую маркіза, а поруч — лев як символ влади. Звідси відходить кілька проспектів."
+      }
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pra%C3%A7a_do_Com%C3%A9rcio",
+    "https://en.wikipedia.org/wiki/Rua_Augusta_Arch",
+    "https://en.wikipedia.org/wiki/Rossio",
+    "https://en.wikipedia.org/wiki/Avenida_da_Liberdade",
+    "https://en.wikipedia.org/wiki/Marqu%C3%AAs_de_Pombal_Square"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "file": "berlin-brandenburger-tor-alexanderplatz",
+  "country": "DE",
+  "tags": ["city", "sights"],
+  "name": {
+    "en": "Brandenburg Gate to Alexanderplatz",
+    "de": "Vom Brandenburger Tor zum Alexanderplatz",
+    "fr": "De la porte de Brandebourg à l’Alexanderplatz",
+    "uk": "Від Бранденбурзьких воріт до Александерплац"
+  },
+  "place": {
+    "en": "Berlin, Germany",
+    "de": "Berlin, Deutschland",
+    "fr": "Berlin, Allemagne",
+    "uk": "Берлін, Німеччина"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) through the middle of Berlin, from the Brandenburg Gate along Unter den Linden to the Cathedral on the Museum Island and on to the Alexanderplatz. A walk through two centuries of Berlin, from the Prussian boulevard to the East Berlin city centre.",
+    "de": "Rund {km} km quer durch die Mitte Berlins: vom Brandenburger Tor die Straße Unter den Linden entlang, am Dom auf der Museumsinsel vorbei bis zum Alexanderplatz. Ein Spaziergang durch mehr als zwei Jahrhunderte Berliner Geschichte, vom preußischen Boulevard bis ins Zentrum des einstigen Ost-Berlin.",
+    "fr": "Environ {km} km à travers le centre de Berlin : de la porte de Brandebourg, le long de l’avenue Unter den Linden, jusqu’à la cathédrale de l’île des Musées, puis à l’Alexanderplatz. Une promenade à travers plus de deux siècles d’histoire berlinoise, du boulevard prussien au cœur de l’ancien Berlin-Est.",
+    "uk": "Близько {km} км центром Берліна: від Бранденбурзьких воріт вулицею Унтер-ден-Лінден повз собор на Музейному острові до Александерплац. Прогулянка крізь понад два століття берлінської історії, від прусського бульвару до центру колишнього Східного Берліна."
+  },
+  "waypoints": [
+    {
+      "at": [52.51627, 13.37770],
+      "name": {
+        "en": "Brandenburg Gate",
+        "de": "Brandenburger Tor",
+        "fr": "Porte de Brandebourg",
+        "uk": "Бранденбурзькі ворота"
+      },
+      "text": {
+        "en": "Built 1789–1793 for Friedrich Wilhelm II to plans by Carl Gotthard Langhans; 20.3 m high. Schadow’s Quadriga on top shows the goddess Victoria. Napoleon took it to Paris in 1806, it came back in 1814. Until 1989 the gate stood on the border between East and West Berlin.",
+        "de": "1789–1793 für Friedrich Wilhelm II. nach Plänen von Carl Gotthard Langhans gebaut, 20,3 m hoch. Schadows Quadriga zeigt die Siegesgöttin Victoria. Napoleon ließ sie 1806 nach Paris bringen, 1814 kehrte sie zurück. Bis 1989 stand das Tor an der Grenze zwischen Ost- und West-Berlin.",
+        "fr": "Construite de 1789 à 1793 pour Frédéric-Guillaume II d’après Carl Gotthard Langhans ; 20,3 m de haut. La Quadrige de Schadow figure la déesse Victoria. Napoléon l’emporta à Paris en 1806, elle revint en 1814. Jusqu’en 1989, la porte se dressait à la frontière entre les deux Berlin.",
+        "uk": "Споруджені 1789–1793 років для Фрідріха Вільгельма II за проєктом Карла Готтгарда Лангганса, висота 20,3 м. Квадрига Шадова нагорі зображує богиню Вікторію. Наполеон вивіз її до Парижа 1806 року, 1814-го вона повернулася. До 1989 року ворота стояли на кордоні між Східним і Західним Берліном."
+      }
+    },
+    {
+      "at": [52.51649, 13.39383],
+      "name": {
+        "en": "Bebelplatz",
+        "de": "Bebelplatz",
+        "fr": "Bebelplatz",
+        "uk": "Бебельплац"
+      },
+      "text": {
+        "en": "Laid out from 1740 under Frederick the Great to plans by Knobelsdorff; the Royal Opera on its side opened in 1743. In the pavement a glass plate by Micha Ullman (1995) looks into an empty library with room for about 20,000 books, the number burned here in 1933.",
+        "de": "Ab 1740 unter Friedrich dem Großen nach Plänen von Knobelsdorff angelegt; die Königliche Oper an der Seite war 1743 fertig. Im Pflaster blickt man durch eine Glasplatte von Micha Ullman (1995) in eine leere Bibliothek mit Platz für rund 20.000 Bücher, so viele wurden hier 1933 verbrannt.",
+        "fr": "Aménagée à partir de 1740 sous Frédéric le Grand d’après les plans de Knobelsdorff ; l’Opéra royal, sur un côté, fut achevé en 1743. Dans le pavé, une plaque de verre de Micha Ullman (1995) donne sur une bibliothèque vide pouvant contenir environ 20 000 livres, le nombre de ceux brûlés ici en 1933.",
+        "uk": "Закладена 1740 року за Фрідріха Великого за проєктом Кнобельсдорфа; Королівську оперу збоку завершили 1743 року. У брукованій поверхні скляна плита Міхи Ульмана (1995) відкриває вигляд на порожню бібліотеку з місцем приблизно на 20 000 книг — стільки їх спалили тут 1933 року."
+      }
+    },
+    {
+      "at": [52.51908, 13.40109],
+      "name": {
+        "en": "Berlin Cathedral",
+        "de": "Berliner Dom",
+        "fr": "Cathédrale de Berlin",
+        "uk": "Берлінський собор"
+      },
+      "text": {
+        "en": "The present church was built 1894–1905 for Wilhelm II to plans by Julius Raschdorff and is 98 m high. The dome was badly hit in an air raid on 24 May 1944; the rebuilding of the interior was finished in 1993. The Lustgarten lies in front of it.",
+        "de": "Der heutige Bau entstand 1894–1905 für Wilhelm II. nach Plänen von Julius Raschdorff und ist 98 m hoch. Bei einem Luftangriff am 24. Mai 1944 wurde die Kuppel schwer getroffen; der Wiederaufbau des Innenraums war 1993 abgeschlossen. Davor liegt der Lustgarten.",
+        "fr": "L’édifice actuel fut construit de 1894 à 1905 pour Guillaume II d’après les plans de Julius Raschdorff et mesure 98 m de haut. La coupole fut gravement touchée lors d’un raid aérien le 24 mai 1944 ; la reconstruction de l’intérieur s’acheva en 1993. Devant se trouve le Lustgarten.",
+        "uk": "Нинішню будівлю звели 1894–1905 років для Вільгельма II за проєктом Юліуса Рашдорфа, її висота — 98 м. Під час нальоту 24 травня 1944 року купол сильно постраждав; відбудову інтер’єру завершили 1993 року. Перед собором розташований Люстгартен."
+      }
+    },
+    {
+      "at": [52.51960, 13.40684],
+      "name": {
+        "en": "Neptune Fountain",
+        "de": "Neptunbrunnen",
+        "fr": "Fontaine de Neptune",
+        "uk": "Фонтан Нептуна"
+      },
+      "text": {
+        "en": "Made by Reinhold Begas in 1888–1891 for the square in front of the Berlin Palace. After the war it was put up again in 1969 between the Marienkirche and the Rotes Rathaus. Four women on the rim stand for the rivers Rhine, Vistula, Oder and Elbe.",
+        "de": "Von Reinhold Begas 1888–1891 für den Platz vor dem Berliner Schloss geschaffen. 1969 wurde er nach dem Krieg zwischen Marienkirche und Rotem Rathaus neu aufgestellt. Vier Frauenfiguren am Rand stehen für die Flüsse Rhein, Weichsel, Oder und Elbe.",
+        "fr": "Œuvre de Reinhold Begas, réalisée en 1888–1891 pour la place devant le château de Berlin. Après la guerre, elle fut réinstallée en 1969 entre la Marienkirche et l’hôtel de ville rouge. Quatre figures féminines sur le bord représentent le Rhin, la Vistule, l’Oder et l’Elbe.",
+        "uk": "Створений Рейнгольдом Бегасом у 1888–1891 роках для площі перед Берлінським палацом. Після війни, 1969 року, його встановили заново між Маріенкірхе та Червоною ратушею. Чотири жіночі постаті на краю символізують річки Рейн, Віслу, Одер і Ельбу."
+      }
+    },
+    {
+      "at": [52.52116, 13.41331],
+      "name": {
+        "en": "World Clock",
+        "de": "Weltzeituhr",
+        "fr": "Horloge universelle",
+        "uk": "Всесвітній годинник"
+      },
+      "text": {
+        "en": "The Urania World Clock was handed over on 30 September 1969, designed by Erich John. It is 10 m high, has 24 sides for the time zones and lists 146 places. It has long been one of Berlin’s best-known meeting points.",
+        "de": "Die Urania-Weltzeituhr wurde am 30. September 1969 übergeben, entworfen von Erich John. Sie ist 10 m hoch, hat 24 Seiten für die Zeitzonen und nennt 146 Orte. Sie gilt seit Langem als einer der bekanntesten Treffpunkte Berlins.",
+        "fr": "L’horloge universelle Urania fut inaugurée le 30 septembre 1969, conçue par Erich John. Haute de 10 m, elle compte 24 côtés pour les fuseaux horaires et cite 146 lieux. C’est depuis longtemps l’un des lieux de rendez-vous les plus connus de Berlin.",
+        "uk": "Годинник «Уранія» передали публіці 30 вересня 1969 року, його створив Еріх Йон. Він має висоту 10 м, 24 грані за кількістю часових поясів і називає 146 місць. Давно вважається одним із найвідоміших місць зустрічей у Берліні."
+      }
+    }
+  ],
+  "sources": [
+    "https://de.wikipedia.org/wiki/Brandenburger_Tor",
+    "https://de.wikipedia.org/wiki/Bebelplatz",
+    "https://de.wikipedia.org/wiki/Berliner_Dom",
+    "https://de.wikipedia.org/wiki/Neptunbrunnen_(Berlin)",
+    "https://de.wikipedia.org/wiki/Urania-Weltzeituhr"
+  ]
+}

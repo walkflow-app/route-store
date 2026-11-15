@@ -1,0 +1,108 @@
+{
+  "file": "lviv-opera-high-castle",
+  "country": "UA",
+  "tags": [
+    "city",
+    "sights",
+    "old-town"
+  ],
+  "name": {
+    "en": "Opera House to the High Castle",
+    "de": "Vom Opernhaus zum Hohen Schloss",
+    "fr": "De l’Opéra au Haut Château",
+    "uk": "Від Оперного театру до Високого замку"
+  },
+  "place": {
+    "en": "Lviv, Ukraine",
+    "de": "Lwiw, Ukraine",
+    "fr": "Lviv, Ukraine",
+    "uk": "Львів, Україна"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) from the Opera House along Svobody Avenue into the old town, past the Armenian Cathedral to the Rynok Square with the Town Hall and then uphill to the High Castle, the highest point of the city. The last part is steep.",
+    "de": "Rund {km} km vom Opernhaus über die Freiheitsallee in die Altstadt, an der Armenischen Kathedrale vorbei zum Marktplatz Rynok mit dem Rathaus und dann bergauf zum Hohen Schloss, dem höchsten Punkt der Stadt. Der letzte Teil ist steil.",
+    "fr": "Environ {km} km depuis l’Opéra, par l’avenue de la Liberté jusque dans la vieille ville, devant la cathédrale arménienne puis la place du Marché (Rynok) et son hôtel de ville, enfin en montée jusqu’au Haut Château, point culminant de la ville. La dernière partie est raide.",
+    "uk": "Близько {km} км від Оперного театру проспектом Свободи до старого міста, повз Вірменський собор до площі Ринок із Ратушею, а потім угору до Високого замку — найвищої точки міста. Остання частина крута."
+  },
+  "waypoints": [
+    {
+      "at": [
+        49.84403,
+        24.02625
+      ],
+      "name": {
+        "en": "Lviv Opera House",
+        "de": "Opernhaus Lwiw",
+        "fr": "Opéra de Lviv",
+        "uk": "Львівський оперний театр"
+      },
+      "text": {
+        "en": "Opened on 4 October 1900 after three years of building; the jury picked Zygmunt Gorgolewski’s design from a competition in 1895. He built over the river Poltva, which was led underground, on a reinforced-concrete base. Statues of Glory, Poetry and Music crown the building.",
+        "de": "Am 4. Oktober 1900 nach drei Jahren Bauzeit eröffnet; die Jury wählte 1895 den Entwurf von Zygmunt Gorgolewski aus einem Wettbewerb. Er baute über dem Fluss Poltwa, der unter die Erde geleitet wurde, auf einem Stahlbetonfundament. Statuen von Ruhm, Poesie und Musik krönen das Gebäude.",
+        "fr": "Inauguré le 4 octobre 1900 après trois ans de travaux ; le jury retint en 1895 le projet de Zygmunt Gorgolewski lors d’un concours. Il bâtit au-dessus de la rivière Poltva, mise sous terre, sur une base en béton armé. Des statues de la Gloire, de la Poésie et de la Musique couronnent l’édifice.",
+        "uk": "Відкритий 4 жовтня 1900 року після трьох років будівництва; журі обрало проєкт Зигмунта Горгольовського з конкурсу 1895 року. Він збудував театр над річкою Полтвою, яку заховали під землю, на залізобетонній основі. Скульптури Слави, Поезії та Музики вінчають будівлю."
+      }
+    },
+    {
+      "at": [
+        49.84344,
+        24.03049
+      ],
+      "name": {
+        "en": "Armenian Cathedral",
+        "de": "Armenische Kathedrale",
+        "fr": "Cathédrale arménienne",
+        "uk": "Вірменський собор"
+      },
+      "text": {
+        "en": "A small Armenian church was built here between 1363 and 1370, founded by an Armenian merchant from Caffa and modelled on the cathedral of Ani. It was the cathedral of the Armenian Catholic archdiocese until 1945; since 2000 it belongs to the Armenian Diocese of Ukraine.",
+        "de": "Zwischen 1363 und 1370 entstand hier eine kleine armenische Kirche, gestiftet von einem armenischen Kaufmann aus Caffa und der Kathedrale von Ani nachempfunden. Bis 1945 war sie Kathedrale des armenisch-katholischen Erzbistums; seit 2000 gehört sie zur Armenischen Diözese der Ukraine.",
+        "fr": "Une petite église arménienne fut bâtie ici entre 1363 et 1370, fondée par un marchand arménien de Caffa sur le modèle de la cathédrale d’Ani. Cathédrale de l’archidiocèse arménien catholique jusqu’en 1945, elle relève depuis 2000 du diocèse arménien d’Ukraine.",
+        "uk": "Між 1363 і 1370 роками тут збудували невелику вірменську церкву; її заснував вірменський купець із Кафи за зразком собору в Ані. До 1945 року це був кафедральний собор вірменсько-католицької архиєпархії; від 2000 року він належить Вірменській єпархії в Україні."
+      }
+    },
+    {
+      "at": [
+        49.84191,
+        24.03114
+      ],
+      "name": {
+        "en": "Town Hall on Rynok Square",
+        "de": "Rathaus am Rynok",
+        "fr": "Hôtel de ville de la place Rynok",
+        "uk": "Ратуша на площі Ринок"
+      },
+      "text": {
+        "en": "The present Town Hall was built in 1827–1835 in a Viennese Classical style; its tower is 65 m high and has been open to visitors since 2000. A wooden town hall of the 14th century burned down in 1381. The historic centre of Lviv has been a UNESCO World Heritage Site since 1998.",
+        "de": "Das heutige Rathaus entstand 1827–1835 im Wiener klassizistischen Stil; sein Turm ist 65 m hoch und seit 2000 für Besucher geöffnet. Ein hölzernes Rathaus aus dem 14. Jahrhundert brannte 1381 ab. Das historische Zentrum von Lwiw ist seit 1998 UNESCO-Welterbe.",
+        "fr": "L’hôtel de ville actuel fut construit en 1827–1835 dans un style classique viennois ; sa tour de 65 m est ouverte aux visiteurs depuis 2000. Un hôtel de ville en bois du XIVe siècle brûla en 1381. Le centre historique de Lviv est inscrit au patrimoine mondial de l’UNESCO depuis 1998.",
+        "uk": "Нинішню ратушу збудували в 1827–1835 роках у віденському класицистичному стилі; її вежа заввишки 65 м відкрита для відвідувачів із 2000 року. Дерев’яна ратуша XIV століття згоріла 1381 року. Історичний центр Львова — об’єкт Світової спадщини ЮНЕСКО з 1998 року."
+      }
+    },
+    {
+      "at": [
+        49.84939,
+        24.03915
+      ],
+      "name": {
+        "en": "High Castle",
+        "de": "Hohes Schloss",
+        "fr": "Haut Château",
+        "uk": "Високий замок"
+      },
+      "text": {
+        "en": "Castle Hill, 413 m above sea level, is the highest point in the city. A stone castle was built here around 1362 and called the High Castle in contrast to the Lower Castle in the city. The mound of 1869 marks 300 years of the Union of Lublin and has an observation platform.",
+        "de": "Der Schlossberg, 413 m über dem Meer, ist der höchste Punkt der Stadt. Um 1362 entstand hier eine steinerne Burg, die zum Unterschied von der Unteren Burg in der Stadt Hohes Schloss hieß. Der Hügel von 1869 erinnert an 300 Jahre Union von Lublin und hat eine Aussichtsplattform.",
+        "fr": "La colline du Château, à 413 m d’altitude, est le point culminant de la ville. Un château de pierre y fut bâti vers 1362 et appelé Haut Château par opposition au Château bas, dans la ville. Le tertre de 1869 marque les 300 ans de l’Union de Lublin et porte une plate-forme panoramique.",
+        "uk": "Замкова гора, 413 м над рівнем моря, — найвища точка міста. Кам’яний замок збудували тут близько 1362 року, і його назвали Високим на противагу Низькому замку в місті. Насип 1869 року позначає 300 років Люблінської унії та має оглядовий майданчик."
+      }
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lviv_Theatre_of_Opera_and_Ballet",
+    "https://en.wikipedia.org/wiki/Lviv_Town_Hall",
+    "https://en.wikipedia.org/wiki/Lviv",
+    "https://en.wikipedia.org/wiki/Lviv_High_Castle",
+    "https://en.wikipedia.org/wiki/Armenian_Cathedral,_Lviv"
+  ]
+}

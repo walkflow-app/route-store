@@ -1,0 +1,109 @@
+{
+  "file": "amsterdam-centraal-rijksmuseum",
+  "country": "NL",
+  "snapDist": 150,
+  "corr": 400,
+  "tags": [
+    "city",
+    "sights",
+    "canals"
+  ],
+  "name": {
+    "en": "Centraal Station to the Rijksmuseum",
+    "de": "Vom Hauptbahnhof zum Rijksmuseum",
+    "fr": "De la gare centrale au Rijksmuseum",
+    "uk": "Від Центрального вокзалу до Рейксмузею"
+  },
+  "place": {
+    "en": "Amsterdam, Netherlands",
+    "de": "Amsterdam, Niederlande",
+    "fr": "Amsterdam, Pays-Bas",
+    "uk": "Амстердам, Нідерланди"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) from Amsterdam Centraal over the Dam and along the canals of the old centre to the Floating Flower Market and the Rijksmuseum. Completely flat; watch out for bicycles.",
+    "de": "Rund {km} km vom Amsterdamer Hauptbahnhof über den Dam und entlang der Grachten der Altstadt zum schwimmenden Blumenmarkt und zum Rijksmuseum. Völlig eben; Vorsicht vor Fahrrädern.",
+    "fr": "Environ {km} km depuis la gare centrale d’Amsterdam, par le Dam et le long des canaux du centre ancien, jusqu’au marché aux fleurs flottant et au Rijksmuseum. Entièrement plat ; attention aux vélos.",
+    "uk": "Близько {km} км від Центрального вокзалу Амстердама через площу Дам і вздовж каналів старого центру до плавучого квіткового ринку та Рейксмузею. Усе рівно; стережіться велосипедів."
+  },
+  "waypoints": [
+    {
+      "at": [
+        52.3789,
+        4.90058
+      ],
+      "name": {
+        "en": "Amsterdam Centraal",
+        "de": "Amsterdam Centraal",
+        "fr": "Amsterdam Centraal",
+        "uk": "Амстердам-Сентраал"
+      },
+      "text": {
+        "en": "Opened on 15 October 1889 and designed by Pierre Cuypers, who also designed the Rijksmuseum, the goal of this walk. The station stands on three artificial islands in the IJ and was built on 8,687 wooden piles.",
+        "de": "Am 15. Oktober 1889 eröffnet und von Pierre Cuypers entworfen, der auch das Rijksmuseum, das Ziel dieses Spaziergangs, plante. Der Bahnhof steht auf drei künstlichen Inseln im IJ und wurde auf 8.687 Holzpfähle gebaut.",
+        "fr": "Inaugurée le 15 octobre 1889 et conçue par Pierre Cuypers, qui dessina aussi le Rijksmuseum, but de cette promenade. La gare repose sur trois îles artificielles dans l’IJ, construites sur 8 687 pieux en bois.",
+        "uk": "Відкритий 15 жовтня 1889 року за проєктом П’єра Кейпера, який створив і Рейксмузей — ціль цієї прогулянки. Вокзал стоїть на трьох штучних островах у затоці ІЙ і спирається на 8687 дерев’яних паль."
+      }
+    },
+    {
+      "at": [
+        52.37312,
+        4.89235
+      ],
+      "name": {
+        "en": "Dam Square",
+        "de": "Dam",
+        "fr": "Place du Dam",
+        "uk": "Площа Дам"
+      },
+      "text": {
+        "en": "A dam in the Amstel around 1270 gave the square and the city their name. The Royal Palace was the city hall from 1655 until 1808, then a royal residence. The Nieuwe Kerk next to it is from the 15th century; the National Monument of 1956 remembers the victims of the Second World War.",
+        "de": "Ein Damm in der Amstel um 1270 gab dem Platz und der Stadt den Namen. Der Königliche Palast war von 1655 bis 1808 das Rathaus, danach Residenz des Königs. Die Nieuwe Kerk daneben stammt aus dem 15. Jahrhundert; das Nationaldenkmal von 1956 erinnert an die Opfer des Zweiten Weltkriegs.",
+        "fr": "Un barrage sur l’Amstel vers 1270 a donné son nom à la place et à la ville. Le palais royal fut l’hôtel de ville de 1655 à 1808, puis une résidence royale. La Nieuwe Kerk voisine date du XVe siècle ; le Monument national de 1956 rappelle les victimes de la Seconde Guerre mondiale.",
+        "uk": "Дамба на річці Амстел близько 1270 року дала назву площі та місту. Королівський палац був ратушею з 1655 до 1808 року, потім став королівською резиденцією. Поруч — Ньїве-Керк XV століття; Національний монумент 1956 року вшановує жертв Другої світової війни."
+      }
+    },
+    {
+      "at": [
+        52.36693,
+        4.89076
+      ],
+      "name": {
+        "en": "Floating Flower Market",
+        "de": "Schwimmender Blumenmarkt",
+        "fr": "Marché aux fleurs flottant",
+        "uk": "Плавучий квітковий ринок"
+      },
+      "text": {
+        "en": "The Bloemenmarkt on the Singel, between Muntplein and Koningsplein, has been here since 1862 and is the world’s only floating flower market. Today most stalls are souvenir shops; only a few still sell fresh flowers.",
+        "de": "Der Bloemenmarkt am Singel, zwischen Muntplein und Koningsplein, besteht seit 1862 und ist der einzige schwimmende Blumenmarkt der Welt. Heute sind die meisten Stände Souvenirläden; nur wenige verkaufen noch frische Blumen.",
+        "fr": "Le Bloemenmarkt sur le Singel, entre Muntplein et Koningsplein, existe depuis 1862 et c’est le seul marché aux fleurs flottant au monde. Aujourd’hui, la plupart des étals sont des boutiques de souvenirs ; peu vendent encore des fleurs fraîches.",
+        "uk": "Ринок Блуменмаркт на каналі Сінгел, між Мюнтплейн і Конінгсплейн, діє з 1862 року і є єдиним у світі плавучим квітковим ринком. Нині більшість кіосків — сувенірні крамниці; свіжі квіти продають лише кілька."
+      }
+    },
+    {
+      "at": [
+        52.35984,
+        4.88504
+      ],
+      "name": {
+        "en": "Rijksmuseum",
+        "de": "Rijksmuseum",
+        "fr": "Rijksmuseum",
+        "uk": "Рейксмузей"
+      },
+      "text": {
+        "en": "Founded by decision of 1798, opened in The Hague in 1800 and moved to Amsterdam in 1808. Pierre Cuypers’ building opened in 1885; after a ten-year renovation it reopened on 13 April 2013. About 8,000 of its one million objects are on show, among them Rembrandt’s Night Watch.",
+        "de": "Per Beschluss von 1798 gegründet, 1800 in Den Haag eröffnet und 1808 nach Amsterdam verlegt. Pierre Cuypers’ Gebäude öffnete 1885; nach zehnjähriger Renovierung wurde es am 13. April 2013 wiedereröffnet. Rund 8.000 von einer Million Objekten sind ausgestellt, darunter Rembrandts Nachtwache.",
+        "fr": "Fondé par une décision de 1798, ouvert à La Haye en 1800 puis transféré à Amsterdam en 1808. Le bâtiment de Pierre Cuypers ouvrit en 1885 ; après dix ans de rénovation, il rouvrit le 13 avril 2013. Environ 8 000 de ses un million d’objets sont exposés, dont La Ronde de nuit de Rembrandt.",
+        "uk": "Заснований за ухвалою 1798 року, відкритий у Гаазі 1800-го і переїхав до Амстердама 1808 року. Будівля П’єра Кейпера відкрилася 1885-го; після десятирічного ремонту її знову відкрили 13 квітня 2013 року. З мільйона експонатів показують близько 8000, серед них «Нічну варту» Рембрандта."
+      }
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Amsterdam_Centraal_station",
+    "https://en.wikipedia.org/wiki/Dam_Square",
+    "https://en.wikipedia.org/wiki/Bloemenmarkt",
+    "https://en.wikipedia.org/wiki/Rijksmuseum"
+  ]
+}

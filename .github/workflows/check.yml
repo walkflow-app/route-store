@@ -1,7 +1,8 @@
 name: Check routes
 
 # Pull requests: check the route files. After a merge to main: check them again and write index.json.
-# The checks are the code of the app's repository (scripts/build-store.mjs), so a route that passes is one the app can read.
+# scripts/build-store.mjs is run with a checkout of the app's repository (app/), whose code reads the packages, so a route that passes is
+# one the app can read.
 
 on:
   pull_request:
@@ -52,24 +53,10 @@ jobs:
             exit 1
           fi
       - name: Check the route files
-        run: node app/scripts/build-store.mjs --root store --check --files-only
+        run: node store/scripts/build-store.mjs --root store --app app --check --files-only
 
   tests:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-node@v7
-        with:
-          node-version: 24
-      - name: Test the scripts of this repository
-        run: node --test
-
-  index:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: [check, tests]
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v7
         with:
@@ -86,8 +73,39 @@ jobs:
           cache-dependency-path: app/package-lock.json
       - run: npm ci
         working-directory: app
+      - name: Test the scripts of this repository
+        working-directory: store
+        run: node --test
+        env:
+          WALKFLOW_APP: ${{ github.workspace }}/app
+
+  index:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: [check, tests]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Pushed with the deploy key INDEX_DEPLOY_KEY (its public half is a deploy key with write access in this repository),
+      # because the ruleset lets only that key push to main without a pull request. Without the secret the workflow token is used.
+      - uses: actions/checkout@v7
+        with:
+          path: store
+          ssh-key: ${{ secrets.INDEX_DEPLOY_KEY }}
+      - uses: actions/checkout@v7
+        with:
+          repository: walkflow-app/walkflow
+          ref: main
+          path: app
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+        working-directory: app
       - name: Write index.json
-        run: node app/scripts/build-store.mjs --root store
+        run: node store/scripts/build-store.mjs --root store --app app
       - name: Commit it if it changed
         working-directory: store
         run: |

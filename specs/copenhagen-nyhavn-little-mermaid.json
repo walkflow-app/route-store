@@ -1,0 +1,127 @@
+{
+  "file": "copenhagen-nyhavn-little-mermaid",
+  "country": "DK",
+  "snapDist": 150,
+  "corr": 400,
+  "tags": [
+    "city",
+    "sights"
+  ],
+  "name": {
+    "en": "Nyhavn to the Little Mermaid",
+    "de": "Von Nyhavn zur Kleinen Meerjungfrau",
+    "fr": "De Nyhavn à la Petite Sirène",
+    "uk": "Від Ньюгавна до Русалоньки"
+  },
+  "place": {
+    "en": "Copenhagen, Denmark",
+    "de": "Kopenhagen, Dänemark",
+    "fr": "Copenhague, Danemark",
+    "uk": "Копенгаген, Данія"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) from the old harbour canal of Nyhavn past the royal palaces of Amalienborg and the Marble Church, through the star-shaped fortress of Kastellet to the Little Mermaid on the shore. Flat all the way.",
+    "de": "Rund {km} km vom alten Hafenkanal Nyhavn an den Königspalästen von Amalienborg und der Marmorkirche vorbei, durch die sternförmige Festung Kastellet bis zur Kleinen Meerjungfrau am Ufer. Die ganze Strecke ist eben.",
+    "fr": "Environ {km} km depuis l’ancien canal du port de Nyhavn, devant les palais royaux d’Amalienborg et l’église de Marbre, à travers la forteresse en étoile de Kastellet jusqu’à la Petite Sirène au bord de l’eau. Tout est plat.",
+    "uk": "Близько {km} км від старого портового каналу Ньюгавн повз королівські палаци Амалієнборг і Мармурову церкву, крізь зіркоподібну фортецю Кастеллет до Русалоньки на березі. Весь шлях рівний."
+  },
+  "waypoints": [
+    {
+      "at": [
+        55.67993,
+        12.58935
+      ],
+      "name": {
+        "en": "Nyhavn",
+        "de": "Nyhavn",
+        "fr": "Nyhavn",
+        "uk": "Ньюгавн"
+      },
+      "text": {
+        "en": "The canal was dug in 1670–1675 under Christian V as a gateway from the sea to Kongens Nytorv. Hans Christian Andersen lived at No. 67 from 1845 to 1864 and at No. 18 from 1871 to 1875. No. 9, from 1681, is the oldest house.",
+        "de": "Der Kanal wurde 1670–1675 unter Christian V. als Zugang vom Meer zum Kongens Nytorv gegraben. Hans Christian Andersen wohnte 1845–1864 in Nr. 67 und 1871–1875 in Nr. 18. Nr. 9 von 1681 ist das älteste Haus.",
+        "fr": "Le canal fut creusé en 1670–1675 sous Christian V comme porte d’entrée de la mer vers Kongens Nytorv. Hans Christian Andersen vécut au no 67 de 1845 à 1864 et au no 18 de 1871 à 1875. Le no 9, de 1681, est la plus ancienne maison.",
+        "uk": "Канал прокопали в 1670–1675 роках за Кристіана V як вхід із моря до Конгенс Нюторв. Ганс Крістіан Андерсен жив у будинку № 67 з 1845 до 1864 року та в № 18 з 1871 до 1875-го. Будинок № 9, 1681 року, — найстаріший."
+      }
+    },
+    {
+      "at": [
+        55.68396,
+        12.59308
+      ],
+      "name": {
+        "en": "Amalienborg",
+        "de": "Amalienborg",
+        "fr": "Amalienborg",
+        "uk": "Амалієнборг"
+      },
+      "text": {
+        "en": "Four identical palaces around an octagonal courtyard, designed by Nicolai Eigtved and built 1750–1760. The royal family bought them after the Christiansborg fire of 1794. Frederick V’s equestrian statue by Jacques Saly was unveiled in 1771; the guard changes at noon.",
+        "de": "Vier gleiche Palais um einen achteckigen Hof, von Nicolai Eigtved entworfen und 1750–1760 gebaut. Nach dem Brand von Christiansborg 1794 kaufte die Königsfamilie sie. Das Reiterstandbild Friedrichs V. von Jacques Saly wurde 1771 enthüllt; die Wachablösung ist mittags.",
+        "fr": "Quatre palais identiques autour d’une cour octogonale, conçus par Nicolai Eigtved et construits de 1750 à 1760. La famille royale les acheta après l’incendie de Christiansborg en 1794. La statue équestre de Frédéric V par Jacques Saly fut dévoilée en 1771 ; la relève de la garde a lieu à midi.",
+        "uk": "Чотири однакові палаци навколо восьмикутного двору, спроєктовані Ніколаєм Ейгтведом і збудовані в 1750–1760 роках. Королівська родина придбала їх після пожежі в Крістіансборзі 1794 року. Кінну статую Фредеріка V роботи Жака Салі відкрили 1771-го; зміна варти — опівдні."
+      }
+    },
+    {
+      "at": [
+        55.68497,
+        12.58955
+      ],
+      "name": {
+        "en": "Marble Church",
+        "de": "Marmorkirche",
+        "fr": "Église de Marbre",
+        "uk": "Мармурова церква"
+      },
+      "text": {
+        "en": "Frederik’s Church: Frederick V laid the foundation stone on 31 October 1749, but it opened only on 19 August 1894. Its dome, 31 m across, is the largest church dome in Scandinavia. The church lies due west of Amalienborg.",
+        "de": "Frederiks Kirke: Friedrich V. legte den Grundstein am 31. Oktober 1749, eröffnet wurde sie erst am 19. August 1894. Ihre Kuppel mit 31 m Spannweite ist die größte Kirchenkuppel Skandinaviens. Die Kirche liegt genau westlich von Amalienborg.",
+        "fr": "L’église Frédéric : Frédéric V posa la première pierre le 31 octobre 1749, mais elle n’ouvrit que le 19 août 1894. Sa coupole, de 31 m de diamètre, est la plus grande coupole d’église de Scandinavie. L’église se trouve plein ouest d’Amalienborg.",
+        "uk": "Церква Фредеріка: Фредерік V заклав перший камінь 31 жовтня 1749 року, але відкрили її лише 19 серпня 1894-го. Її купол діаметром 31 м — найбільший церковний купол у Скандинавії. Церква лежить прямо на захід від Амалієнборгу."
+      }
+    },
+    {
+      "at": [
+        55.69138,
+        12.59374
+      ],
+      "name": {
+        "en": "Kastellet",
+        "de": "Kastellet",
+        "fr": "Kastellet",
+        "uk": "Кастеллет"
+      },
+      "text": {
+        "en": "A pentagonal star fortress with bastions at its corners, built in the 1660s and one of the best preserved in Northern Europe. It is still a military area, yet open to the public as a park. The windmill on the King’s Bastion dates from 1847.",
+        "de": "Eine fünfeckige Sternfestung mit Bastionen an den Ecken, in den 1660er-Jahren gebaut und eine der am besten erhaltenen in Nordeuropa. Sie ist noch immer militärisches Gelände, aber als Park öffentlich zugänglich. Die Windmühle auf dem Königsbastion stammt von 1847.",
+        "fr": "Une forteresse en étoile pentagonale, avec des bastions à ses angles, construite dans les années 1660 et l’une des mieux conservées d’Europe du Nord. C’est toujours une zone militaire, mais ouverte au public comme parc. Le moulin du bastion du Roi date de 1847.",
+        "uk": "П’ятикутна зіркоподібна фортеця з бастіонами по кутах, збудована в 1660-х роках і одна з найкраще збережених у Північній Європі. Досі це військова територія, але відкрита для відвідувачів як парк. Вітряк на Королівському бастіоні — 1847 року."
+      }
+    },
+    {
+      "at": [
+        55.69287,
+        12.59929
+      ],
+      "name": {
+        "en": "The Little Mermaid",
+        "de": "Die Kleine Meerjungfrau",
+        "fr": "La Petite Sirène",
+        "uk": "Русалонька"
+      },
+      "text": {
+        "en": "Edvard Eriksen’s bronze, unveiled on 23 August 1913, was ordered in 1909 by Carl Jacobsen, son of the Carlsberg founder. It is 1.25 m tall, weighs 175 kg and follows Hans Christian Andersen’s fairy tale of 1837. Eriksen’s wife Eline was the model.",
+        "de": "Edvard Eriksens Bronze, am 23. August 1913 enthüllt, bestellte 1909 Carl Jacobsen, der Sohn des Carlsberg-Gründers. Sie ist 1,25 m groß, wiegt 175 kg und folgt Hans Christian Andersens Märchen von 1837. Modell stand Eriksens Frau Eline.",
+        "fr": "Le bronze d’Edvard Eriksen, dévoilé le 23 août 1913, fut commandé en 1909 par Carl Jacobsen, fils du fondateur de Carlsberg. Haut de 1,25 m et pesant 175 kg, il suit le conte de Hans Christian Andersen de 1837. Le modèle fut Eline, l’épouse d’Eriksen.",
+        "uk": "Бронзову скульптуру Едварда Еріксена, відкриту 23 серпня 1913 року, замовив 1909-го Карл Якобсен, син засновника «Карлсберга». Висота — 1,25 м, вага — 175 кг, сюжет — казка Ганса Крістіана Андерсена 1837 року. Моделлю стала дружина Еріксена Еліне."
+      }
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Nyhavn",
+    "https://en.wikipedia.org/wiki/Amalienborg",
+    "https://en.wikipedia.org/wiki/Frederik%27s_Church",
+    "https://en.wikipedia.org/wiki/Kastellet,_Copenhagen",
+    "https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue)"
+  ]
+}

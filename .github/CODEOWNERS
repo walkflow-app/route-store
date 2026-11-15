@@ -1,0 +1,8 @@
+# Who has to look at what. Today one maintainer owns everything; the explicit lines mark the checks of the store and
+# the agent setup, which must never be merged without a human review, for when agents open pull requests.
+*                               @caenderl
+
+scripts/build-store.mjs         @caenderl
+.github/                        @caenderl
+CLAUDE.md                       @caenderl
+.claude/                        @caenderl
