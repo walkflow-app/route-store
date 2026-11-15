@@ -1,0 +1,107 @@
+{
+  "file": "paris-notre-dame-concorde",
+  "country": "FR",
+  "tags": ["city", "sights"],
+  "name": {
+    "en": "Notre-Dame to Place de la Concorde",
+    "de": "Von Notre-Dame zur Place de la Concorde",
+    "fr": "De Notre-Dame à la place de la Concorde",
+    "uk": "Від Нотр-Дам до площі Згоди"
+  },
+  "place": {
+    "en": "Paris, France",
+    "de": "Paris, Frankreich",
+    "fr": "Paris, France",
+    "uk": "Париж, Франція"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) through the heart of Paris: from Notre-Dame on the Île de la Cité over the Seine, past the Louvre and through the Tuileries to the Place de la Concorde. Five famous places on one walk, from the Middle Ages to Napoleon.",
+    "de": "Rund {km} km durchs Herz von Paris: von Notre-Dame auf der Île de la Cité über die Seine, am Louvre vorbei und durch die Tuilerien zur Place de la Concorde. Fünf berühmte Orte auf einem Spaziergang, vom Mittelalter bis zu Napoleon.",
+    "fr": "Environ {km} km au cœur de Paris : de Notre-Dame, sur l’île de la Cité, par-dessus la Seine, devant le Louvre et à travers les Tuileries jusqu’à la place de la Concorde. Cinq lieux célèbres en une promenade, du Moyen Âge à Napoléon.",
+    "uk": "Близько {km} км серцем Парижа: від Нотр-Дам на острові Сіте через Сену, повз Лувр і крізь сад Тюїльрі до площі Згоди. П’ять відомих місць за одну прогулянку — від Середньовіччя до Наполеона."
+  },
+  "waypoints": [
+    {
+      "at": [48.85294, 2.35005],
+      "name": {
+        "en": "Notre-Dame de Paris",
+        "de": "Notre-Dame de Paris",
+        "fr": "Notre-Dame de Paris",
+        "uk": "Нотр-Дам-де-Парі"
+      },
+      "text": {
+        "en": "Begun in 1163 under Bishop Maurice de Sully. On 15 April 2019 a fire destroyed the spire and the wooden roof; the cathedral reopened on 7–8 December 2024. It is 128 m long and 48 m wide.",
+        "de": "Der Bau begann 1163 unter Bischof Maurice de Sully. Am 15. April 2019 zerstörte ein Feuer den Dachreiter und das hölzerne Dach; am 7. und 8. Dezember 2024 wurde die Kathedrale wiedereröffnet. Sie ist 128 m lang und 48 m breit.",
+        "fr": "Sa construction commença en 1163 sous l’évêque Maurice de Sully. Le 15 avril 2019, un incendie détruisit la flèche et la charpente ; la cathédrale rouvrit les 7 et 8 décembre 2024. Elle mesure 128 m de long et 48 m de large.",
+        "uk": "Будівництво почалося 1163 року за єпископа Моріса де Сюллі. 15 квітня 2019 року пожежа знищила шпиль і дерев’яний дах; 7–8 грудня 2024 року собор знову відкрили. Довжина будівлі — 128 м, ширина — 48 м."
+      }
+    },
+    {
+      "at": [48.8578, 2.34192],
+      "name": {
+        "en": "Pont Neuf",
+        "de": "Pont Neuf",
+        "fr": "Pont Neuf",
+        "uk": "Пон-Неф"
+      },
+      "text": {
+        "en": "The “New Bridge” is the oldest standing bridge over the Seine in Paris: begun under Henry III in 1578, finished in 1606 and opened by Henry IV in 1607. It is 232 m long and 22 m wide. Christo and Jeanne-Claude wrapped it in 1985.",
+        "de": "Die „Neue Brücke“ ist die älteste erhaltene Brücke über die Seine in Paris: 1578 unter Heinrich III. begonnen, 1606 fertig und 1607 von Heinrich IV. eingeweiht. Sie ist 232 m lang und 22 m breit. Christo und Jeanne-Claude verhüllten sie 1985.",
+        "fr": "Le « Pont neuf » est le plus ancien pont encore debout sur la Seine à Paris : commencé sous Henri III en 1578, achevé en 1606 et inauguré par Henri IV en 1607. Il mesure 232 m de long et 22 m de large. Christo et Jeanne-Claude l’empaquetèrent en 1985.",
+        "uk": "«Новий міст» — найстаріший міст через Сену в Парижі, що зберігся: розпочатий за Генріха III 1578 року, завершений 1606-го й відкритий Генріхом IV 1607 року. Довжина — 232 м, ширина — 22 м. 1985 року Крісто й Жанна-Клод загорнули його в тканину."
+      }
+    },
+    {
+      "at": [48.86099, 2.33584],
+      "name": {
+        "en": "Louvre Pyramid",
+        "de": "Louvre-Pyramide",
+        "fr": "Pyramide du Louvre",
+        "uk": "Піраміда Лувру"
+      },
+      "text": {
+        "en": "I. M. Pei’s glass pyramid, completed in 1989, is 21.6 m high with 673 panes. It is the main entrance of the Louvre and lets light into the hall below. Critics found its modern look at odds with the Renaissance palace.",
+        "de": "Die Glaspyramide von I. M. Pei, 1989 fertiggestellt, ist 21,6 m hoch und hat 673 Scheiben. Sie ist der Haupteingang des Louvre und lässt Licht in die Halle darunter. Kritiker fanden, dass ihre moderne Form nicht zum Renaissance-Palast passt.",
+        "fr": "La pyramide de verre d’I. M. Pei, achevée en 1989, mesure 21,6 m de haut et compte 673 vitres. C’est l’entrée principale du Louvre ; elle éclaire le hall en dessous. Ses détracteurs jugeaient son style moderne en désaccord avec le palais Renaissance.",
+        "uk": "Скляна піраміда І. М. Пея, завершена 1989 року, має висоту 21,6 м і 673 скла. Це головний вхід до Лувру, вона пропускає світло в зал унизу. Критики вважали її сучасний вигляд невідповідним палацу доби Відродження."
+      }
+    },
+    {
+      "at": [48.86173, 2.33291],
+      "name": {
+        "en": "Arc de Triomphe du Carrousel",
+        "de": "Arc de Triomphe du Carrousel",
+        "fr": "Arc de triomphe du Carrousel",
+        "uk": "Тріумфальна арка Каррузель"
+      },
+      "text": {
+        "en": "Built 1806–1808 for Napoleon I as the gateway of the Tuileries Palace, modelled on the Arch of Constantine; about 19 m high. The Horses of Saint Mark from Venice first stood on top and went back in 1815. The quadriga there now, by Bosio (1828), represents Peace.",
+        "de": "1806–1808 für Napoleon I. als Tor des Tuilerienpalasts gebaut, dem Konstantinsbogen nachempfunden, etwa 19 m hoch. Zuerst standen die Pferde von San Marco aus Venedig oben, 1815 gingen sie zurück. Die heutige Quadriga von Bosio (1828) stellt den Frieden dar.",
+        "fr": "Construit en 1806–1808 pour Napoléon Ier comme porte du palais des Tuileries, sur le modèle de l’arc de Constantin ; environ 19 m de haut. Les chevaux de Saint-Marc de Venise l’ont d’abord couronné, avant de repartir en 1815. L’actuel quadrige de Bosio (1828) figure la Paix.",
+        "uk": "Споруджена 1806–1808 років для Наполеона I як брама палацу Тюїльрі за зразком арки Костянтина, висота — близько 19 м. Спершу її вінчали коні собору Святого Марка з Венеції, 1815 року їх повернули. Нинішня квадрига Бозіо (1828) уособлює Мир."
+      }
+    },
+    {
+      "at": [48.86548, 2.32113],
+      "name": {
+        "en": "Place de la Concorde",
+        "de": "Place de la Concorde",
+        "fr": "Place de la Concorde",
+        "uk": "Площа Згоди"
+      },
+      "text": {
+        "en": "Laid out by Gabriel as Place Louis XV and the largest square in Paris (359 × 212 m). The Luxor Obelisk, about 3,300 years old and a gift from Egypt, was raised here on 25 October 1836. During the Revolution 1,119 people were guillotined on this square.",
+        "de": "Von Gabriel als Place Louis XV angelegt und der größte Platz von Paris (359 × 212 m). Der Obelisk von Luxor, rund 3.300 Jahre alt und ein Geschenk Ägyptens, wurde hier am 25. Oktober 1836 aufgestellt. In der Revolution wurden auf diesem Platz 1.119 Menschen guillotiniert.",
+        "fr": "Dessinée par Gabriel sous le nom de place Louis XV, c’est la plus grande place de Paris (359 × 212 m). L’obélisque de Louxor, vieux d’environ 3 300 ans et don de l’Égypte, y fut dressé le 25 octobre 1836. Pendant la Révolution, 1 119 personnes y furent guillotinées.",
+        "uk": "Спроєктована Габрієлем як площа Людовика XV, це найбільша площа Парижа (359 × 212 м). Луксорський обеліск, якому близько 3300 років і який подарував Єгипет, тут встановили 25 жовтня 1836 року. Під час Революції на цій площі стратили гільйотиною 1119 осіб."
+      }
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+    "https://en.wikipedia.org/wiki/Pont_Neuf",
+    "https://en.wikipedia.org/wiki/Louvre_Pyramid",
+    "https://en.wikipedia.org/wiki/Arc_de_Triomphe_du_Carrousel",
+    "https://en.wikipedia.org/wiki/Place_de_la_Concorde"
+  ]
+}

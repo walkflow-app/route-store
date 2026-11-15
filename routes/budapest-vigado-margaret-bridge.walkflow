@@ -1,0 +1,181 @@
+{
+  "format": "walkflow-route",
+  "version": 1,
+  "revision": 1,
+  "name": {
+    "en": "Vigadó to Margaret Bridge",
+    "de": "Vom Vigadó zur Margaretenbrücke",
+    "fr": "Du Vigadó au pont Marguerite",
+    "uk": "Від Віґадо до мосту Маргарити"
+  },
+  "place": {
+    "en": "Budapest, Hungary",
+    "de": "Budapest, Ungarn",
+    "fr": "Budapest, Hongrie",
+    "uk": "Будапешт, Угорщина"
+  },
+  "country": "HU",
+  "defaultSpeed": 4,
+  "tags": [
+    "city",
+    "sights",
+    "river"
+  ],
+  "author": "Walkflow",
+  "license": "ODbL-1.0",
+  "source": "© OpenStreetMap contributors (ODbL)",
+  "description": {
+    "en": "About 3.3 km (2.0 miles) along the Pest bank of the Danube: from the Vigadó concert hall over the Chain Bridge, past the memorial of the shoes and the Parliament to the Margaret Bridge, with the castle hill on the other bank across the water.",
+    "de": "Rund 3,3 km am Pester Donauufer: vom Konzertsaal Vigadó an der Kettenbrücke und am Schuhe-Denkmal und am Parlament vorbei zur Margaretenbrücke, mit dem Burgberg auf dem anderen Ufer gegenüber.",
+    "fr": "Environ 3,3 km sur la rive de Pest du Danube : de la salle de concert Vigadó, devant le pont des Chaînes, le mémorial des chaussures et le Parlement, jusqu’au pont Marguerite, avec la colline du Château sur l’autre rive.",
+    "uk": "Близько 3,3 км берегом Дунаю з боку Пешта: від концертної зали Віґадо повз Ланцюговий міст, меморіал із черевиками та Парламент до мосту Маргарити, а навпроти, на іншому березі, — Замкова гора."
+  },
+  "waypoints": [
+    {
+      "at": [47.49597, 19.04957],
+      "name": {
+        "en": "Pesti Vigadó",
+        "de": "Pesti Vigadó",
+        "fr": "Pesti Vigadó",
+        "uk": "Пештський Віґадо"
+      },
+      "text": {
+        "en": "The concert hall on the Danube was designed by Frigyes Feszl in 1859. It was badly damaged in the Second World War; the reconstruction took about 36 years and stayed true to Feszl’s design.",
+        "de": "Der Konzertsaal an der Donau wurde 1859 von Frigyes Feszl entworfen. Im Zweiten Weltkrieg wurde er schwer beschädigt; der Wiederaufbau dauerte rund 36 Jahre und blieb Feszls Entwurf treu.",
+        "fr": "La salle de concert au bord du Danube fut conçue par Frigyes Feszl en 1859. Gravement endommagée pendant la Seconde Guerre mondiale, elle fut reconstruite en une trentaine d’années, fidèlement au projet de Feszl.",
+        "uk": "Концертну залу на березі Дунаю спроєктував Фрігієш Фесл 1859 року. Під час Другої світової війни її сильно пошкодили; відбудова тривала близько 36 років і лишилася вірною задуму Фесла."
+      }
+    },
+    {
+      "at": [47.49924, 19.04504],
+      "name": {
+        "en": "Széchenyi Chain Bridge",
+        "de": "Széchenyi-Kettenbrücke",
+        "fr": "Pont des Chaînes Széchenyi",
+        "uk": "Ланцюговий міст Сечені"
+      },
+      "text": {
+        "en": "Opened on 20 November 1849 as the first permanent bridge across the Danube in Hungary; the English engineer William Tierney Clark designed it, Adam Clark built it. The main span is 202 m. Retreating Germans blew it up in January 1945, and it reopened in 1949.",
+        "de": "Am 20. November 1849 als erste feste Brücke über die Donau in Ungarn eröffnet; der englische Ingenieur William Tierney Clark entwarf sie, Adam Clark baute sie. Die Hauptöffnung misst 202 m. Im Januar 1945 sprengten sie die abziehenden Deutschen, 1949 wurde sie wiedereröffnet.",
+        "fr": "Inauguré le 20 novembre 1849, c’est le premier pont permanent sur le Danube en Hongrie ; l’ingénieur anglais William Tierney Clark le conçut, Adam Clark le construisit. La travée principale mesure 202 m. Les Allemands en retraite le firent sauter en janvier 1945 ; il rouvrit en 1949.",
+        "uk": "Відкритий 20 листопада 1849 року як перший постійний міст через Дунай в Угорщині; спроєктував його англійський інженер Вільям Тірні Кларк, будував Адам Кларк. Головний проліт — 202 м. У січні 1945 року німці, що відступали, підірвали його; 1949 року міст знову відкрили."
+      }
+    },
+    {
+      "at": [47.50397, 19.04479],
+      "name": {
+        "en": "Shoes on the Danube Bank",
+        "de": "Schuhe am Donauufer",
+        "fr": "Chaussures sur les rives du Danube",
+        "uk": "Черевики на березі Дунаю"
+      },
+      "text": {
+        "en": "Sixty pairs of iron shoes along the embankment, made by Can Togay and Gyula Pauer and put up on 16 April 2005. They remember about 23,500 people, 20,000 of them Jews, who were shot into the Danube by the Arrow Cross in the winter of 1944–45.",
+        "de": "Sechzig Paar Schuhe aus Eisen am Ufer, geschaffen von Can Togay und Gyula Pauer und am 16. April 2005 aufgestellt. Sie erinnern an rund 23.500 Menschen, 20.000 davon Juden, die im Winter 1944/45 von den Pfeilkreuzlern in die Donau geschossen wurden.",
+        "fr": "Soixante paires de chaussures en fer le long du quai, créées par Can Togay et Gyula Pauer et érigées le 16 avril 2005. Elles rappellent quelque 23 500 personnes, dont 20 000 juifs, abattues et jetées dans le Danube par les Croix fléchées pendant l’hiver 1944–1945.",
+        "uk": "Шістдесят пар залізних черевиків уздовж набережної, створені Каном Тогаєм і Дьюлою Паурем та встановлені 16 квітня 2005 року. Вони нагадують про близько 23 500 людей, із них 20 000 євреїв, яких «схрещені стріли» розстріляли в Дунай узимку 1944–1945 років."
+      }
+    },
+    {
+      "at": [47.50705, 19.04592],
+      "name": {
+        "en": "Hungarian Parliament",
+        "de": "Parlamentsgebäude",
+        "fr": "Parlement hongrois",
+        "uk": "Угорський парламент"
+      },
+      "text": {
+        "en": "Designed by Imre Steindl in Gothic Revival style, begun in 1885 and finished in 1904. It is 268 m long, 96 m high and has 691 rooms; it has been the largest building in Hungary since its completion. The Holy Crown of Hungary has been displayed in its central hall since 2000.",
+        "de": "Von Imre Steindl im neugotischen Stil entworfen, 1885 begonnen und 1904 vollendet. Es ist 268 m lang, 96 m hoch und hat 691 Räume; seit der Fertigstellung ist es das größte Gebäude Ungarns. Die Stephanskrone wird seit 2000 in der Kuppelhalle gezeigt.",
+        "fr": "Conçu par Imre Steindl dans le style néogothique, commencé en 1885 et achevé en 1904. Il mesure 268 m de long, 96 m de haut et compte 691 salles ; c’est le plus grand édifice de Hongrie depuis son achèvement. La Sainte Couronne de Hongrie est exposée dans son hall central depuis 2000.",
+        "uk": "Спроєктований Імре Штайнлем у неоготичному стилі, розпочатий 1885 року й завершений 1904-го. Довжина — 268 м, висота — 96 м, 691 кімната; відтоді як його добудували, це найбільша споруда Угорщини. Священна корона Угорщини експонується в центральній залі з 2000 року."
+      }
+    },
+    {
+      "at": [47.51318, 19.04771],
+      "name": {
+        "en": "Margaret Bridge",
+        "de": "Margaretenbrücke",
+        "fr": "Pont Marguerite",
+        "uk": "Міст Маргарити"
+      },
+      "text": {
+        "en": "Designed by the French engineer Ernest Goüin and opened on 30 April 1876; it is about 607 m long. The two halves meet at an angle of 165 degrees, where a branch leads down to Margaret Island, a park in the middle of the river.",
+        "de": "Vom französischen Ingenieur Ernest Goüin entworfen und am 30. April 1876 eröffnet; sie ist rund 607 m lang. Die beiden Hälften treffen sich in einem Winkel von 165 Grad, wo ein Zweig zur Margareteninsel abgeht, einem Park mitten im Fluss.",
+        "fr": "Conçu par l’ingénieur français Ernest Goüin et inauguré le 30 avril 1876 ; il mesure environ 607 m de long. Les deux moitiés forment un angle de 165 degrés, à l’endroit où une branche descend vers l’île Marguerite, un parc au milieu du fleuve.",
+        "uk": "Спроєктований французьким інженером Ернестом Гуеном і відкритий 30 квітня 1876 року; довжина — близько 607 м. Дві половини сходяться під кутом 165 градусів, де відгалуження веде до острова Маргарити — парку посеред річки."
+      }
+    }
+  ],
+  "points": [
+    [47.495874, 19.049259],
+    [47.495806, 19.049056],
+    [47.496093, 19.048866],
+    [47.495912, 19.048267],
+    [47.497836, 19.047216],
+    [47.49829, 19.047202],
+    [47.498336, 19.047385],
+    [47.498421, 19.047326],
+    [47.498458, 19.047193],
+    [47.499339, 19.046863],
+    [47.49942, 19.046736],
+    [47.499493, 19.046805],
+    [47.499573, 19.046772],
+    [47.499658, 19.046587],
+    [47.499755, 19.046657],
+    [47.499826, 19.046648],
+    [47.500474, 19.046355],
+    [47.50055, 19.04662],
+    [47.500894, 19.047042],
+    [47.501021, 19.046983],
+    [47.501031, 19.047081],
+    [47.501789, 19.046683],
+    [47.504169, 19.046105],
+    [47.50486, 19.046083],
+    [47.505511, 19.046231],
+    [47.505545, 19.0466],
+    [47.505825, 19.046513],
+    [47.506535, 19.046653],
+    [47.506635, 19.046817],
+    [47.507389, 19.046915],
+    [47.50754, 19.046797],
+    [47.508362, 19.046937],
+    [47.508445, 19.046993],
+    [47.508499, 19.046469],
+    [47.508571, 19.046398],
+    [47.508661, 19.046408],
+    [47.508671, 19.046186],
+    [47.508594, 19.046172],
+    [47.50868, 19.045395],
+    [47.507696, 19.045117],
+    [47.506457, 19.044908],
+    [47.505624, 19.044867],
+    [47.505624, 19.044662],
+    [47.506883, 19.044796],
+    [47.507979, 19.044997],
+    [47.50871, 19.045203],
+    [47.50868, 19.045395],
+    [47.508762, 19.045438],
+    [47.508769, 19.045389],
+    [47.508971, 19.04544],
+    [47.508963, 19.045481],
+    [47.510068, 19.045752],
+    [47.510085, 19.045826],
+    [47.510196, 19.04585],
+    [47.510148, 19.046183],
+    [47.510759, 19.046324],
+    [47.510753, 19.046593],
+    [47.510822, 19.046621],
+    [47.510785, 19.046853],
+    [47.511599, 19.047153],
+    [47.511557, 19.047436],
+    [47.511627, 19.047458],
+    [47.511466, 19.048452],
+    [47.512635, 19.048838],
+    [47.512739, 19.048824],
+    [47.512978, 19.048064],
+    [47.512881, 19.047989],
+    [47.512948, 19.047743],
+    [47.513123, 19.047676]
+  ]
+}

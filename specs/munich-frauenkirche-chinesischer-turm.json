@@ -1,0 +1,126 @@
+{
+  "file": "munich-frauenkirche-chinesischer-turm",
+  "country": "DE",
+  "tags": [
+    "city",
+    "sights",
+    "park"
+  ],
+  "name": {
+    "en": "Frauenkirche to the Chinese Tower",
+    "de": "Von der Frauenkirche zum Chinesischen Turm",
+    "fr": "De la Frauenkirche à la Tour chinoise",
+    "uk": "Від Фраенкірхе до Китайської вежі"
+  },
+  "place": {
+    "en": "Munich, Germany",
+    "de": "München, Deutschland",
+    "fr": "Munich, Allemagne",
+    "uk": "Мюнхен, Німеччина"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) from the twin towers of the Frauenkirche over the Marienplatz and the Odeonsplatz, through the Hofgarten and into the Englischer Garten, to the Chinese Tower and its beer garden. From the old town into the park.",
+    "de": "Rund {km} km von den Zwillingstürmen der Frauenkirche über den Marienplatz und den Odeonsplatz, durch den Hofgarten und in den Englischen Garten bis zum Chinesischen Turm mit seinem Biergarten. Von der Altstadt in den Park.",
+    "fr": "Environ {km} km depuis les tours jumelles de la Frauenkirche, par la Marienplatz et l’Odeonsplatz, à travers le Hofgarten puis le Jardin anglais, jusqu’à la Tour chinoise et sa brasserie en plein air. De la vieille ville au parc.",
+    "uk": "Близько {km} км від веж-близнюків Фраенкірхе через Марієнплац і Одеонсплац, крізь Гофгартен та в Англійський сад до Китайської вежі з її пивним садом. Зі старого міста в парк."
+  },
+  "waypoints": [
+    {
+      "at": [
+        48.13858,
+        11.57359
+      ],
+      "name": {
+        "en": "Frauenkirche",
+        "de": "Frauenkirche",
+        "fr": "Frauenkirche",
+        "uk": "Фраенкірхе"
+      },
+      "text": {
+        "en": "Built 1468–1488 by Jörg von Halsbach and consecrated in 1494. The towers are about 98.5 m high; the onion domes were added in 1525. A dark “devil’s footprint” in the entrance hall has a legend of its own. It is the cathedral of the Archdiocese of Munich and Freising.",
+        "de": "1468–1488 von Jörg von Halsbach gebaut und 1494 geweiht. Die Türme sind rund 98,5 m hoch; die Hauben kamen 1525 dazu. Zum dunklen „Teufelstritt“ im Eingang gibt es eine eigene Legende. Die Kirche ist der Dom des Erzbistums München und Freising.",
+        "fr": "Construite en 1468–1488 par Jörg von Halsbach et consacrée en 1494. Les tours mesurent environ 98,5 m ; les bulbes furent ajoutés en 1525. Une sombre « empreinte du diable » à l’entrée a sa propre légende. C’est la cathédrale de l’archidiocèse de Munich et Freising.",
+        "uk": "Збудована в 1468–1488 роках Йоргом фон Гальшем і освячена 1494-го. Вежі мають близько 98,5 м; купола-цибулини додали 1525 року. Темний «слід диявола» при вході має власну легенду. Це кафедральний собор архієпархії Мюнхена і Фрайзінга."
+      }
+    },
+    {
+      "at": [
+        48.13714,
+        11.5754
+      ],
+      "name": {
+        "en": "Marienplatz",
+        "de": "Marienplatz",
+        "fr": "Marienplatz",
+        "uk": "Марієнплац"
+      },
+      "text": {
+        "en": "The city’s main square since 1158. It is named after the Mariensäule, a column put up in 1638 at the end of the Swedish occupation. The New Town Hall dominates the north side; the Glockenspiel in its tower draws millions of visitors a year.",
+        "de": "Seit 1158 der Hauptplatz der Stadt. Benannt ist er nach der Mariensäule, die 1638 zum Ende der schwedischen Besetzung errichtet wurde. Das Neue Rathaus beherrscht die Nordseite; das Glockenspiel in seinem Turm lockt jährlich Millionen Besucher an.",
+        "fr": "La place principale de la ville depuis 1158. Elle porte le nom de la Mariensäule, colonne érigée en 1638 à la fin de l’occupation suédoise. Le Nouvel Hôtel de ville domine le côté nord ; le carillon de sa tour attire chaque année des millions de visiteurs.",
+        "uk": "Головна площа міста з 1158 року. Названа на честь Марієнзойле — колони, встановленої 1638 року після закінчення шведської окупації. Нова ратуша панує над північним боком; куранти в її вежі приваблюють мільйони відвідувачів щороку."
+      }
+    },
+    {
+      "at": [
+        48.14168,
+        11.57732
+      ],
+      "name": {
+        "en": "Feldherrnhalle",
+        "de": "Feldherrnhalle",
+        "fr": "Feldherrnhalle",
+        "uk": "Фельдгернгалле"
+      },
+      "text": {
+        "en": "Built 1841–1844 by Friedrich von Gärtner for Ludwig I at the end of Ludwigstrasse, modelled on the Loggia dei Lanzi in Florence. The lions are by Wilhelm von Rümann (1906). On 9 November 1923, followers of Hitler clashed here with the Bavarian police in the Beer Hall Putsch.",
+        "de": "1841–1844 von Friedrich von Gärtner für Ludwig I. am Ende der Ludwigstraße gebaut, der Loggia dei Lanzi in Florenz nachempfunden. Die Löwen schuf Wilhelm von Rümann (1906). Am 9. November 1923 stießen hier beim Hitlerputsch Anhänger Hitlers mit der bayerischen Polizei zusammen.",
+        "fr": "Construite en 1841–1844 par Friedrich von Gärtner pour Louis Ier au bout de la Ludwigstrasse, sur le modèle de la Loggia dei Lanzi à Florence. Lions de Wilhelm von Rümann (1906). Le 9 novembre 1923, lors du putsch de la Brasserie, des partisans de Hitler s’y heurtèrent à la police bavaroise.",
+        "uk": "Збудована в 1841–1844 роках Фрідріхом фон Гертнером для Людвіга I наприкінці Людвігштрасе за зразком Лоджії деї Ланці у Флоренції. Левів створив Вільгельм фон Рюманн (1906). Тут 9 листопада 1923 року під час Пивного путчу прибічники Гітлера зіткнулися з баварською поліцією."
+      }
+    },
+    {
+      "at": [
+        48.14268,
+        11.58047
+      ],
+      "name": {
+        "en": "Hofgarten",
+        "de": "Hofgarten",
+        "fr": "Hofgarten",
+        "uk": "Гофгартен"
+      },
+      "text": {
+        "en": "Laid out in 1613–1617 by Elector Maximilian I in the style of an Italian Renaissance garden. At its centre stands the temple of Diana, built in 1615 by Heinrich Schön the Elder. Arcades with wall paintings of Bavarian history line two sides.",
+        "de": "1613–1617 von Kurfürst Maximilian I. im Stil eines italienischen Renaissancegartens angelegt. In der Mitte steht der Dianatempel, 1615 von Heinrich Schön dem Älteren erbaut. Arkaden mit Wandbildern zur bayerischen Geschichte säumen zwei Seiten.",
+        "fr": "Aménagé en 1613–1617 par l’électeur Maximilien Ier dans le style d’un jardin de la Renaissance italienne. Au centre se dresse le temple de Diane, bâti en 1615 par Heinrich Schön l’Ancien. Des arcades ornées de peintures murales sur l’histoire bavaroise bordent deux côtés.",
+        "uk": "Закладений у 1613–1617 роках курфюрстом Максиміліаном I у стилі італійського ренесансного саду. У центрі стоїть храм Діани, зведений 1615 року Гайнріхом Шеном Старшим. Аркади з настінними розписами з історії Баварії обрамляють дві сторони."
+      }
+    },
+    {
+      "at": [
+        48.15255,
+        11.5921
+      ],
+      "name": {
+        "en": "Chinese Tower",
+        "de": "Chinesischer Turm",
+        "fr": "Tour chinoise",
+        "uk": "Китайська вежа"
+      },
+      "text": {
+        "en": "The 25 m wooden tower in the Englischer Garten was built in 1789–1790. A phosphorus bomb set it on fire on 13 July 1944; it was rebuilt in 1951–1952. The beer garden around it has 7,000 seats.",
+        "de": "Der 25 m hohe Holzturm im Englischen Garten entstand 1789–1790. Am 13. Juli 1944 setzte ihn eine Phosphorbombe in Brand; 1951–1952 wurde er wieder aufgebaut. Der Biergarten ringsum hat 7.000 Plätze.",
+        "fr": "La tour en bois de 25 m, dans le Jardin anglais, fut construite en 1789–1790. Une bombe au phosphore l’incendia le 13 juillet 1944 ; elle fut reconstruite en 1951–1952. La brasserie en plein air qui l’entoure compte 7 000 places.",
+        "uk": "Дерев’яну вежу заввишки 25 м в Англійському саду збудували в 1789–1790 роках. 13 липня 1944 року фосфорна бомба спричинила пожежу; відбудували її в 1951–1952 роках. Пивний сад навколо вміщує 7000 місць."
+      }
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Frauenkirche,_Munich",
+    "https://en.wikipedia.org/wiki/Marienplatz",
+    "https://en.wikipedia.org/wiki/Feldherrnhalle",
+    "https://en.wikipedia.org/wiki/Hofgarten,_Munich",
+    "https://de.wikipedia.org/wiki/Chinesischer_Turm_(M%C3%BCnchen)"
+  ]
+}
