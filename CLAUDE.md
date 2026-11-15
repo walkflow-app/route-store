@@ -33,7 +33,8 @@ public repository without the maintainer agreeing.
 - **Before a route pull request is merged**: agent `route-reviewer` (facts against sources, texts, privacy, the map).
 - **On GitHub:** `agent-review.yml` runs the reviewers on every new pull request and posts their verdicts (comment
   `@claude review` to run it again); `claude.yml` takes on `@claude …` requests and issues labelled `agent-ready`, never ones
-  labelled `safety`. Both only work on branches and pull requests; a maintainer merges.
+  labelled `safety`. Both only work on branches and pull requests; a maintainer merges. New issues from outside:
+  `triage.yml` (labels and one comment, never `agent-ready`).
 
 ## Commands
 
