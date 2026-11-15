@@ -31,6 +31,9 @@ public repository without the maintainer agreeing.
 
 - **New routes**: skill `make-route` (the order of work and the pitfalls).
 - **Before a route pull request is merged**: agent `route-reviewer` (facts against sources, texts, privacy, the map).
+  Reviewers run with another model than the one that wrote the change: written with Opus, the reviewer runs with Sonnet, and
+  the other way round; when that is unclear, Opus for the store checks or big changes, else Sonnet. `agent-review.yml` picks
+  it the same way on GitHub, from the Co-Authored-By lines of the commits.
 - **On GitHub:** `agent-review.yml` runs the reviewers on every new pull request and posts their verdicts (comment
   `@claude review` to run it again); `claude.yml` takes on `@claude …` requests and issues labelled `agent-ready`, never ones
   labelled `safety`. Both only work on branches and pull requests; a maintainer merges.
