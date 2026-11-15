@@ -2,6 +2,55 @@
   "version": 1,
   "routes": [
     {
+      "file": "amsterdam-centraal-rijksmuseum.walkflow",
+      "revision": 1,
+      "sha256": "5e975c08e1b5e35cf9ca1cd4fcd834f2ec6e15f9ee86443f5fb2a68dca9a2515",
+      "chars": 7771,
+      "length": 2787,
+      "name": {
+        "en": "Centraal Station to the Rijksmuseum",
+        "de": "Vom Hauptbahnhof zum Rijksmuseum",
+        "fr": "De la gare centrale au Rijksmuseum",
+        "uk": "Від Центрального вокзалу до Рейксмузею"
+      },
+      "place": {
+        "en": "Amsterdam, Netherlands",
+        "de": "Amsterdam, Niederlande",
+        "fr": "Amsterdam, Pays-Bas",
+        "uk": "Амстердам, Нідерланди"
+      },
+      "country": "NL",
+      "tags": [
+        "city",
+        "sights",
+        "canals"
+      ]
+    },
+    {
+      "file": "berlin-brandenburger-tor-alexanderplatz.walkflow",
+      "revision": 1,
+      "sha256": "3b2712350bbdf8b61756331c1616706d4c372735b8464884457a53653053f300",
+      "chars": 9775,
+      "length": 2979,
+      "name": {
+        "en": "Brandenburg Gate to Alexanderplatz",
+        "de": "Vom Brandenburger Tor zum Alexanderplatz",
+        "fr": "De la porte de Brandebourg à l’Alexanderplatz",
+        "uk": "Від Бранденбурзьких воріт до Александерплац"
+      },
+      "place": {
+        "en": "Berlin, Germany",
+        "de": "Berlin, Deutschland",
+        "fr": "Berlin, Allemagne",
+        "uk": "Берлін, Німеччина"
+      },
+      "country": "DE",
+      "tags": [
+        "city",
+        "sights"
+      ]
+    },
+    {
       "file": "berlin-schlachtensee.walkflow",
       "revision": 1,
       "sha256": "e33275dc57bf0de89484c2a9fc79ee2452dfcdd1b51884a370ff17de821bb526",
@@ -52,6 +101,31 @@
       ]
     },
     {
+      "file": "budapest-vigado-margaret-bridge.walkflow",
+      "revision": 1,
+      "sha256": "07665a7c404e3fef623fec2daf6f8e5fe680ee34441ab86fbc3230c7c89adea6",
+      "chars": 9914,
+      "length": 3269,
+      "name": {
+        "en": "Vigadó to Margaret Bridge",
+        "de": "Vom Vigadó zur Margaretenbrücke",
+        "fr": "Du Vigadó au pont Marguerite",
+        "uk": "Від Віґадо до мосту Маргарити"
+      },
+      "place": {
+        "en": "Budapest, Hungary",
+        "de": "Budapest, Ungarn",
+        "fr": "Budapest, Hongrie",
+        "uk": "Будапешт, Угорщина"
+      },
+      "country": "HU",
+      "tags": [
+        "city",
+        "sights",
+        "river"
+      ]
+    },
+    {
       "file": "central-park-reservoir.walkflow",
       "revision": 1,
       "sha256": "de8dafdb056dfde768ad77210c7f90bd9c27f043bab44466f1ea03d1921b876f",
@@ -77,6 +151,30 @@
       ]
     },
     {
+      "file": "copenhagen-nyhavn-little-mermaid.walkflow",
+      "revision": 1,
+      "sha256": "86c6df929acd21d9cfee9fc73ba65388e16b8aa6d4dea7754ad34195ada5e0b5",
+      "chars": 9443,
+      "length": 3124,
+      "name": {
+        "en": "Nyhavn to the Little Mermaid",
+        "de": "Von Nyhavn zur Kleinen Meerjungfrau",
+        "fr": "De Nyhavn à la Petite Sirène",
+        "uk": "Від Ньюгавна до Русалоньки"
+      },
+      "place": {
+        "en": "Copenhagen, Denmark",
+        "de": "Kopenhagen, Dänemark",
+        "fr": "Copenhague, Danemark",
+        "uk": "Копенгаген, Данія"
+      },
+      "country": "DK",
+      "tags": [
+        "city",
+        "sights"
+      ]
+    },
+    {
       "file": "hamburg-aussenalster.walkflow",
       "revision": 1,
       "sha256": "b9c536da6922238924464bde9e9aeb014dafb1a53e6266be04417e0e4d429426",
@@ -99,6 +197,80 @@
         "lake",
         "loop",
         "city"
+      ]
+    },
+    {
+      "file": "lisbon-praca-do-comercio-marques-de-pombal.walkflow",
+      "revision": 1,
+      "sha256": "5ce1e2df088af8a379d274d5de546f2b3d9b6102fd52bc9e9f70f67bb99121bf",
+      "chars": 9866,
+      "length": 2680,
+      "name": {
+        "en": "Praça do Comércio to Marquês de Pombal",
+        "de": "Von der Praça do Comércio zur Praça Marquês de Pombal",
+        "fr": "De la Praça do Comércio à la Praça Marquês de Pombal",
+        "uk": "Від Праса-ду-Комерсіу до площі Маркіза де Помбала"
+      },
+      "place": {
+        "en": "Lisbon, Portugal",
+        "de": "Lissabon, Portugal",
+        "fr": "Lisbonne, Portugal",
+        "uk": "Лісабон, Португалія"
+      },
+      "country": "PT",
+      "tags": [
+        "city",
+        "sights"
+      ]
+    },
+    {
+      "file": "lviv-opera-high-castle.walkflow",
+      "revision": 1,
+      "sha256": "23687a117bc1187b319c61e3481d9590db5eb6b331d37e929cb9e1a66b051103",
+      "chars": 8365,
+      "length": 1991,
+      "name": {
+        "en": "Opera House to the High Castle",
+        "de": "Vom Opernhaus zum Hohen Schloss",
+        "fr": "De l’Opéra au Haut Château",
+        "uk": "Від Оперного театру до Високого замку"
+      },
+      "place": {
+        "en": "Lviv, Ukraine",
+        "de": "Lwiw, Ukraine",
+        "fr": "Lviv, Ukraine",
+        "uk": "Львів, Україна"
+      },
+      "country": "UA",
+      "tags": [
+        "city",
+        "sights",
+        "old-town"
+      ]
+    },
+    {
+      "file": "munich-frauenkirche-chinesischer-turm.walkflow",
+      "revision": 1,
+      "sha256": "4b6820eb6cedfbedc639440dbb806fefc53facf7194dcb5dfb30ac655fa15f07",
+      "chars": 9497,
+      "length": 2915,
+      "name": {
+        "en": "Frauenkirche to the Chinese Tower",
+        "de": "Von der Frauenkirche zum Chinesischen Turm",
+        "fr": "De la Frauenkirche à la Tour chinoise",
+        "uk": "Від Фраенкірхе до Китайської вежі"
+      },
+      "place": {
+        "en": "Munich, Germany",
+        "de": "München, Deutschland",
+        "fr": "Munich, Allemagne",
+        "uk": "Мюнхен, Німеччина"
+      },
+      "country": "DE",
+      "tags": [
+        "city",
+        "sights",
+        "park"
       ]
     },
     {
@@ -149,6 +321,30 @@
         "lake",
         "city",
         "loop"
+      ]
+    },
+    {
+      "file": "rome-colosseum-piazza-navona.walkflow",
+      "revision": 1,
+      "sha256": "9c78a1cea2c307860e7f5c05e0f24e9869b09db63e4a319adf3263c0bb3de1f4",
+      "chars": 10163,
+      "length": 2792,
+      "name": {
+        "en": "Colosseum to Piazza Navona",
+        "de": "Vom Kolosseum zur Piazza Navona",
+        "fr": "Du Colisée à la place Navone",
+        "uk": "Від Колізею до П’яцца Навона"
+      },
+      "place": {
+        "en": "Rome, Italy",
+        "de": "Rom, Italien",
+        "fr": "Rome, Italie",
+        "uk": "Рим, Італія"
+      },
+      "country": "IT",
+      "tags": [
+        "city",
+        "sights"
       ]
     },
     {

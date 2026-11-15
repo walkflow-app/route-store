@@ -1,0 +1,82 @@
+{
+  "file": "rome-colosseum-piazza-navona",
+  "country": "IT",
+  "tags": ["city", "sights"],
+  "name": {
+    "en": "Colosseum to Piazza Navona",
+    "de": "Vom Kolosseum zur Piazza Navona",
+    "fr": "Du Colisée à la place Navone",
+    "uk": "Від Колізею до П’яцца Навона"
+  },
+  "place": {
+    "en": "Rome, Italy",
+    "de": "Rom, Italien",
+    "fr": "Rome, Italie",
+    "uk": "Рим, Італія"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) through two thousand years of Rome: from the Colosseum past the Roman Forum and the Capitoline Hill to the Pantheon and the Piazza Navona.",
+    "de": "Rund {km} km durch zweitausend Jahre Rom: vom Kolosseum am Forum Romanum und am Kapitol vorbei zum Pantheon und zur Piazza Navona.",
+    "fr": "Environ {km} km à travers deux mille ans de Rome : du Colisée, devant le Forum romain et le Capitole, jusqu’au Panthéon et à la place Navone.",
+    "uk": "Близько {km} км крізь дві тисячі років Рима: від Колізею повз Римський форум і Капітолій до Пантеону та П’яцца Навона."
+  },
+  "waypoints": [
+    {
+      "at": [41.89094, 12.4919],
+      "name": { "en": "Colosseum", "de": "Kolosseum", "fr": "Colisée", "uk": "Колізей" },
+      "text": {
+        "en": "Begun under Vespasian in AD 72 and completed by his son Titus in AD 80. The ellipse is about 189 m long, 156 m wide and 48 m high. Modern estimates put the audience at about 50,000. Later the building was used for housing and workshops, and as a quarry.",
+        "de": "Unter Vespasian 72 n. Chr. begonnen und 80 n. Chr. von seinem Sohn Titus vollendet. Die Ellipse ist etwa 189 m lang, 156 m breit und 48 m hoch. Heutige Schätzungen gehen von rund 50.000 Zuschauern aus. Später diente das Bauwerk als Wohnraum, Werkstatt und Steinbruch.",
+        "fr": "Commencé sous Vespasien en 72 apr. J.-C. et achevé par son fils Titus en 80. L’ellipse mesure environ 189 m de long, 156 m de large et 48 m de haut. Les estimations actuelles parlent d’environ 50 000 spectateurs. Plus tard, l’édifice servit d’habitations, d’ateliers et de carrière.",
+        "uk": "Розпочатий за Веспасіана 72 року н. е. і завершений його сином Титом 80 року. Еліпс має близько 189 м у довжину, 156 м у ширину та 48 м у висоту. За сучасними оцінками, він вміщав близько 50 000 глядачів. Пізніше будівлю використовували як житло, майстерні й каменярню."
+      }
+    },
+    {
+      "at": [41.89067, 12.48858],
+      "name": { "en": "Arch of Titus", "de": "Titusbogen", "fr": "Arc de Titus", "uk": "Арка Тита" },
+      "text": {
+        "en": "Domitian had it built around AD 81, after the death of his brother Titus, to mark Titus’s deification and the victory in Judaea. A relief shows the spoils from the Temple in Jerusalem, with the menorah. It became a model for many later triumphal arches.",
+        "de": "Domitian ließ ihn um 81 n. Chr. nach dem Tod seines Bruders Titus errichten, zur Erinnerung an dessen Vergöttlichung und den Sieg in Judäa. Ein Relief zeigt die Beute aus dem Tempel in Jerusalem mit der Menora. Er wurde Vorbild für viele spätere Triumphbögen.",
+        "fr": "Domitien le fit construire vers 81 apr. J.-C., après la mort de son frère Titus, pour rappeler sa déification et la victoire en Judée. Un relief montre le butin du Temple de Jérusalem, avec la ménorah. Il servit de modèle à de nombreux arcs de triomphe ultérieurs.",
+        "uk": "Доміціан наказав звести арку близько 81 року н. е., після смерті брата Тита, на згадку про його обожнення та перемогу в Юдеї. Рельєф зображує здобич із Храму в Єрусалимі, зокрема менору. Арка стала взірцем для багатьох пізніших тріумфальних арок."
+      }
+    },
+    {
+      "at": [41.89325, 12.48299],
+      "name": { "en": "Capitoline Hill", "de": "Kapitol", "fr": "Capitole", "uk": "Капітолій" },
+      "text": {
+        "en": "One of the seven hills of Rome. Michelangelo designed the piazza on top between 1536 and 1546. The bronze Marcus Aurelius in the middle is a copy; the original stands in the Palazzo dei Conservatori nearby, today part of the Capitoline Museums.",
+        "de": "Einer der sieben Hügel Roms. Michelangelo entwarf den Platz oben zwischen 1536 und 1546. Das bronzene Reiterstandbild des Mark Aurel in der Mitte ist eine Kopie; das Original steht im nahen Palazzo dei Conservatori, heute Teil der Kapitolinischen Museen.",
+        "fr": "L’une des sept collines de Rome. Michel-Ange dessina la place du sommet entre 1536 et 1546. Le Marc Aurèle en bronze au centre est une copie ; l’original se trouve dans le palais des Conservateurs tout proche, aujourd’hui l’un des musées du Capitole.",
+        "uk": "Один із семи пагорбів Рима. Мікеланджело спроєктував площу нагорі в 1536–1546 роках. Бронзовий Марк Аврелій посередині — копія; оригінал стоїть у сусідньому палаці Консерваторів, нині частині Капітолійських музеїв."
+      }
+    },
+    {
+      "at": [41.89862, 12.47683],
+      "name": { "en": "Pantheon", "de": "Pantheon", "fr": "Panthéon", "uk": "Пантеон" },
+      "text": {
+        "en": "Agrippa’s temple burned down; Hadrian completed the present building, probably dedicated around AD 126. Its dome, 43.3 m across, is the largest unreinforced concrete dome in the world, with an oculus of 9.1 m. A church since 609, it holds the tomb of Raphael.",
+        "de": "Agrippas Tempel brannte ab; Hadrian vollendete den heutigen Bau, vermutlich um 126 n. Chr. geweiht. Die Kuppel mit 43,3 m Durchmesser ist die größte unbewehrte Betonkuppel der Welt, ihr Oculus misst 9,1 m. Seit 609 ist es eine Kirche; hier liegt Raffael begraben.",
+        "fr": "Le temple d’Agrippa brûla ; Hadrien acheva l’édifice actuel, probablement dédié vers 126 apr. J.-C. Sa coupole, large de 43,3 m, est la plus grande coupole en béton non armé du monde, avec un oculus de 9,1 m. Église depuis 609, il abrite la tombe de Raphaël.",
+        "uk": "Храм Агріппи згорів; Адріан завершив нинішню будівлю, імовірно освячену близько 126 року н. е. Її купол діаметром 43,3 м — найбільший у світі купол із неармованого бетону, з отвором-окулюсом 9,1 м. Від 609 року це церква; тут похований Рафаель."
+      }
+    },
+    {
+      "at": [41.89893, 12.47312],
+      "name": { "en": "Piazza Navona", "de": "Piazza Navona", "fr": "Place Navone", "uk": "П’яцца Навона" },
+      "text": {
+        "en": "The piazza lies on the Stadium of Domitian, begun in AD 80, and keeps its long oval shape. Bernini’s Fountain of the Four Rivers, completed in 1651, stands in the middle. From 1652 to 1866 the square was flooded on weekends in August for celebrations.",
+        "de": "Die Piazza liegt auf dem Stadion des Domitian, 80 n. Chr. begonnen, und hat dessen lange Ovalform behalten. In der Mitte steht Berninis Vierströmebrunnen, 1651 vollendet. Von 1652 bis 1866 wurde der Platz an Wochenenden im August für Feste unter Wasser gesetzt.",
+        "fr": "La place occupe le stade de Domitien, commencé en 80 apr. J.-C., dont elle garde la longue forme ovale. La fontaine des Quatre-Fleuves du Bernin, achevée en 1651, se dresse au centre. De 1652 à 1866, la place était inondée les week-ends d’août pour des fêtes.",
+        "uk": "Площа розташована на місці стадіону Доміціана, розпочатого 80 року н. е., і зберігає його видовжену овальну форму. Посередині стоїть Фонтан чотирьох рік Берніні, завершений 1651 року. Від 1652 до 1866 року площу заливали водою на вихідних у серпні для свят."
+      }
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Colosseum",
+    "https://en.wikipedia.org/wiki/Arch_of_Titus",
+    "https://en.wikipedia.org/wiki/Capitoline_Hill",
+    "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+    "https://en.wikipedia.org/wiki/Piazza_Navona"
+  ]
+}
