@@ -1,0 +1,98 @@
+{
+  "file": "oakland-lake-merritt",
+  "osm": "relation/34513",
+  "step": 200,
+  "snapDist": 60,
+  "corr": 60,
+  "country": "US",
+  "tags": [
+    "lake",
+    "city",
+    "loop"
+  ],
+  "name": {
+    "en": "Lake Merritt Loop",
+    "de": "Lake-Merritt-Runde",
+    "fr": "Tour du lac Merritt",
+    "uk": "Коло озера Мерритт"
+  },
+  "place": {
+    "en": "Oakland, USA",
+    "de": "Oakland, USA",
+    "fr": "Oakland, États-Unis",
+    "uk": "Окленд, США"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) around Lake Merritt, the tidal lagoon in the middle of Oakland, California. A flat loop on the paths along the shore, right in the city.",
+    "de": "Rund {km} km um den Lake Merritt, die Gezeitenlagune mitten in Oakland, Kalifornien. Eine flache Runde auf den Wegen am Ufer, mitten in der Stadt.",
+    "fr": "Environ {km} km autour du lac Merritt, la lagune à marée au cœur d’Oakland, en Californie. Une boucle plate sur les chemins le long de la rive, en pleine ville.",
+    "uk": "Близько {km} км навколо озера Мерритт, приливної лагуни в центрі Окленда в Каліфорнії. Рівне коло стежками вздовж берега, просто в місті."
+  },
+  "waypoints": [
+    {
+      "at": [37.80144, -122.26219],
+      "name": {
+        "en": "Camron-Stanford House",
+        "de": "Camron-Stanford House",
+        "fr": "Camron-Stanford House",
+        "uk": "Будинок Кемрон-Стенфорд"
+      },
+      "text": {
+        "en": "The last of the Victorian mansions that once stood around the lake, built in the 1870s in the Italianate style. Oakland bought it in 1907 and used it as the city’s first museum for about five decades; today it is an independent museum.",
+        "de": "Die letzte der viktorianischen Villen, die einst um den See standen, in den 1870er-Jahren im Stil des Italianate erbaut. Oakland kaufte sie 1907 und nutzte sie rund fünf Jahrzehnte als erstes Museum der Stadt; heute ist sie ein eigenständiges Museum.",
+        "fr": "La dernière des demeures victoriennes qui entouraient autrefois le lac, construite dans les années 1870 dans le style italianisant. Oakland l’a achetée en 1907 et en a fait son premier musée pendant une cinquantaine d’années ; c’est aujourd’hui un musée indépendant.",
+        "uk": "Останній із вікторіанських особняків, що колись стояли навколо озера, збудований у 1870-х роках в італійському стилі (Italianate). Окленд купив його 1907 року й близько п’яти десятиліть тримав там свій перший музей; сьогодні це окремий музей."
+      }
+    },
+    {
+      "at": [37.8022, -122.26145],
+      "name": {
+        "en": "Lake Merritt Boathouse",
+        "de": "Bootshaus am Lake Merritt",
+        "fr": "Hangar à bateaux du lac Merritt",
+        "uk": "Елінг на озері Мерритт"
+      },
+      "text": {
+        "en": "The Municipal Boat House dates from 1909. It was renovated in 2008, as part of the Measure DD works around the lake, and is now the Lake Chalet restaurant.",
+        "de": "Das städtische Bootshaus stammt von 1909. 2008 wurde es im Rahmen der Measure-DD-Arbeiten am See saniert und ist heute das Restaurant Lake Chalet.",
+        "fr": "Le hangar à bateaux municipal date de 1909. Rénové en 2008 dans le cadre des travaux de la Measure DD autour du lac, il abrite aujourd’hui le restaurant Lake Chalet.",
+        "uk": "Міський елінг збудовано 1909 року. У 2008 році його відремонтували в межах робіт Measure DD навколо озера; нині тут ресторан Lake Chalet."
+      }
+    },
+    {
+      "at": [37.80715, -122.25596],
+      "name": {
+        "en": "Rotary Nature Center",
+        "de": "Rotary Nature Center",
+        "fr": "Rotary Nature Center",
+        "uk": "Природничий центр Ротарі"
+      },
+      "text": {
+        "en": "An interpretive nature center in Lakeside Park. Lake Merritt was once an arm of San Francisco Bay; a dam proposed in 1868 by Mayor Samuel Merritt turned it into a lake, and in 1870 it was made a wildlife refuge, regarded as the first official one in the United States.",
+        "de": "Ein Naturinformationszentrum im Lakeside Park. Der Lake Merritt war einst ein Arm der San Francisco Bay; ein 1868 von Bürgermeister Samuel Merritt vorgeschlagener Damm machte ihn zum See, und 1870 wurde er zum Wildschutzgebiet, dem als erstes offizielles der USA geltenden.",
+        "fr": "Un centre d’interprétation de la nature dans le Lakeside Park. Le lac Merritt était un bras de la baie de San Francisco ; un barrage proposé en 1868 par le maire Samuel Merritt en a fait un lac, et en 1870 il est devenu une réserve faunique, considérée comme la première officielle des États-Unis.",
+        "uk": "Центр природничої освіти в парку Lakeside Park. Колись озеро Мерритт було рукавом затоки Сан-Франциско; дамба, запропонована 1868 року мером Семюелом Мерріттом, перетворила його на озеро, а 1870 року воно стало заповідником дикої природи — першим офіційним у США."
+      }
+    },
+    {
+      "at": [37.8085, -122.2606],
+      "name": {
+        "en": "Children’s Fairyland",
+        "de": "Children’s Fairyland",
+        "fr": "Children’s Fairyland",
+        "uk": "Children’s Fairyland"
+      },
+      "text": {
+        "en": "Children’s Fairyland opened in 1950 at 699 Bellevue Avenue and is described as one of the earliest themed amusement parks in the United States. Its Open Storybook Puppet Theater is called the oldest continuously operating puppet theater in the country.",
+        "de": "Children’s Fairyland wurde 1950 an der 699 Bellevue Avenue eröffnet und gilt als einer der frühesten Themenparks der USA. Das Open Storybook Puppet Theater wird als ältestes durchgehend spielendes Puppentheater des Landes bezeichnet.",
+        "fr": "Children’s Fairyland a ouvert en 1950 au 699 Bellevue Avenue et passe pour l’un des tout premiers parcs à thème des États-Unis. Son Open Storybook Puppet Theater est présenté comme le plus ancien théâtre de marionnettes en activité continue du pays.",
+        "uk": "Children’s Fairyland відкрився 1950 року за адресою 699 Bellevue Avenue і вважається одним із найраніших тематичних парків розваг у США. Його ляльковий театр Open Storybook Puppet Theater називають найстарішим у країні з безперервною роботою."
+      }
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lake_Merritt",
+    "https://en.wikipedia.org/wiki/Camron-Stanford_House",
+    "https://en.wikipedia.org/wiki/Children%27s_Fairyland"
+  ]
+}

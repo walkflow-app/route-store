@@ -1,0 +1,101 @@
+{
+  "file": "bled-lake-bled",
+  "osm": "relation/646",
+  "step": 200,
+  "snapDist": 80,
+  "corr": 80,
+  "pen": 25,
+  "country": "SI",
+  "tags": [
+    "lake",
+    "mountains",
+    "loop"
+  ],
+  "name": {
+    "en": "Lake Bled Loop",
+    "de": "Bleder-See-Runde",
+    "fr": "Tour du lac de Bled",
+    "uk": "Коло Блейського озера"
+  },
+  "place": {
+    "en": "Bled, Slovenia",
+    "de": "Bled, Slowenien",
+    "fr": "Bled, Slovénie",
+    "uk": "Блед, Словенія"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) on the path around Lake Bled in the Julian Alps foothills, with the island and its church out on the water and the castle above the shore.",
+    "de": "Rund {km} km auf dem Weg um den Bleder See am Fuß der Julischen Alpen, mit der Insel samt Kirche im Wasser und der Burg über dem Ufer.",
+    "fr": "Environ {km} km sur le chemin autour du lac de Bled, au pied des Alpes juliennes, avec l’île et son église sur l’eau et le château au-dessus de la rive.",
+    "uk": "Близько {km} км стежкою навколо Блейського озера біля підніжжя Юлійських Альп: з островом і церквою на воді та замком над берегом."
+  },
+  "waypoints": [
+    {
+      "at": [46.35931, 14.09348],
+      "name": {
+        "en": "Vila Bled",
+        "de": "Vila Bled",
+        "fr": "Vila Bled",
+        "uk": "Віла Блед"
+      },
+      "text": {
+        "en": "Vila Bled was completed in 1947 as the summer residence of Josip Broz Tito, who received official state visits here. After his death in 1980 it was opened to paying guests and is now a hotel.",
+        "de": "Die Vila Bled wurde 1947 als Sommerresidenz von Josip Broz Tito fertiggestellt, der hier offiziell Staatsgäste empfing. Nach seinem Tod 1980 wurde sie für zahlende Gäste geöffnet und ist heute ein Hotel.",
+        "fr": "La Vila Bled a été achevée en 1947 comme résidence d’été de Josip Broz Tito, qui y recevait des visites d’État. Après sa mort en 1980, elle a été ouverte aux hôtes payants et est aujourd’hui un hôtel.",
+        "uk": "Вілу Блед завершили 1947 року як літню резиденцію Йосипа Броза Тіто, який приймав тут державні візити. Після його смерті 1980 року вона відкрилася для гостей і нині є готелем."
+      }
+    },
+    {
+      "at": [46.35979, 14.09859],
+      "name": {
+        "en": "Pletna boats",
+        "de": "Pletna-Boote",
+        "fr": "Bateaux pletna",
+        "uk": "Човни плетна"
+      },
+      "text": {
+        "en": "Wooden pletna boats, which seat 20, are rowed standing and take visitors to the island. In 1740 Maria Theresa gave 22 local families the exclusive right to ferry pilgrims, and the trade is still restricted. 99 stone steps lead up to the island church.",
+        "de": "Die hölzernen Pletna-Boote mit Platz für 20 Personen werden im Stehen gerudert und bringen Besucher zur Insel. 1740 gab Maria Theresia 22 Familien aus der Gegend das alleinige Recht, Pilger überzusetzen; das Gewerbe ist bis heute beschränkt. 99 Steinstufen führen zur Inselkirche hinauf.",
+        "fr": "Les bateaux en bois pletna, qui accueillent 20 personnes, sont ramés debout et mènent les visiteurs à l’île. En 1740, Marie-Thérèse a donné à 22 familles du pays le droit exclusif de transporter les pèlerins ; le métier reste réglementé. 99 marches de pierre mènent à l’église de l’île.",
+        "uk": "Дерев’яні човни плетна на 20 осіб веслують стоячи; вони возять відвідувачів на острів. 1740 року Марія Терезія надала 22 місцевим родинам виняткове право перевозити прочан, і це ремесло досі обмежене. До церкви на острові ведуть 99 кам’яних сходинок."
+      }
+    },
+    {
+      "at": [46.3697, 14.10052],
+      "name": {
+        "en": "Bled Castle",
+        "de": "Burg Bled",
+        "fr": "Château de Bled",
+        "uk": "Бледський замок"
+      },
+      "text": {
+        "en": "The castle stands on a cliff above the north shore. A deed of Emperor Henry II dated 22 May 1011 is its first written mention, which makes it the oldest Slovenian castle in the written record. Today it houses a historical museum.",
+        "de": "Die Burg steht auf einem Felsen über dem Nordufer. Eine Schenkungsurkunde Kaiser Heinrichs II. vom 22. Mai 1011 erwähnt sie erstmals; nach den schriftlichen Quellen ist sie die älteste slowenische Burg. Heute beherbergt sie ein historisches Museum.",
+        "fr": "Le château se dresse sur un rocher au-dessus de la rive nord. Un acte de donation de l’empereur Henri II daté du 22 mai 1011 le mentionne pour la première fois ; d’après les sources écrites, c’est le plus ancien château slovène. Il abrite aujourd’hui un musée historique.",
+        "uk": "Замок стоїть на скелі над північним берегом. Дарча грамота імператора Генріха II від 22 травня 1011 року згадує його вперше; за письмовими джерелами це найдавніший словенський замок. Нині в ньому історичний музей."
+      }
+    },
+    {
+      "at": [46.36817, 14.08642],
+      "name": {
+        "en": "Rowing promenade",
+        "de": "Ruderpromenade",
+        "fr": "Promenade des rameurs",
+        "uk": "Веслувальна набережна"
+      },
+      "text": {
+        "en": "The west end of the lake is Bled’s rowing centre, along the Veslaška promenada. The World Rowing Championships were held at Bled in 1966, 1979, 1989 and 2011.",
+        "de": "Das Westende des Sees ist das Ruderzentrum von Bled, an der Veslaška promenada. Die Ruder-Weltmeisterschaften fanden in Bled 1966, 1979, 1989 und 2011 statt.",
+        "fr": "L’extrémité ouest du lac est le centre d’aviron de Bled, le long de la Veslaška promenada. Les championnats du monde d’aviron ont eu lieu à Bled en 1966, 1979, 1989 et 2011.",
+        "uk": "Західний кінець озера — веслувальний центр Бледа, вздовж Veslaška promenada. Чемпіонати світу з академічного веслування відбувалися в Бледі 1966, 1979, 1989 і 2011 років."
+      }
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lake_Bled",
+    "https://en.wikipedia.org/wiki/Bled_Castle",
+    "https://en.wikipedia.org/wiki/Bled_Island",
+    "https://www.irishtimes.com/news/the-house-that-tito-built-a-reflection-of-his-character-1.1158946",
+    "https://rtvslo.si/news-in-english/villa-bled-is-more-appreciated-abroad-than-at-home/352846"
+  ]
+}

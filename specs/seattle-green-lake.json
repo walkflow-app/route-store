@@ -1,0 +1,83 @@
+{
+  "file": "seattle-green-lake",
+  "osm": "relation/153444",
+  "step": 150,
+  "snapDist": 80,
+  "corr": 100,
+  "pen": 25,
+  "country": "US",
+  "tags": [
+    "lake",
+    "park",
+    "loop"
+  ],
+  "name": {
+    "en": "Green Lake Loop",
+    "de": "Green-Lake-Runde",
+    "fr": "Tour de Green Lake",
+    "uk": "Коло озера Грін-Лейк"
+  },
+  "place": {
+    "en": "Seattle, USA",
+    "de": "Seattle, USA",
+    "fr": "Seattle, États-Unis",
+    "uk": "Сіетл, США"
+  },
+  "description": {
+    "en": "About {km} km ({mi} miles) around Green Lake in the north of Seattle, Washington. A flat, well-used loop on the paths of Green Lake Park.",
+    "de": "Rund {km} km um den Green Lake im Norden von Seattle, Washington. Eine flache, viel genutzte Runde auf den Wegen des Green Lake Park.",
+    "fr": "Environ {km} km autour de Green Lake, au nord de Seattle, dans l’État de Washington. Une boucle plate et très fréquentée sur les chemins du Green Lake Park.",
+    "uk": "Близько {km} км навколо озера Грін-Лейк на півночі Сіетла у штаті Вашингтон. Рівне, дуже людне коло стежками парку Грін-Лейк."
+  },
+  "waypoints": [
+    {
+      "at": [47.671343, -122.342303],
+      "name": {
+        "en": "How the lake came to be",
+        "de": "Wie der See entstand",
+        "fr": "Naissance du lac",
+        "uk": "Як з’явилося озеро"
+      },
+      "text": {
+        "en": "A glacier dug the lake basin about 50,000 years ago. In 1911 the water level was lowered by 7 feet (2.1 m) to make room for parkland, and the park design still follows the Olmsted plan for Seattle’s green spaces.",
+        "de": "Ein Gletscher grub das Seebecken vor rund 50.000 Jahren aus. 1911 wurde der Wasserspiegel um 2,1 m (7 Fuß) abgesenkt, um Platz für Parkland zu schaffen; die Anlage folgt bis heute dem Olmsted-Plan für Seattles Grünflächen.",
+        "fr": "Un glacier a creusé le bassin du lac il y a environ 50 000 ans. En 1911, le niveau de l’eau a été abaissé de 2,1 m (7 pieds) pour faire place au parc, dont le dessin suit encore le plan Olmsted des espaces verts de Seattle.",
+        "uk": "Улоговину озера викопав льодовик приблизно 50 000 років тому. 1911 року рівень води знизили на 2,1 м (7 футів), щоб звільнити місце під парк, а його планування й досі відповідає плану Олмстеда для зелених зон Сіетла."
+      }
+    },
+    {
+      "at": [47.68014, -122.32909],
+      "name": {
+        "en": "Evans Pool",
+        "de": "Evans Pool",
+        "fr": "Piscine Evans",
+        "uk": "Басейн Evans"
+      },
+      "text": {
+        "en": "Evans Pool was added in 1955 and holds about 150,000 gallons. It is named for the brothers Ben and Lou Evans, who served Seattle parks athletics for many years.",
+        "de": "Der Evans Pool kam 1955 dazu und fasst rund 568 m³ (150.000 Gallonen). Er ist nach den Brüdern Ben und Lou Evans benannt, die sich viele Jahre um den Sport in Seattles Parks verdient gemacht haben.",
+        "fr": "La piscine Evans a été ajoutée en 1955 et contient environ 568 m³ (150 000 gallons). Elle porte le nom des frères Ben et Lou Evans, qui ont longtemps œuvré pour le sport dans les parcs de Seattle.",
+        "uk": "Басейн Evans додали 1955 року, він вміщує близько 568 м³ (150 000 галонів). Названий на честь братів Бена і Лу Евансів, які багато років працювали на користь спорту в парках Сіетла."
+      }
+    },
+    {
+      "at": [47.68149, -122.32881],
+      "name": {
+        "en": "Boathouse and boat rental",
+        "de": "Bootshaus und Bootsverleih",
+        "fr": "Hangar et location de bateaux",
+        "uk": "Елінг і прокат човнів"
+      },
+      "text": {
+        "en": "A café and boat rental on the east shore. The paved path around the lake is 2.8 miles (4.5 km) long and shared by walkers, runners, cyclists and skaters; a separate unpaved path runs along the park’s outer edge.",
+        "de": "Ein Café und ein Bootsverleih am Ostufer. Der asphaltierte Weg um den See ist 4,5 km (2,8 Meilen) lang und wird von Fußgängern, Läufern, Radfahrern und Skatern gemeinsam genutzt; ein unbefestigter Weg verläuft außen am Parkrand.",
+        "fr": "Un café et une location de bateaux sur la rive est. Le chemin goudronné autour du lac mesure 4,5 km (2,8 miles) et est partagé par piétons, coureurs, cyclistes et patineurs ; un chemin non revêtu longe le bord extérieur du parc.",
+        "uk": "Кафе та прокат човнів на східному березі. Асфальтована стежка навколо озера має довжину 4,5 км (2,8 милі) і є спільною для пішоходів, бігунів, велосипедистів і роликів; окрема ґрунтова стежка проходить по зовнішньому краю парку."
+      }
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Green_Lake_(Seattle)",
+    "https://en.wikipedia.org/wiki/Green_Lake,_Seattle"
+  ]
+}
