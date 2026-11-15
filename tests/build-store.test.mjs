@@ -74,6 +74,13 @@ describe('build-store.mjs', { skip: skipWithoutApp }, () => {
     expect(run('--check', '--files-only').out).toMatch(/the same file as/);
   });
 
+  it('fails for a speed the app would drop, instead of letting the route walk at another speed', () => {
+    edit(pkg => { pkg.defaultSpeed = 99; });
+    const r = run('--check', '--files-only');
+    expect(r.code).toBe(1);
+    expect(r.out).toMatch(/defaultSpeed/);
+  });
+
   it('fails for a waypoint that is far from the route', () => {
     edit(pkg => { pkg.waypoints = [{ at: [0, 0], name: { en: 'Far away' } }]; });
     const r = run('--check', '--files-only');
