@@ -1,6 +1,7 @@
 name: Check routes
 
-# Pull requests: check the route files. After a merge to main: check them again and write index.json.
+# Pull requests: check the route files, against the app's main and against its newest release. After a merge to main: check
+# them again and write index.json.
 # scripts/build-store.mjs is run with a checkout of the app's repository (app/), whose code reads the packages, so a route that passes is
 # one the app can read.
 
@@ -79,9 +80,37 @@ jobs:
         env:
           WALKFLOW_APP: ${{ github.workspace }}/app
 
+  # The apps people have are releases, not main: a rule that main loosened would let a route in that every released app
+  # refuses, and one refused entry makes the whole index unreadable for them (walkflow-app/walkflow#49 H)
+  released-app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: The newest release of the app
+        id: release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo "tag=$(gh api repos/walkflow-app/walkflow/releases/latest --jq .tag_name)" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v7
+        with:
+          path: store
+      - uses: actions/checkout@v7
+        with:
+          repository: walkflow-app/walkflow
+          ref: ${{ steps.release.outputs.tag }}
+          path: app
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+        working-directory: app
+      - name: Check the route files against ${{ steps.release.outputs.tag }}
+        run: node store/scripts/build-store.mjs --root store --app app --check --files-only
+
   index:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: [check, tests]
+    needs: [check, tests, released-app]
     runs-on: ubuntu-latest
     permissions:
       contents: write
