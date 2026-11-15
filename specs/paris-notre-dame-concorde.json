@@ -15,10 +15,10 @@
     "uk": "Париж, Франція"
   },
   "description": {
-    "en": "About {km} km ({mi} miles) through the heart of Paris: from Notre-Dame on the Île de la Cité over the Seine, past the Louvre and through the Tuileries to the Place de la Concorde. Five famous places on one walk, from the Middle Ages to Napoleon.",
-    "de": "Rund {km} km durchs Herz von Paris: von Notre-Dame auf der Île de la Cité über die Seine, am Louvre vorbei und durch die Tuilerien zur Place de la Concorde. Fünf berühmte Orte auf einem Spaziergang, vom Mittelalter bis zu Napoleon.",
-    "fr": "Environ {km} km au cœur de Paris : de Notre-Dame, sur l’île de la Cité, par-dessus la Seine, devant le Louvre et à travers les Tuileries jusqu’à la place de la Concorde. Cinq lieux célèbres en une promenade, du Moyen Âge à Napoléon.",
-    "uk": "Близько {km} км серцем Парижа: від Нотр-Дам на острові Сіте через Сену, повз Лувр і крізь сад Тюїльрі до площі Згоди. П’ять відомих місць за одну прогулянку — від Середньовіччя до Наполеона."
+    "en": "About {km} km ({mi} miles) through the heart of Paris: from Notre-Dame on the Île de la Cité over the Seine, past the Louvre and through the Tuileries to the Place de la Concorde. Five famous places on one walk, from the Middle Ages to the 20th century.",
+    "de": "Rund {km} km durchs Herz von Paris: von Notre-Dame auf der Île de la Cité über die Seine, am Louvre vorbei und durch die Tuilerien zur Place de la Concorde. Fünf berühmte Orte auf einem Spaziergang, vom Mittelalter bis ins 20. Jahrhundert.",
+    "fr": "Environ {km} km au cœur de Paris : de Notre-Dame, sur l’île de la Cité, par-dessus la Seine, devant le Louvre et à travers les Tuileries jusqu’à la place de la Concorde. Cinq lieux célèbres en une promenade, du Moyen Âge au XXe siècle.",
+    "uk": "Близько {km} км серцем Парижа: від Нотр-Дам на острові Сіте через Сену, повз Лувр і крізь сад Тюїльрі до площі Згоди. П’ять відомих місць за одну прогулянку — від Середньовіччя до XX століття."
   },
   "waypoints": [
     {
@@ -45,10 +45,10 @@
         "uk": "Пон-Неф"
       },
       "text": {
-        "en": "The “New Bridge” is the oldest standing bridge over the Seine in Paris: begun under Henry III in 1578, finished in 1606 and opened by Henry IV in 1607. It is 232 m long and 22 m wide. Christo and Jeanne-Claude wrapped it in 1985.",
-        "de": "Die „Neue Brücke“ ist die älteste erhaltene Brücke über die Seine in Paris: 1578 unter Heinrich III. begonnen, 1606 fertig und 1607 von Heinrich IV. eingeweiht. Sie ist 232 m lang und 22 m breit. Christo und Jeanne-Claude verhüllten sie 1985.",
-        "fr": "Le « Pont neuf » est le plus ancien pont encore debout sur la Seine à Paris : commencé sous Henri III en 1578, achevé en 1606 et inauguré par Henri IV en 1607. Il mesure 232 m de long et 22 m de large. Christo et Jeanne-Claude l’empaquetèrent en 1985.",
-        "uk": "«Новий міст» — найстаріший міст через Сену в Парижі, що зберігся: розпочатий за Генріха III 1578 року, завершений 1606-го й відкритий Генріхом IV 1607 року. Довжина — 232 м, ширина — 22 м. 1985 року Крісто й Жанна-Клод загорнули його в тканину."
+        "en": "The “New Bridge” is the oldest standing bridge over the Seine in Paris: begun under Henry III in 1578 and inaugurated by Henry IV in 1607. It is 232 m long and 22 m wide. Christo and Jeanne-Claude wrapped it in 1985.",
+        "de": "Die „Neue Brücke“ ist die älteste erhaltene Brücke über die Seine in Paris: 1578 unter Heinrich III. begonnen und 1607 von Heinrich IV. eingeweiht. Sie ist 232 m lang und 22 m breit. Christo und Jeanne-Claude verhüllten sie 1985.",
+        "fr": "Le « Pont neuf » est le plus ancien pont encore debout sur la Seine à Paris : commencé sous Henri III en 1578 et inauguré par Henri IV en 1607. Il mesure 232 m de long et 22 m de large. Christo et Jeanne-Claude l’empaquetèrent en 1985.",
+        "uk": "«Новий міст» — найстаріший міст через Сену в Парижі, що зберігся: розпочатий за Генріха III 1578 року й урочисто відкритий Генріхом IV 1607 року. Довжина — 232 м, ширина — 22 м. 1985 року Крісто й Жанна-Клод загорнули його в тканину."
       }
     },
     {
@@ -60,10 +60,10 @@
         "uk": "Піраміда Лувру"
       },
       "text": {
-        "en": "I. M. Pei’s glass pyramid, completed in 1989, is 21.6 m high with 673 panes. It is the main entrance of the Louvre and lets light into the hall below. Critics found its modern look at odds with the Renaissance palace.",
-        "de": "Die Glaspyramide von I. M. Pei, 1989 fertiggestellt, ist 21,6 m hoch und hat 673 Scheiben. Sie ist der Haupteingang des Louvre und lässt Licht in die Halle darunter. Kritiker fanden, dass ihre moderne Form nicht zum Renaissance-Palast passt.",
-        "fr": "La pyramide de verre d’I. M. Pei, achevée en 1989, mesure 21,6 m de haut et compte 673 vitres. C’est l’entrée principale du Louvre ; elle éclaire le hall en dessous. Ses détracteurs jugeaient son style moderne en désaccord avec le palais Renaissance.",
-        "uk": "Скляна піраміда І. М. Пея, завершена 1989 року, має висоту 21,6 м і 673 скла. Це головний вхід до Лувру, вона пропускає світло в зал унизу. Критики вважали її сучасний вигляд невідповідним палацу доби Відродження."
+        "en": "I. M. Pei’s glass pyramid, completed in 1989, is 21.6 m high. It is the main entrance of the Louvre and lets light into the hall below. Critics found its modern look at odds with the Renaissance palace.",
+        "de": "Die Glaspyramide von I. M. Pei, 1989 fertiggestellt, ist 21,6 m hoch. Sie ist der Haupteingang des Louvre und lässt Licht in die Halle darunter. Kritiker fanden, dass ihre moderne Form nicht zum Renaissance-Palast passt.",
+        "fr": "La pyramide de verre d’I. M. Pei, achevée en 1989, mesure 21,6 m de haut. C’est l’entrée principale du Louvre ; elle éclaire le hall en dessous. Ses détracteurs jugeaient son style moderne en désaccord avec le palais Renaissance.",
+        "uk": "Скляна піраміда І. М. Пея, завершена 1989 року, має висоту 21,6 м. Це головний вхід до Лувру, вона пропускає світло в зал унизу. Критики вважали її сучасний вигляд невідповідним палацу доби Відродження."
       }
     },
     {
@@ -75,10 +75,10 @@
         "uk": "Тріумфальна арка Каррузель"
       },
       "text": {
-        "en": "Built 1806–1808 for Napoleon I as the gateway of the Tuileries Palace, modelled on the Arch of Constantine; about 19 m high. The Horses of Saint Mark from Venice first stood on top and went back in 1815. The quadriga there now, by Bosio (1828), represents Peace.",
-        "de": "1806–1808 für Napoleon I. als Tor des Tuilerienpalasts gebaut, dem Konstantinsbogen nachempfunden, etwa 19 m hoch. Zuerst standen die Pferde von San Marco aus Venedig oben, 1815 gingen sie zurück. Die heutige Quadriga von Bosio (1828) stellt den Frieden dar.",
-        "fr": "Construit en 1806–1808 pour Napoléon Ier comme porte du palais des Tuileries, sur le modèle de l’arc de Constantin ; environ 19 m de haut. Les chevaux de Saint-Marc de Venise l’ont d’abord couronné, avant de repartir en 1815. L’actuel quadrige de Bosio (1828) figure la Paix.",
-        "uk": "Споруджена 1806–1808 років для Наполеона I як брама палацу Тюїльрі за зразком арки Костянтина, висота — близько 19 м. Спершу її вінчали коні собору Святого Марка з Венеції, 1815 року їх повернули. Нинішня квадрига Бозіо (1828) уособлює Мир."
+        "en": "Built 1806–1808 for Napoleon I as the gateway of the Tuileries Palace, modelled on Roman triumphal arches; about 19 m high. The Horses of Saint Mark from Venice first stood on top and went back to Venice after Napoleon’s defeat. The quadriga there now, by Bosio (1828), represents Peace.",
+        "de": "1806–1808 für Napoleon I. als Tor des Tuilerienpalasts gebaut, römischen Triumphbögen nachempfunden, etwa 19 m hoch. Zuerst standen die Pferde von San Marco aus Venedig oben; nach Napoleons Niederlage kehrten sie nach Venedig zurück. Die heutige Quadriga von Bosio (1828) stellt den Frieden dar.",
+        "fr": "Construit en 1806–1808 pour Napoléon Ier comme porte du palais des Tuileries, sur le modèle des arcs de triomphe romains ; environ 19 m de haut. Les chevaux de Saint-Marc l’ont d’abord couronné, puis furent rendus à Venise après la chute de Napoléon. L’actuel quadrige de Bosio (1828) figure la Paix.",
+        "uk": "Споруджена 1806–1808 років для Наполеона I як брама палацу Тюїльрі за зразком римських тріумфальних арок, висота — близько 19 м. Спершу її вінчали коні собору Святого Марка з Венеції; після поразки Наполеона їх повернули до Венеції. Нинішня квадрига Бозіо (1828) уособлює Мир."
       }
     },
     {
