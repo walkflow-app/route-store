@@ -25,10 +25,10 @@
   "license": "ODbL-1.0",
   "source": "© OpenStreetMap contributors (ODbL)",
   "description": {
-    "en": "About 3.2 km (2.0 miles) through Edinburgh’s Old Town: from the statue of Greyfriars Bobby up to the Castle and then all the way down the Royal Mile past St Giles’ to the Scottish Parliament and Holyrood Palace. Cobbles, a steep start and then downhill.",
-    "de": "Rund 3,2 km durch die Altstadt von Edinburgh: von der Statue des Greyfriars Bobby hinauf zur Burg und dann die ganze Royal Mile hinab, an St Giles’ vorbei zum schottischen Parlament und zum Holyrood Palace. Kopfsteinpflaster, ein steiler Anfang und dann bergab.",
-    "fr": "Environ 3,2 km à travers la Vieille Ville d’Édimbourg : de la statue de Greyfriars Bobby jusqu’au château, puis tout le long du Royal Mile, devant St Giles’, jusqu’au Parlement écossais et au palais de Holyrood. Des pavés, un début raide, puis la descente.",
-    "uk": "Близько 3,2 км Старим містом Единбурга: від статуї Грейфрайєрс Боббі вгору до замку, а потім усією Королівською милею повз собор Св. Джайлза до шотландського парламенту та палацу Голіруд. Бруківка, крутий початок, далі вниз."
+    "en": "About 2.6 km (1.6 miles) through Edinburgh’s Old Town: from the statue of Greyfriars Bobby up to the Castle and back, then all the way down the Royal Mile past St Giles’ to the Scottish Parliament and Holyrood Palace.",
+    "de": "Rund 2,6 km durch die Altstadt von Edinburgh: von der Statue des Greyfriars Bobby hinauf zur Burg und zurück, dann die ganze Royal Mile hinab, an St Giles’ vorbei zum schottischen Parlament und zum Holyrood Palace.",
+    "fr": "Environ 2,6 km à travers la Vieille Ville d’Édimbourg : de la statue de Greyfriars Bobby jusqu’au château et retour, puis tout le long du Royal Mile, devant St Giles’, jusqu’au Parlement écossais et au palais de Holyrood.",
+    "uk": "Близько 2,6 км Старим містом Единбурга: від статуї Грейфрайєрс Боббі вгору до замку й назад, а потім усією Королівською милею повз собор Св. Джайлза до шотландського парламенту та палацу Голіруд."
   },
   "waypoints": [
     {
@@ -100,10 +100,10 @@
         "uk": "Палац Голіруд"
       },
       "text": {
-        "en": "The monarch’s official residence in Scotland. Holyrood Abbey was founded in 1128; James IV built a palace beside it in 1501–1505. Mary, Queen of Scots’ secretary David Rizzio was murdered here on 9 March 1566. Sir William Bruce built the present palace in 1671–1678.",
-        "de": "Die offizielle Residenz des Monarchen in Schottland. Holyrood Abbey wurde 1128 gegründet; Jakob IV. baute 1501–1505 daneben einen Palast. Maria Stuarts Sekretär David Rizzio wurde hier am 9. März 1566 ermordet. Sir William Bruce errichtete 1671–1678 den heutigen Palast.",
-        "fr": "La résidence officielle du monarque en Écosse. L’abbaye de Holyrood fut fondée en 1128 ; Jacques IV construisit un palais à côté en 1501–1505. Le secrétaire de Marie Stuart, David Rizzio, y fut assassiné le 9 mars 1566. Sir William Bruce bâtit le palais actuel en 1671–1678.",
-        "uk": "Офіційна резиденція монарха в Шотландії. Абатство Голіруд заснували 1128 року; Яків IV звів поруч палац у 1501–1505 роках. Секретаря Марії Стюарт Давіда Ріццо вбили тут 9 березня 1566 року. Нинішній палац збудував сер Вільям Брюс у 1671–1678 роках."
+        "en": "The monarch’s official residence in Scotland. Holyrood Abbey was founded in 1128; James IV built a palace beside it in 1501–1505. Mary, Queen of Scots’ secretary David Rizzio was murdered here on 9 March 1566. Sir William Bruce built the present palace in the 1670s.",
+        "de": "Die offizielle Residenz des Monarchen in Schottland. Holyrood Abbey wurde 1128 gegründet; Jakob IV. baute 1501–1505 daneben einen Palast. Maria Stuarts Sekretär David Rizzio wurde hier am 9. März 1566 ermordet. Sir William Bruce errichtete in den 1670er-Jahren den heutigen Palast.",
+        "fr": "La résidence officielle du monarque en Écosse. L’abbaye de Holyrood fut fondée en 1128 ; Jacques IV construisit un palais à côté en 1501–1505. Le secrétaire de Marie Stuart, David Rizzio, y fut assassiné le 9 mars 1566. Sir William Bruce bâtit le palais actuel dans les années 1670.",
+        "uk": "Офіційна резиденція монарха в Шотландії. Абатство Голіруд заснували 1128 року; Яків IV звів поруч палац у 1501–1505 роках. Секретаря Марії Стюарт Давіда Ріццо вбили тут 9 березня 1566 року. Нинішній палац збудував сер Вільям Брюс у 1670-х роках."
       }
     }
   ],
@@ -134,36 +134,30 @@
     [55.949283, -3.19362],
     [55.949491, -3.192245],
     [55.949731, -3.190985],
+    [55.950509, -3.184955],
+    [55.950657, -3.18408],
     [55.950808, -3.182856],
     [55.951131, -3.180981],
-    [55.951722, -3.178308],
+    [55.951775, -3.178096],
     [55.952318, -3.176024],
     [55.95237, -3.176067],
-    [55.952421, -3.175945],
     [55.952497, -3.17563],
-    [55.952523, -3.175404],
-    [55.952484, -3.175353],
-    [55.952543, -3.17513],
-    [55.952687, -3.174687],
+    [55.952508, -3.175258],
+    [55.952676, -3.174712],
     [55.952756, -3.174691],
-    [55.9528, -3.174588],
+    [55.952796, -3.174614],
     [55.952776, -3.174465],
     [55.952692, -3.17444],
     [55.952695, -3.174203],
     [55.952652, -3.174131],
-    [55.951894, -3.173484],
-    [55.951881, -3.173362],
-    [55.951957, -3.172698],
-    [55.950976, -3.172056],
-    [55.950758, -3.171807],
-    [55.950728, -3.171656],
-    [55.950738, -3.171362],
-    [55.950855, -3.170676],
-    [55.950756, -3.170584],
-    [55.950825, -3.170273],
-    [55.95087, -3.170323],
-    [55.951028, -3.169387],
-    [55.9514, -3.16951],
-    [55.952966, -3.170373]
+    [55.952731, -3.173756],
+    [55.952659, -3.173722],
+    [55.952682, -3.173554],
+    [55.952645, -3.173535],
+    [55.952631, -3.173619],
+    [55.952583, -3.173631],
+    [55.952585, -3.173504],
+    [55.952524, -3.173472],
+    [55.952553, -3.173295]
   ]
 }
