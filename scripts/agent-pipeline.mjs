@@ -8,7 +8,7 @@
 //   node scripts/agent-pipeline.mjs sweep                        decide and act for every open pull request
 //   node scripts/agent-pipeline.mjs check-fix <pr> <sha> <paths> may this fix be pushed? (agent-fix.yml; paths NUL-separated)
 //
-// (Copied from walkflow's scripts/agent-pipeline.mjs; only the lists below differ: REQUIRED_CHECKS, PROTECTED, REPO and LIMITS.unreviewedLines (0: a fix after a review is always reviewed again, a route's texts are what the reviewer checks). Change both together.)
+// (Copied from walkflow's scripts/agent-pipeline.mjs; only the lists below differ: REQUIRED_CHECKS, PROTECTED, REPO and LIMITS.unreviewedLines (0: a fix after a review is always reviewed again, a route's texts are what the reviewer checks), and classify, which has no HARDWARE-TESTS.md or library-version rule here. Change both together.)
 // Off unless the repository variable AGENT_PIPELINE is "on"; then reviews are a comment, as before.
 import { execFileSync } from 'node:child_process';
 import { readdirSync, readFileSync } from 'node:fs';
