@@ -349,6 +349,54 @@
       ]
     },
     {
+      "file": "paris-notre-dame-concorde.walkflow",
+      "revision": 1,
+      "sha256": "ca5cc63fa9a30f368c8f6dbcae187e42d459a62abd9bcc44c744f50017b5d817",
+      "chars": 9701,
+      "length": 3304,
+      "name": {
+        "en": "Notre-Dame to Place de la Concorde",
+        "de": "Von Notre-Dame zur Place de la Concorde",
+        "fr": "De Notre-Dame à la place de la Concorde",
+        "uk": "Від Нотр-Дам до площі Згоди"
+      },
+      "place": {
+        "en": "Paris, France",
+        "de": "Paris, Frankreich",
+        "fr": "Paris, France",
+        "uk": "Париж, Франція"
+      },
+      "country": "FR",
+      "tags": [
+        "city",
+        "sights"
+      ]
+    },
+    {
+      "file": "prague-charles-bridge-wenceslas-square.walkflow",
+      "revision": 1,
+      "sha256": "fec3b304f680e9c9a0cc82d4136ec0fcce8ddb887e0e547560851e114a06b474",
+      "chars": 9338,
+      "length": 2783,
+      "name": {
+        "en": "Charles Bridge to Wenceslas Square",
+        "de": "Von der Karlsbrücke zum Wenzelsplatz",
+        "fr": "Du pont Charles à la place Venceslas",
+        "uk": "Від Карлового мосту до Вацлавської площі"
+      },
+      "place": {
+        "en": "Prague, Czechia",
+        "de": "Prag, Tschechien",
+        "fr": "Prague, Tchéquie",
+        "uk": "Прага, Чехія"
+      },
+      "country": "CZ",
+      "tags": [
+        "city",
+        "sights"
+      ]
+    },
+    {
       "file": "rome-colosseum-piazza-navona.walkflow",
       "revision": 1,
       "sha256": "9c78a1cea2c307860e7f5c05e0f24e9869b09db63e4a319adf3263c0bb3de1f4",
