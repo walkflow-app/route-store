@@ -175,6 +175,31 @@
       ]
     },
     {
+      "file": "florence-station-palazzo-pitti.walkflow",
+      "revision": 1,
+      "sha256": "8121ed0f333409bd2b00d8532134b1e7947928f56172373876713d4031224726",
+      "chars": 10048,
+      "length": 2204,
+      "name": {
+        "en": "Santa Maria Novella Station to Palazzo Pitti",
+        "de": "Vom Bahnhof Santa Maria Novella zum Palazzo Pitti",
+        "fr": "De la gare Santa Maria Novella au palais Pitti",
+        "uk": "Від вокзалу Санта-Марія-Новелла до палацу Пітті"
+      },
+      "place": {
+        "en": "Florence, Italy",
+        "de": "Florenz, Italien",
+        "fr": "Florence, Italie",
+        "uk": "Флоренція, Італія"
+      },
+      "country": "IT",
+      "tags": [
+        "city",
+        "sights",
+        "art"
+      ]
+    },
+    {
       "file": "hamburg-aussenalster.walkflow",
       "revision": 1,
       "sha256": "b9c536da6922238924464bde9e9aeb014dafb1a53e6266be04417e0e4d429426",
