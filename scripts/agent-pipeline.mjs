@@ -135,7 +135,7 @@ export function decide(s) {
     return out('hold', 'the checks did not start after the kick');
 
   const reviews = s.reviews.filter(r => r.user === REVIEWER)
-    .map(r => { ...r, mark: readMarker('agent-review', r.body) })
+    .map(r => ({ ...r, mark: readMarker('agent-review', r.body) }))
     .filter(r => r.mark && r.mark.sha === r.commitId && STATE[r.mark.verdict] === r.state);
   const counted = new Set(reviews.filter(r => !s.holdResetAt || r.submittedAt > s.holdResetAt).map(r => r.commitId)).size;
   const fixed = (sha, mode) => s.comments.some(c => {
