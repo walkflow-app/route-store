@@ -52,8 +52,10 @@ public repository without the maintainer agreeing.
   **Process notes** in your pull request or last comment. Never loosen a rule in your own run.
 
 **In this repository** there is no belt code: a route is one file in `routes/` with its spec, one route per pull request, checked
-by the route reviewer. The agent pipeline of walkflow is not here yet: until it is, the PM or the maintainer merges, and
-`claude.yml` still skips issues labelled `safety`, which nothing here uses.
+by the route reviewer. The agent pipeline of walkflow runs here too (`scripts/agent-pipeline.mjs`, the same file with this
+repository's lists in `scripts/paths.mjs`, both empty, and the required checks `check` and `tests`): once the maintainer sets the
+repository variable `AGENT_PIPELINE` to `on`, a route that the route reviewer passes and CI accepts is merged by the pipeline.
+Protected, for the maintainer: `.github/`, `.claude/`, `CLAUDE.md`, `scripts/`, `tests/` and `index.json`.
 
 - **New routes**: skill `make-route` (the order of work and the pitfalls).
 - **Before a route pull request is merged**: agent `route-reviewer` (facts against sources, texts, privacy, the map).
@@ -61,8 +63,12 @@ by the route reviewer. The agent pipeline of walkflow is not here yet: until it 
   the other way round; when that is unclear, Opus for the store checks or big changes, else Sonnet. On GitHub
   `.github/scripts/review-model.sh` picks it the same way, from the Co-Authored-By lines of the commits.
 - **On GitHub:** `agent-review.yml` runs the reviewers on every new pull request and posts their verdicts (comment
-  `@claude review` to run it again); `claude.yml` takes on `@claude …` requests and issues labelled `agent-ready`, never ones
-  labelled `safety` (nothing here is belt code). Both only work on branches and pull requests; the PM or the maintainer merges. New issues from outside:
+  `@claude review` to run it again); `claude.yml` takes on `@claude …` requests and issues labelled `agent-ready`, issues
+  of every kind (nothing here is belt code). Both only work on branches and pull requests; with `AGENT_PIPELINE` on,
+  `agent-pipeline.yml` (every 15 minutes and after each review, check or fix) merges what is reviewed, green and up to date,
+  `agent-fix.yml` fixes remarks, failing checks and conflicts, and `dispatch.yml` starts the tasks of an approved Feature. Only the
+  rules themselves (`needs-maintainer`) wait for the maintainer; everything else stuck gets `stuck` for the PM. Until then the PM
+  or the maintainer merges. New issues from outside:
   `triage.yml` (labels and one comment, never `agent-ready`).
 
 ## Commands

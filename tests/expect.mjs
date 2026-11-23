@@ -6,6 +6,10 @@ const matchers = (actual, negate) => {
   return {
     toBe: expected => (negate ? assert.notStrictEqual(actual, expected) : assert.strictEqual(actual, expected)),
     toEqual: expected => (negate ? assert.notDeepStrictEqual(actual, expected) : assert.deepStrictEqual(actual, expected)),
+    toMatchObject: expected => {
+      const subset = (a, e) => (e && typeof e === 'object' ? a && typeof a === 'object' && Object.keys(e).every(k => subset(a[k], e[k])) : a === e);
+      check(subset(actual, expected), `expected ${JSON.stringify(actual)} to match ${JSON.stringify(expected)}`);
+    },
     toBeNull: () => check(actual === null, `expected ${actual} to be null`),
     toBeGreaterThan: n => check(actual > n, `expected ${actual} to be greater than ${n}`),
     toBeLessThan: n => check(actual < n, `expected ${actual} to be less than ${n}`),
