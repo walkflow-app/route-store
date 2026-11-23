@@ -8,7 +8,7 @@
 //   node scripts/agent-pipeline.mjs sweep                        decide and act for every open pull request
 //   node scripts/agent-pipeline.mjs check-fix <pr> <sha> <paths> may this fix be pushed? (agent-fix.yml; paths NUL-separated)
 //
-// (Copied from walkflow's scripts/agent-pipeline.mjs; only the lists below differ. Change both together.)
+// (Copied from walkflow's scripts/agent-pipeline.mjs; only the lists below differ: REQUIRED_CHECKS, PROTECTED, REPO. Change both together.)
 // Off unless the repository variable AGENT_PIPELINE is "on"; then reviews are a comment, as before.
 import { execFileSync } from 'node:child_process';
 import { readdirSync, readFileSync } from 'node:fs';
@@ -18,7 +18,8 @@ import { SAFETY, TRUST } from './paths.mjs';
 
 export const WRITER = 'walkflow-writer[bot]';
 export const REVIEWER = 'walkflow-reviewer[bot]';
-export const REQUIRED_CHECKS = ['check', 'tests'];
+// check.yml: `released-app` gates the index job too, so a route the newest app release refuses must not be merged
+export const REQUIRED_CHECKS = ['check', 'tests', 'released-app'];
 /** The message of the empty commit that starts the checks of a pull request made with the workflow token */
 const KICK_MESSAGE = 'ci: start the checks (agent pipeline)';
 export const LIMITS = { reviews: 4, mergesPerDay: 5, unreviewedLines: 30, staleHours: 6 };
@@ -30,8 +31,8 @@ const STATE = { OK: 'APPROVED', 'OK with remarks': 'COMMENTED', 'changes needed'
 // What reaches the belt (SAFETY: two models, label needs-hardware, a check on the treadmill before the release) and what talks to
 // others (TRUST: two models, no treadmill) are listed in scripts/paths.mjs, shared with the safety gate and review-model.sh
 export { SAFETY, TRUST };
-/** Never merged by an agent: the rules (CLAUDE.md, .claude/, .github/, scripts/), the build and test configuration, dependencies
- *  until their own rule, and the legal pages: the stop list of meta process/PRINCIPLES.md. A deny list */
+/** Never merged by an agent: the rules (CLAUDE.md, .claude/, .github/), the store checks and their tests (scripts/, tests/) and the
+ *  index CI writes: the stop list of meta process/PRINCIPLES.md. A deny list */
 export const PROTECTED = [
   /^\.github\//, /^\.claude\//, /(^|\/)CLAUDE\.md$/, /^scripts\//, /^tests\//,
   // index.json is written by CI after the merge (a pull request that carries it is refused by the check)
@@ -134,7 +135,7 @@ export function decide(s) {
     return out('hold', 'the checks did not start after the kick');
 
   const reviews = s.reviews.filter(r => r.user === REVIEWER)
-    .map(r => Object.assign({}, r, { mark: readMarker('agent-review', r.body) }))
+    .map(r => { ...r, mark: readMarker('agent-review', r.body) })
     .filter(r => r.mark && r.mark.sha === r.commitId && STATE[r.mark.verdict] === r.state);
   const counted = new Set(reviews.filter(r => !s.holdResetAt || r.submittedAt > s.holdResetAt).map(r => r.commitId)).size;
   const fixed = (sha, mode) => s.comments.some(c => {
@@ -344,7 +345,7 @@ function submitReview(n, dir) {
   const pipeline = process.env.AGENT_PIPELINE === 'on';
   const sha = process.env.HEAD_SHA;
   const title = process.env.TITLE ?? '';
-  const files = readdirSync(dir).filter(f => f.endsWith('.md')).toSorted();
+  const files = readdirSync(dir).filter(f => f.endsWith('.md')).sort();
   if (!files.length) throw new Error('No review summary was written; comment "/agent review" or push again.');
   const reviews = files.map(f => {
     const text = quiet(readFileSync(join(dir, f), 'utf8')).trim();

@@ -1,5 +1,6 @@
 // The release gate (meta spec 0002): agents may merge changes that reach the belt, so a release waits until the maintainer
-// has checked them on a treadmill. Every pull request merged since the last release that touches a safety path (see agent-pipeline.mjs), or has the label needs-hardware, needs a comment that is only the line
+// has checked them on a treadmill. Every pull request merged since the last release that touches a safety path or a new
+// ftms-treadmill version (see agent-pipeline.mjs), or has the label needs-hardware, needs a comment that is only the line
 // "/hardware-ok", written after its merge by an owner named in .github/CODEOWNERS; or one such comment on the release pull
 // request, written after the last of them was merged, for all. Run by the release skill before the release pull request is
 // merged, and by release.yml before anything is built.
@@ -18,7 +19,7 @@ export const confirms = (c, who, after) => who.includes(c.user) && /^\/hardware-
 /** The pull requests that still wait for the hardware checks. prs: [{ number, title, files, labels, comments, mergedAt }] */
 export function releaseGate(prs, releaseComments, who) {
   const needs = prs.filter(p => classify(p.files).safety || p.labels.includes('needs-hardware'));
-  const lastMerge = needs.map(p => p.mergedAt).toSorted().at(-1) ?? '';
+  const lastMerge = needs.map(p => p.mergedAt).sort().at(-1) ?? '';
   if (releaseComments.some(c => confirms(c, who, lastMerge))) return [];
   return needs.filter(p => !p.comments.some(c => confirms(c, who, p.mergedAt)));
 }
@@ -36,7 +37,7 @@ if (import.meta.url === pathToFileURL(process.argv[1] ?? '').href) {
   const last = git('describe', '--tags', '--abbrev=0', '--match', 'v*', `${ref}^`);
   const numbers = git('log', '--format=%s', `${last}..${ref}`).split('\n').map(s => /\(#(\d+)\)$/.exec(s)?.[1]).filter(Boolean);
   // The release pull request: given, or the one that made <ref>
-  const rel = releasePr || api(`repos/${repo}/commits/${git('rev-parse', ref)}/pulls`)[0]?.number.toString();
+  const rel = releasePr ?? api(`repos/${repo}/commits/${git('rev-parse', ref)}/pulls`)[0]?.number?.toString();
   const prs = numbers.filter(n => n !== rel).map(n => {
     const p = api(`repos/${repo}/pulls/${n}`);
     return {
@@ -46,6 +47,6 @@ if (import.meta.url === pathToFileURL(process.argv[1] ?? '').href) {
   });
   const open = releaseGate(prs, rel ? comments(rel) : [], who);
   console.log(`Since ${last}: ${prs.length} pull requests, ${open.length} waiting for the hardware checks.`);
-  for (const p of open) console.log(`::error::#${p.number} ${p.title}: run its checks (written in the pull request, collected in walkflow's HARDWARE-TESTS.md) on a treadmill, then comment "/hardware-ok" on it (or once on the release pull request for all).`);
+  for (const p of open) console.log(`::error::#${p.number} ${p.title}: run its checks in HARDWARE-TESTS.md on a treadmill, then comment "/hardware-ok" on it (or once on the release pull request for all).`);
   process.exitCode = open.length ? 1 : 0;
 }

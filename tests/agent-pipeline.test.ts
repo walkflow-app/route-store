@@ -52,7 +52,7 @@ function state(change: (s: State) => void = () => {}) {
     issueAuthors: [],
     reviews: [review('OK')],
     comments: [],
-    checks: { check: 'success', tests: 'success' },
+    checks: { check: 'success', tests: 'success', 'released-app': 'success' },
     mergeable: 'MERGEABLE',
     behindBy: 0,
     sinceReviewed: null,
@@ -162,7 +162,7 @@ describe('agent pipeline: what happens next', () => {
       s.pr.author = { login: 'github-actions[bot]', type: 'Bot' }; s.pr.headRef = 'claude/issue-12'; s.checks = {}; change(s);
     });
     expect(fromClaude()).toMatchObject({ action: 'kick', sha: HEAD });
-    expect(fromClaude(s => { s.checks = { check: 'success', tests: 'success' }; }).action).toBe('merge');
+    expect(fromClaude(s => { s.checks = { check: 'success', tests: 'success', 'released-app': 'success' }; }).action).toBe('merge');
     expect(fromClaude(s => { s.pr.headRef = 'other'; }).action).toBe('skip');
   });
 
@@ -191,7 +191,7 @@ describe('agent pipeline: what happens next', () => {
     });
     expect(labelled()).toMatchObject({ action: 'kick', sha: HEAD });
     // With the checks started it stays the maintainer's, and it is never merged
-    expect(labelled(s => { s.checks = { check: 'success', tests: 'success' }; }).action).toBe('skip');
+    expect(labelled(s => { s.checks = { check: 'success', tests: 'success', 'released-app': 'success' }; }).action).toBe('skip');
     // 'hold' means leave it alone; a branch that is not claude/, a person's pull request and an outsider's issue are not touched
     expect(labelled(s => { s.pr.labels = ['hold']; }).action).toBe('skip');
     expect(labelled(s => { s.pr.headRef = 'other'; }).action).toBe('skip');
@@ -276,6 +276,9 @@ describe('agent pipeline: what happens next', () => {
   });
 
   it('checks: waits for them, fixes a failing one once, never merges without them', () => {
+    // the newest app release refuses a route the main of the app takes: the index would not be written
+    expect(state(s => { s.checks['released-app'] = 'failure'; })).toMatchObject({ action: 'fix', mode: 'checks' });
+    expect(state(s => { s.checks['released-app'] = 'pending'; }).action).toBe('wait');
     expect(state(s => { s.checks = { check: 'success' }; }).action).toBe('wait');
     expect(state(s => { s.checks = { check: 'success', tests: 'skipped' }; }).action).toBe('wait');
     expect(state(s => { s.checks.check = 'failure'; })).toMatchObject({ action: 'fix', mode: 'checks' });

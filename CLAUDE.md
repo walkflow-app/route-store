@@ -53,7 +53,7 @@ public repository without the maintainer agreeing.
 
 **In this repository** there is no belt code: a route is one file in `routes/` with its spec, one route per pull request, checked
 by the route reviewer. The agent pipeline of walkflow runs here too (`scripts/agent-pipeline.mjs`, the same file with this
-repository's lists in `scripts/paths.mjs`, both empty, and the required checks `check` and `tests`): once the maintainer sets the
+repository's lists in `scripts/paths.mjs`, both empty, and the required checks `check`, `tests` and `released-app`): once the maintainer sets the
 repository variable `AGENT_PIPELINE` to `on`, a route that the route reviewer passes and CI accepts is merged by the pipeline.
 Protected, for the maintainer: `.github/`, `.claude/`, `CLAUDE.md`, `scripts/`, `tests/` and `index.json`.
 
