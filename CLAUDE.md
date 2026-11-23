@@ -55,7 +55,7 @@ public repository without the maintainer agreeing.
 by the route reviewer. The agent pipeline of walkflow runs here too (`scripts/agent-pipeline.mjs`, the same file with this
 repository's lists in `scripts/paths.mjs`, both empty, and the required checks `check`, `tests` and `released-app`): once the maintainer sets the
 repository variable `AGENT_PIPELINE` to `on`, a route that the route reviewer passes and CI accepts is merged by the pipeline.
-Protected, for the maintainer: `.github/`, `.claude/`, `CLAUDE.md`, `scripts/`, `tests/` and `index.json`.
+Protected, for the maintainer: `.github/`, `.claude/`, `CLAUDE.md`, `README.md` (the instructions), `scripts/`, `tests/` and `index.json`. A fix after a review is always reviewed again.
 
 - **New routes**: skill `make-route` (the order of work and the pitfalls).
 - **Before a route pull request is merged**: agent `route-reviewer` (facts against sources, texts, privacy, the map).

@@ -8,7 +8,7 @@
 //   node scripts/agent-pipeline.mjs sweep                        decide and act for every open pull request
 //   node scripts/agent-pipeline.mjs check-fix <pr> <sha> <paths> may this fix be pushed? (agent-fix.yml; paths NUL-separated)
 //
-// (Copied from walkflow's scripts/agent-pipeline.mjs; only the lists below differ: REQUIRED_CHECKS, PROTECTED, REPO. Change both together.)
+// (Copied from walkflow's scripts/agent-pipeline.mjs; only the lists below differ: REQUIRED_CHECKS, PROTECTED, REPO and LIMITS.unreviewedLines (0: a fix after a review is always reviewed again, a route's texts are what the reviewer checks). Change both together.)
 // Off unless the repository variable AGENT_PIPELINE is "on"; then reviews are a comment, as before.
 import { execFileSync } from 'node:child_process';
 import { readdirSync, readFileSync } from 'node:fs';
@@ -22,7 +22,7 @@ export const REVIEWER = 'walkflow-reviewer[bot]';
 export const REQUIRED_CHECKS = ['check', 'tests', 'released-app'];
 /** The message of the empty commit that starts the checks of a pull request made with the workflow token */
 const KICK_MESSAGE = 'ci: start the checks (agent pipeline)';
-export const LIMITS = { reviews: 4, mergesPerDay: 5, unreviewedLines: 30, staleHours: 6 };
+export const LIMITS = { reviews: 4, mergesPerDay: 5, unreviewedLines: 0, staleHours: 6 };
 const MEMBERS = new Set(['OWNER', 'MEMBER', 'COLLABORATOR']);
 const VERDICTS = ['OK', 'OK with remarks', 'changes needed', 'blocking'];
 /** The review state each verdict is submitted as; a marker that does not match its review is not believed */
@@ -37,6 +37,8 @@ export const PROTECTED = [
   /^\.github\//, /^\.claude\//, /(^|\/)CLAUDE\.md$/, /^scripts\//, /^tests\//,
   // index.json is written by CI after the merge (a pull request that carries it is refused by the check)
   /^index\.json$/,
+  // The instructions (Adding a route, How the checks work, Reviewing a route) live in the README
+  /^README\.md$/,
 ];
 const TEST = /\.test\.(ts|mjs)$/;
 const CONVENTIONAL = /^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert|safety)(\([^)]+\))?: \S/;

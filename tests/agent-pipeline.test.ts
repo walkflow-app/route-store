@@ -93,7 +93,7 @@ describe('agent pipeline: the verdict', () => {
 describe('agent pipeline: the files', () => {
   it('finds safety paths and protected paths, also under the old name of a rename', () => {
     expect(classify([{ filename: 'routes/x.walkflow', previous_filename: '.github/workflows/ci.yml', status: 'renamed' }]).protected).toEqual(['.github/workflows/ci.yml']);
-    for (const f of ['CLAUDE.md', 'scripts/build-store.mjs', 'tests/app.mjs', 'index.json'])
+    for (const f of ['CLAUDE.md', 'scripts/build-store.mjs', 'tests/app.mjs', 'index.json', 'README.md'])
       expect(classify([{ filename: f }]).protected).toEqual([f]);
     expect(classify([{ filename: 'routes/lake-x.walkflow' }]).protected).toEqual([]);
   });
@@ -111,7 +111,7 @@ describe('agent pipeline: the files', () => {
     expect(checkFix(['routes/a.walkflow', '.github/workflows/agent-fix.yml']).ok).toBe(false);
     expect(checkFix(['scripts/é.mjs']).ok).toBe(false);
     for (const f of ['index.json', 'tests/expect.mjs', 'scripts/build-store.mjs']) expect(checkFix([f]).ok).toBe(false);
-    for (const f of ['.gitattributes', '.gitignore', 'README.md', 'routes/lake-x.walkflow', 'specs/lake-x.json']) expect(checkFix([f]).ok).toBe(true);
+    for (const f of ['.gitattributes', '.gitignore', 'ROADMAP.md', 'routes/lake-x.walkflow', 'specs/lake-x.json']) expect(checkFix([f]).ok).toBe(true);
   });
 });
 
@@ -231,9 +231,9 @@ describe('agent pipeline: what happens next', () => {
       s.comments = [fixDone(OLD, 'remarks')];
       change(Object.assign(s, { sinceReviewed: since }));
     });
-    it('is merged, also while the review of the fix still runs', () => {
-      expect(fixed().action).toBe('merge');
-      expect(fixed(s => { s.running.review = true; }).action).toBe('merge');
+    it('is never merged without another review here: a route\'s texts are what the reviewer checks', () => {
+      expect(fixed().action).toBe('wait');
+      expect(fixed(s => { s.running.review = true; }).action).toBe('wait');
     });
     it('waits for a review when it is too big, not on top of the reviewed commit, touches a protected path or deletes a test', () => {
       expect(fixed(s => { s.sinceReviewed.files = [{ filename: 'routes/lake-x.walkflow', status: 'modified', additions: LIMITS.unreviewedLines, deletions: 5 }]; }).action).toBe('wait');
