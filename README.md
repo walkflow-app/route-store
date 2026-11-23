@@ -46,7 +46,7 @@ A route in the store is shown to everyone, so a maintainer looks at each pull re
 What counts as a valid route is decided by the app's own code, so a route that passes is one the app can read. The code is in
 [walkflow-app/walkflow](https://github.com/walkflow-app/walkflow) (`src/core/store/route-index.ts`, `route-package.ts`,
 `route-waypoints.ts`); `scripts/build-store.mjs` here bundles it with the app's esbuild and runs it on the files. The workflow checks the
-app out (`main`) and runs `scripts/build-store.mjs --app <app checkout> --check --files-only` on a pull request. After a merge to
+app out (`main`, and in a second job `released-app` its newest release, because that is what people have) and runs `scripts/build-store.mjs --app <app checkout> --check --files-only` on a pull request. After a merge to
 `main` it runs the same script without `--check`, which writes `index.json`, and commits the result if it changed. A second workflow,
 `Route preview`, writes the map into the pull request; it never runs code of the pull request, only reads the route file as text.
 A change to `scripts/build-store.mjs`, to the workflows, or to the app's route code is a change to the checks of the store.
