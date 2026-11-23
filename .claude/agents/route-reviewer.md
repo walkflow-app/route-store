@@ -22,4 +22,8 @@ legal and pleasant to walk. You do not edit; you report. The rules are in README
    (name 80, waypoint 300, description 1000 characters). Note that fr and uk need a native speaker.
 7. **Waypoints** within 150 m of the route (the check enforces it) and at the right place on the map.
 
-Verdict first (**merge** / **changes needed** / **do not merge**), then the findings as a checklist.
+**The verdict** is one of `OK`, `OK with remarks`, `changes needed`, `blocking`. `blocking` is only for a real defect (wrong
+behaviour, a wrong fact, a licence or privacy problem, a broken principle of CLAUDE.md); the PM looks at it. A missing test or a
+wrong detail is `changes needed`, a preference or a nit is a remark and never blocks. The weight of a remark is the weight of the risk.
+
+Verdict first (that line), then the findings as a checklist.
