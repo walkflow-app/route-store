@@ -175,6 +175,31 @@
       ]
     },
     {
+      "file": "edinburgh-greyfriars-holyrood.walkflow",
+      "revision": 1,
+      "sha256": "4eedc0730cf41809c4b70e2b591fc45e02434e6a403e1f20162de6de3bd19ea2",
+      "chars": 9747,
+      "length": 2569,
+      "name": {
+        "en": "Greyfriars Bobby to Holyrood Palace",
+        "de": "Von Greyfriars Bobby zum Holyrood Palace",
+        "fr": "De Greyfriars Bobby au palais de Holyrood",
+        "uk": "Від Грейфрайєрс Боббі до палацу Голіруд"
+      },
+      "place": {
+        "en": "Edinburgh, Scotland",
+        "de": "Edinburgh, Schottland",
+        "fr": "Édimbourg, Écosse",
+        "uk": "Единбург, Шотландія"
+      },
+      "country": "GB",
+      "tags": [
+        "city",
+        "sights",
+        "old-town"
+      ]
+    },
+    {
       "file": "florence-station-palazzo-pitti.walkflow",
       "revision": 1,
       "sha256": "8121ed0f333409bd2b00d8532134b1e7947928f56172373876713d4031224726",
