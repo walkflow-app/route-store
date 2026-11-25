@@ -67,7 +67,7 @@ for (const file of files) {
   const lost = (route.waypoints?.length ?? 0) - placeWaypoints(route, analyzeRoute(route)).length;
   // A speed the app drops (above a walking pace, walkflow-app/walkflow#48) would walk the route at its default speed instead
   const raw = JSON.parse(text);
-  if (raw.defaultSpeed !== undefined && route.defaultSpeed !== raw.defaultSpeed) problems.push(`${DIR}/${file}: the app does not take "defaultSpeed": ${JSON.stringify(raw.defaultSpeed)} (at most a walking pace, 6 km/h), see the README of the route-store repository`);
+  if (raw.defaultSpeed !== undefined && route.defaultSpeed !== raw.defaultSpeed) problems.push(`${DIR}/${file}: the app does not take "defaultSpeed": ${JSON.stringify(raw.defaultSpeed)} (at most 8 km/h), see the README of the route-store repository`);
   if (lost > 0) problems.push(`${DIR}/${file}: ${lost} waypoint${lost === 1 ? ' is' : 's are'} more than ${WAYPOINT_MAX_OFFSET} m from the route`);
   if (seen.has(r.entry.sha256)) problems.push(`${DIR}/${file}: the same file as ${seen.get(r.entry.sha256)}`);
   seen.set(r.entry.sha256, file);
