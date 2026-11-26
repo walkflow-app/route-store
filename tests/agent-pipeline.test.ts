@@ -1,7 +1,7 @@
 import { describe, it } from 'node:test';
 import { expect } from './expect.mjs';
 // @ts-expect-error plain script without types, also run by node in CI
-import { checkFix, classify, decide, failedFixRuns, holdLabel, LIMITS, marker, parseVerdict, quiet, resolveMember, reviewEvent, reviewModels, REVIEWER, WRITER } from '../scripts/agent-pipeline.mjs';
+import { checkFix, classify, decide, failedFixRuns, holdLabel, LIMITS, marker, parseVerdict, quiet, resolveMember, reviewEvent, reviewedLocally, REVIEWER, WRITER } from '../scripts/agent-pipeline.mjs';
 // @ts-expect-error plain script without types, also run by node in CI
 
 const HEAD = 'h'.repeat(40);
@@ -38,6 +38,7 @@ interface State {
   headAgeHours: number;
   failedFixes: number;
   headKicked: boolean;
+  localReview: boolean;
 }
 
 /** A pull request that is reviewed OK, green and mergeable; each test changes one thing */
@@ -63,6 +64,7 @@ function state(change: (s: State) => void = () => {}) {
     headAgeHours: 1,
     failedFixes: 0,
     headKicked: false,
+    localReview: false,
   };
   change(s);
   return decide(s);
@@ -121,10 +123,6 @@ describe('agent pipeline: the files', () => {
 
   it('fails closed when the API cannot list all files', () => {
     expect(classify(Array.from({ length: 3000 }, (_, i) => ({ filename: `routes/f${i}.walkflow` }))).protected).toHaveLength(1);
-  });
-
-  it('two models review a safety change, one otherwise, one when the pipeline is off', () => {
-    expect(reviewModels([{ filename: 'README.md' }], 'sonnet', true)).toEqual(['sonnet']);
   });
 
   it('never pushes a fix that reaches a protected file, whatever its name', () => {
@@ -321,5 +319,33 @@ describe('agent pipeline: what happens next', () => {
 
   it('at most a few agent merges a day', () => {
     expect(state(s => { s.mergedToday = LIMITS.mergesPerDay; }).action).toBe('wait');
+  });
+});
+
+describe('reviewed locally: no review on GitHub', () => {
+  const person = { author: { type: 'User' } };
+  const commit = (message: string, more = {}) => ({ commit: { message, verification: { verified: false } }, parents: [{ sha: 'a' }], ...more });
+  const reviewed = commit('fix: x\n\nLocal-Review: done\n');
+  const merge = (over = {}) => ({
+    commit: { message: "Merge branch 'main' into x", verification: { verified: true } },
+    committer: { login: 'web-flow' }, parents: [{ sha: 'a' }, { sha: 'b' }], ...over,
+  });
+
+  it('reads the line of the head commit, on a person\'s pull request only', () => {
+    expect(reviewedLocally(person, reviewed)).toBe(true);
+    expect(reviewedLocally(person, commit('fix: x'))).toBe(false);
+    expect(reviewedLocally(person, commit('docs: how Local-Review: done works'))).toBe(false);
+    expect(reviewedLocally({ author: { type: 'Bot' } }, reviewed)).toBe(false);
+  });
+
+  it('keeps it over a merge of main that GitHub made, over no other merge', () => {
+    expect(reviewedLocally(person, merge(), reviewed)).toBe(true);
+    expect(reviewedLocally(person, merge(), commit('fix: x'))).toBe(false);
+    expect(reviewedLocally(person, merge({ committer: { login: 'someone' } }), reviewed)).toBe(false);
+  });
+
+  it('counts as OK; a review of the commit on GitHub counts before it', () => {
+    expect(state(s => { s.localReview = true; }).action).toBe('merge');
+    expect(state(s => { s.localReview = true; s.reviews = [review('blocking')]; }).action).toBe('hold');
   });
 });

@@ -39,8 +39,8 @@ public repository without the maintainer agreeing.
 - **Roles:** the maintainer decides direction and does what only a person can. The **PM** (the planning agent the maintainer works
   with) owns every open item, starts tasks, looks at `stuck` first and prepares releases. A Builder builds one task and decides
   a small gap itself. Reviewers answer `OK`, `OK with remarks`, `changes needed` or `blocking` (a real defect only).
-- **Belt code** (`SAFETY` in `scripts/paths.mjs`): test first, never weaken a limit, a delay or a stop, reviewed by two models, one
-  of them as the safety reviewer, label `needs-hardware`. Everything else is ordinary work, also when it lies nearby.
+- **Belt code** (`SAFETY` in `scripts/paths.mjs`): test first, never weaken a limit, a delay or a stop, reviewed by the safety
+  reviewer, label `needs-hardware`. Everything else is ordinary work, also when it lies nearby.
 - **The treadmill:** one guided session by the maintainer per release, only if belt code or a `needs-hardware` item is in it,
   then one `/hardware-ok` on the release pull request after the last merge. Never per task or per merge.
 - **Stop list** (only these wait for the maintainer): approving a feature; scope, non-goals, what a person sees; a new runtime
@@ -60,8 +60,11 @@ Protected, for the maintainer: `.github/`, `.claude/`, `CLAUDE.md`, `README.md` 
 - **New routes**: skill `make-route` (the order of work and the pitfalls).
 - **Before a route pull request is merged**: agent `route-reviewer` (facts against sources, texts, privacy, the map).
   Reviewers run with another model than the one that wrote the change: written with Opus, the reviewer runs with Sonnet, and
-  the other way round; when that is unclear, Opus for the store checks or big changes, else Sonnet. On GitHub
-  `.github/scripts/review-model.sh` picks it the same way, from the Co-Authored-By lines of the commits.
+  the other way round; when that is unclear, Opus for the store checks or big changes, else Sonnet.
+  On GitHub one review runs, with Sonnet. **Reviewed locally means no review on GitHub:** once the reviewers that apply have run
+  and their findings are fixed, the last commit of the branch carries the line `Local-Review: done` in its message (with nothing
+  left to commit: `git commit --allow-empty -m "chore: local review done" -m "Local-Review: done"`). Never add it without that
+  review; a later commit without it is reviewed on GitHub again.
 - **On GitHub:** `agent-review.yml` runs the reviewers on every new pull request and posts their verdicts (comment
   `@claude review` to run it again); `claude.yml` takes on `@claude …` requests and issues labelled `agent-ready`, issues
   of every kind (nothing here is belt code). Both only work on branches and pull requests; with `AGENT_PIPELINE` on,
