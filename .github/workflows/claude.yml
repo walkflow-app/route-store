@@ -64,7 +64,7 @@ jobs:
           cache-dependency-path: .walkflow-app/package-lock.json
       - run: npm ci
         working-directory: .walkflow-app
-      # "@claude review" in a pull request: the review runs with another model than the one that wrote the change
+      # "@claude review" in a pull request: the review runs with Sonnet
       - name: Choose the reviewing model
         id: model
         if: >-

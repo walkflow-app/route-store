@@ -59,7 +59,7 @@ Protected, for the maintainer: `.github/`, `.claude/`, `CLAUDE.md`, `README.md` 
 
 - **New routes**: skill `make-route` (the order of work and the pitfalls).
 - **Before a route pull request is merged**: agent `route-reviewer` (facts against sources, texts, privacy, the map).
-  Reviewers run with another model than the one that wrote the change: written with Opus, the reviewer runs with Sonnet, and
+  Local reviewers run with another model than the one that wrote the change: written with Opus, the reviewer runs with Sonnet, and
   the other way round; when that is unclear, Opus for the store checks or big changes, else Sonnet.
   On GitHub one review runs, with Sonnet. **Reviewed locally means no review on GitHub:** once the reviewers that apply have run
   and their findings are fixed, the last commit of the branch carries the line `Local-Review: done` in its message (with nothing
